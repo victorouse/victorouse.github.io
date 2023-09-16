@@ -9,30 +9,23 @@ website:
   repo-url: https://github.com/victorouse/victorouse.github.io
 
   sidebar:
-    pinned: true
-    align: center
+    style: "floating"
+    search: true
     tools:
       - icon: github
         href: https://github.com/victorouse
         text: "Github"
 
-    style: "docked"
-    search: true
-    collapse-level: 2
     contents:
-      - section: "Welcome"
+      - section: "Posts"
         contents:
           - index.qmd
-
-      - section: "First post"
-        contents:
           - first.qmd
 
 format:
   html:
     theme:
       light: cosmo
-      dark: [cosmo]
     code-background: true
     code-copy: true
     toc: true
