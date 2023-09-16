@@ -1,6 +1,5 @@
 ---
-title: "About"
-image: images/me.png
+title: "Victor Roussekov"
 about:
   template: jolla
   links:
@@ -17,6 +16,14 @@ about:
       text: "Twitter"
 ---
 
-## About me
+::: {#hero-heading}
+Hello!
 
-I'm Victor!
+## Education
+
+TODO
+
+## Experience
+
+TODO
+:::
