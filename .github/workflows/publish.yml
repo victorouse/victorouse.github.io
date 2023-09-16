@@ -42,8 +42,11 @@ jobs:
       - name: Install dependencies
         shell: bash
         if: steps.cache-python-deps.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction --no-root
+
+      - name: Activate virtual environment
+        shell: bash
         run: |
-          poetry install --no-interaction --no-root
           source .venv/bin/activate
 
       - name: Set up Quarto
