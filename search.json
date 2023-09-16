@@ -23,15 +23,22 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Victor Roussekov",
     "section": "",
-    "text": "I’m Victor!"
+    "text": "Hello!\n\n\nTODO\n\n\n\nTODO"
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Victor Roussekov",
     "section": "",
-    "text": "I’m Victor!"
+    "text": "TODO"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Victor Roussekov",
+    "section": "",
+    "text": "TODO"
   }
 ]
