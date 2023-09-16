@@ -13,7 +13,7 @@ website:
   repo-url: https://github.com/victorouse/victorouse.github.io
 
   sidebar:
-    logo: me.png
+    logo: images/me.png
     align: center
     style: "floating"
     search: true
@@ -33,7 +33,7 @@ website:
 
     contents:
       - section: "Posts"
-        contents: auto
+        contents: posts/*
 
 format:
   html:
