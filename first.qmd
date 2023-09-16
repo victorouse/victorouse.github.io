@@ -1,12 +1,12 @@
 ---
-title: "Victor Roussekov"
+title: "First Post"
 format:
   html:
     code-fold: true
 jupyter: python3
 ---
 
-For a demonstration of a line plot on a polar axis, see @fig-polar.
+Just testing.
 
 ```{python}
 #| label: fig-polar

@@ -2,5 +2,40 @@ project:
   type: website
   output-dir: docs
 
+website:
+  page-navigation: true
+  title: "Victor Roussekov"
+  site-url: https://victorouse.github.io
+  repo-url: https://github.com/victorouse/victorouse.github.io
+
+  sidebar:
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/victorouse
+        text: "Github"
+
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents:
+      - section: "Welcome"
+        contents:
+          - index.md
+
+      - section: "First post"
+        contents:
+          - first.md
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo]
+    code-background: true
+    code-copy: true
+    toc: true
+
 execute:
   freeze: true
