@@ -32,11 +32,13 @@ format:
 ---
 
 ::: {#hero-heading}
+
+Hello 👋
 :::
 
 ::: {#hero-samples}
 
-# Posts
+## Posts
 
 ::: {#sample-listings}
 :::
