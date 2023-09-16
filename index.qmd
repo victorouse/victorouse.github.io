@@ -11,4 +11,4 @@ listing:
 
 Welcome.
 
-# New Posts
+# Posts
