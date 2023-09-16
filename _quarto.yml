@@ -36,6 +36,8 @@ website:
         text: "Twitter"
 
     contents:
+      - text: "About me"
+        file: about.qmd
       - section: "Posts"
         contents: posts/*
 
