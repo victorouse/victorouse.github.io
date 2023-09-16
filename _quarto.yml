@@ -22,11 +22,11 @@ website:
     contents:
       - section: "Welcome"
         contents:
-          - index.md
+          - index.qmd
 
       - section: "First post"
         contents:
-          - first.md
+          - first.qmd
 
 format:
   html:
