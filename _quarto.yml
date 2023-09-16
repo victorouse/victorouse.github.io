@@ -3,24 +3,37 @@ project:
   output-dir: docs
 
 website:
-  page-navigation: true
   title: "Victor Roussekov"
+  page-navigation: true
+  back-to-top-navigation: true
+  repo-actions: [issue]
+
+
   site-url: https://victorouse.github.io
   repo-url: https://github.com/victorouse/victorouse.github.io
 
   sidebar:
+    logo: me.png
+    align: center
     style: "floating"
     search: true
+
     tools:
       - icon: github
         href: https://github.com/victorouse
         text: "Github"
 
+      - icon: linkedin
+        href: https://linkedin.com/victorouse
+        text: "LinkedIn"
+
+      - icon: twitter
+        href: https://twitter.com/victorouse
+        text: "Twitter"
+
     contents:
       - section: "Posts"
-        contents:
-          - index.qmd
-          - first.qmd
+        contents: auto
 
 format:
   html:
