@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "posts/first.html",
-    "href": "posts/first.html",
-    "title": "First Post",
-    "section": "",
-    "text": "Just testing.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello!",
-    "section": "",
-    "text": "Hello!\nWelcome.\n\n\nPosts\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nSecond Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\nMisc\n\n\n\n\nPost description\n\n\n\n\n\n\nSep 16, 2023\n\n\n\n\n\n\n  \n\n\n\n\nFirst Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\n\n\nPost description\n\n\n\n\n\n\nSep 16, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
     "objectID": "posts/second.html",
     "href": "posts/second.html",
     "title": "Second Post",
@@ -21,24 +7,10 @@
     "text": "Just testing again.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Victor Roussekov",
+    "objectID": "posts/first.html",
+    "href": "posts/first.html",
+    "title": "First Post",
     "section": "",
-    "text": "Hello!\n\n\nTODO\n\n\n\nTODO"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Victor Roussekov",
-    "section": "",
-    "text": "TODO"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Victor Roussekov",
-    "section": "",
-    "text": "TODO"
+    "text": "Just testing.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n Back to top"
   }
 ]
