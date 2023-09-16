@@ -1,14 +1,44 @@
 ---
+title: "Victor Roussekov"
+navbar: false
+about:
+  id: hero-heading
+  image: images/me.png
+  template: jolla
+  links:
+    - icon: github
+      href: https://github.com/victorouse
+      text: "Github"
+
+    - icon: linkedin
+      href: https://linkedin.com/victorouse
+      text: "LinkedIn"
+
+    - icon: twitter
+      href: https://twitter.com/victorouse
+      text: "Twitter"
+
 listing:
+  id: sample-listings
   contents: posts
   sort: "date desc"
-  type: default
-  categories: true
-  feed: true
+
+format:
+  html:
+    page-layout: custom
+    css: index.css 
+    toc: false
+
 ---
 
-# Hello!
+::: {#hero-heading}
+:::
 
-Welcome.
+::: {#hero-samples}
 
 # Posts
+
+::: {#sample-listings}
+:::
+
+:::

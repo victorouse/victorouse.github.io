@@ -4,6 +4,10 @@ project:
 
 website:
   title: "Victor Roussekov"
+  open-graph: true
+  twitter-card: 
+    site: "@sitehandle"
+
   page-navigation: true
   back-to-top-navigation: true
   repo-actions: [issue]
@@ -36,8 +40,9 @@ website:
         text: "Twitter"
 
     contents:
-      - text: "About me"
-        file: about.qmd
+      - text: "Home"
+        file: index.qmd
+
       - section: "Posts"
         contents: posts/*
 
