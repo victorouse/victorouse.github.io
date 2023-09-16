@@ -1,5 +1,14 @@
 ---
-title: "Welcome"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
 ---
 
-Hello!
+# Hello!
+
+Welcome.
+
+# New Posts

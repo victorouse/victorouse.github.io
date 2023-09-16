@@ -8,9 +8,13 @@ website:
   back-to-top-navigation: true
   repo-actions: [issue]
 
-
   site-url: https://victorouse.github.io
   repo-url: https://github.com/victorouse/victorouse.github.io
+
+  navbar:
+    right:
+      - icon: rss
+        href: index.xml
 
   sidebar:
     logo: images/me.png

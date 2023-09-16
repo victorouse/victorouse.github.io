@@ -1,0 +1,22 @@
+---
+title: "About"
+image: images/me.png
+about:
+  template: jolla
+  links:
+    - icon: github
+      href: https://github.com/victorouse
+      text: "Github"
+
+    - icon: linkedin
+      href: https://linkedin.com/victorouse
+      text: "LinkedIn"
+
+    - icon: twitter
+      href: https://twitter.com/victorouse
+      text: "Twitter"
+---
+
+## About me
+
+I'm Victor!
