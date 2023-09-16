@@ -51,6 +51,8 @@ jobs:
       - name: Publish
         shell: bash
         run: |
+          git config --global user.email "victorouse@gmail.com"
+          git config --global user.name "Victor Roussekov"
           source .venv/bin/activate
-          quarto publish gh-pages
+          quarto publish gh-pages --no-browser
 
