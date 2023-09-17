@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://victorouse.github.io/posts/second.html</loc>
-    <lastmod>2023-09-17T08:47:17.241Z</lastmod>
+    <loc>https://victorouse.github.io/blog/second.html</loc>
+    <lastmod>2023-09-17T09:09:43.892Z</lastmod>
   </url>
   <url>
     <loc>https://victorouse.github.io/index.html</loc>
-    <lastmod>2023-09-17T08:47:17.237Z</lastmod>
+    <lastmod>2023-09-17T09:09:43.900Z</lastmod>
   </url>
   <url>
-    <loc>https://victorouse.github.io/posts/first.html</loc>
-    <lastmod>2023-09-17T08:47:17.241Z</lastmod>
+    <loc>https://victorouse.github.io/blog/third.html</loc>
+    <lastmod>2023-09-17T09:09:43.892Z</lastmod>
+  </url>
+  <url>
+    <loc>https://victorouse.github.io/blog/first.html</loc>
+    <lastmod>2023-09-17T09:09:43.892Z</lastmod>
   </url>
 </urlset>
