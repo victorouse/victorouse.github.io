@@ -1,0 +1,13 @@
+---
+title: Blog
+comments: false
+listing:
+  contents: ./*
+  type: default
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  sort:
+    - date desc
+    - title asc
+---
