@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -192,7 +192,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Misc">Misc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Test">Test <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -245,7 +245,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Python,Test,Misc" data-listing-date-sort="1694822400000" data-listing-file-modified-sort="1694949168704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
+<div class="quarto-post image-right" data-index="0" data-categories="Python,Test,Misc" data-listing-date-sort="1694822400000" data-listing-file-modified-sort="1694950790509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
 <div class="thumbnail">
 <p><a href="../blog/second.html"></a></p><a href="../blog/second.html">
 <p class="card-img-top"><img src="second_files/figure-html/fig-1-output-1.png"  class="thumbnail-image card-img"/></p>
@@ -259,6 +259,19 @@ Second Post
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Test'); return false;">
+Test
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Misc'); return false;">
+Misc
+</div>
+</div>
+<p><a href="../blog/second.html"></a></p><a href="../blog/second.html">
 <div class="listing-description">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
 </div>
@@ -272,7 +285,7 @@ Sep 16, 2023
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1694949168704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<div class="quarto-post image-right" data-index="1" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1694950790509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
 <div class="thumbnail">
 <p><a href="../blog/first.html"></a></p><a href="../blog/first.html">
 <p class="card-img-top"><img src="first_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p>
@@ -286,6 +299,16 @@ First Post
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Test'); return false;">
+Test
+</div>
+</div>
+<p><a href="../blog/first.html"></a></p><a href="../blog/first.html">
 <div class="listing-description">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
 </div>
@@ -299,7 +322,7 @@ Sep 15, 2023
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1694949168704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="quarto-post image-right" data-index="2" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1694950790509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <div class="thumbnail">
 <p><a href="../blog/third.html"></a></p><a href="../blog/third.html">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -313,6 +336,16 @@ Third Post
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Test'); return false;">
+Test
+</div>
+</div>
+<p><a href="../blog/third.html"></a></p><a href="../blog/third.html">
 <div class="listing-description">
 Just testing.
 </div>

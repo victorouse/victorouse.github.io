@@ -119,8 +119,6 @@ Figure&nbsp;1: A caption
 
 <p>Just testing.</p>
 <div id="cell-fig-polar" class="cell" data-execution_count="1">
-<details>
-<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
@@ -181,9 +179,8 @@ font-style: inherit;">True</span>)<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb1-12">plt.show()</span></code></pre></div>
-</details>
 <div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://victorouse.github.io/blog/first_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
@@ -220,133 +217,6 @@ Figure&nbsp;1: A line plot on a polar axis
   <category>Test</category>
   <guid>https://victorouse.github.io/blog/third.html</guid>
   <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Blog</title>
-  <link>https://victorouse.github.io/blog/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Python,Test,Misc" data-listing-date-sort="1694822400000" data-listing-file-modified-sort="1694949168704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
-<div class="thumbnail">
-<p><a href="../blog/second.html"></a></p><a href="../blog/second.html">
-<!-- img(9CEB782EFEE6)[progressive=false, height=]:blog/second.html -->
-</a><p><a href="../blog/second.html"></a></p>
-</div>
-<div class="body">
-<p><a href="../blog/second.html"></a></p><a href="../blog/second.html">
-<h3 class="no-anchor listing-title">
-Second Post
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/second.html">
-<div class="listing-date">
-Sep 16, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1694949168704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
-<div class="thumbnail">
-<p><a href="../blog/first.html"></a></p><a href="../blog/first.html">
-<!-- img(9CEB782EFEE6)[progressive=false, height=]:blog/first.html -->
-</a><p><a href="../blog/first.html"></a></p>
-</div>
-<div class="body">
-<p><a href="../blog/first.html"></a></p><a href="../blog/first.html">
-<h3 class="no-anchor listing-title">
-First Post
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/first.html">
-<div class="listing-date">
-Sep 15, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1694949168704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail">
-<p><a href="../blog/third.html"></a></p><a href="../blog/third.html">
-<!-- img(9CEB782EFEE6)[progressive=false, height=]:blog/third.html -->
-</a><p><a href="../blog/third.html"></a></p>
-</div>
-<div class="body">
-<p><a href="../blog/third.html"></a></p><a href="../blog/third.html">
-<h3 class="no-anchor listing-title">
-Third Post
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<!-- desc(5A0113B34292)[max=175]:blog/third.html -->
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/third.html">
-<div class="listing-date">
-Sep 15, 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://victorouse.github.io/blog/index.html</guid>
-  <pubDate>Sun, 17 Sep 2023 11:13:22 GMT</pubDate>
 </item>
 </channel>
 </rss>

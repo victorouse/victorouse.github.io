@@ -15,7 +15,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Post\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nThird Post\n\n\n\n\n\n\n\n\n\n\n\n\nSep 15, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\nMisc\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nThird Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\n\n\n\n\n\n\n\n\n\nSep 15, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog"
     ]
@@ -56,7 +56,7 @@
     "href": "blog/first.html",
     "title": "First Post",
     "section": "",
-    "text": "Just testing.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n\n Back to top",
+    "text": "Just testing.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Blog",
       "First Post"

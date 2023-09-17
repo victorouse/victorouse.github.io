@@ -10,7 +10,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/blog/index.html",
       "/blog/second.html",
       "/blog/first.html",
       "/blog/third.html"
