@@ -60,7 +60,7 @@ website:
         text: RSS
 
   sidebar:
-    - id: posts
+    - id: main-nav
       collapse-level: 1
       contents:
         - text: "Home"
