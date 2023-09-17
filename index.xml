@@ -18,8 +18,8 @@
 
 
 
-<p>Just testing again.</p>
-<div id="cell-fig-polar" class="cell" data-execution_count="1">
+<p>Just testing again, look at Figure&nbsp;1.</p>
+<div id="cell-fig-1" class="cell" data-execution_count="1">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
@@ -88,13 +88,13 @@ font-style: inherit;">;</span></span>
 <span id="cb1-12">plt.show()</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
+<div id="fig-1" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://victorouse.github.io/blog/second_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
+<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://victorouse.github.io/blog/second_files/figure-html/fig-1-output-1.png" width="450" height="439" class="figure-img">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A line plot on a polar axis
+<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A caption
 </figcaption>
 </figure>
 </div>

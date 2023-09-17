@@ -4,7 +4,7 @@
     "href": "blog/second.html",
     "title": "Second Post",
     "section": "",
-    "text": "Just testing again.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 4 * np.pi * r + 10\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n\n Back to top",
+    "text": "Just testing again, look at Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 4 * np.pi * r + 10\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A caption\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Blog",
       "Second Post"
