@@ -1,13 +1,16 @@
 ---
-title: "Second Post"
-description: "Post description"
-date: "9/16/2023"
-categories:
-  - Python
-  - Test
-  - Misc
+title: Second Post
+description: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper
+  varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum
+  blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at
+  suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus
+  nec.
+date: 9/16/2023
+categories: [Python, Test, Misc]
 
 jupyter: python3
+
 format:
   html:
     code-fold: true
@@ -22,8 +25,8 @@ Just testing again.
 import numpy as np
 import matplotlib.pyplot as plt
 
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
+r = np.arange(0, 4, 0.01)
+theta = 4 * np.pi * r + 10
 fig, ax = plt.subplots(
   subplot_kw = {'projection': 'polar'} 
 )

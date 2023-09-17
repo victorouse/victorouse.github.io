@@ -1,12 +1,16 @@
 ---
-title: "First Post"
-description: "Post description"
-date: "9/15/2023"
-categories:
-  - Python
-  - Test
+title: First Post
+description: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper
+  varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum
+  blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at
+  suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus
+  nec.
+date: 9/15/2023
+categories: [Python, Test]
 
 jupyter: python3
+
 format:
   html:
     code-fold: true

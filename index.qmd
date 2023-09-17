@@ -1,10 +1,16 @@
 ---
 title: "Victor Roussekov"
+
 navbar: false
+sidebar: false
+comments: false
+back-to-top-navigation: false
+
 about:
-  id: hero-heading
-  image: images/me.png
+  id: about-me
   template: jolla
+  image: images/me.png
+  image-shape: round
   links:
     - icon: github
       href: https://github.com/victorouse
@@ -19,28 +25,34 @@ about:
       text: "Twitter"
 
 listing:
-  id: sample-listings
-  contents: posts
-  sort: "date desc"
+  - id: landing-posts
+    contents: posts
+    type: default
+    sort-ui: false
+    filter-ui: true
+    feed: true
+    sort: 
+      - date desc
+      - title asc
 
 format:
   html:
-    page-layout: custom
-    css: index.css 
     toc: false
-
 ---
 
-::: {#hero-heading}
-
+::: {#about-me}
 Hello 👋
 :::
 
-::: {#hero-samples}
+:::::{.grid}
+
+::::{.g-col-12}
 
 ## Posts
 
-::: {#sample-listings}
+:::{#landing-posts}
 :::
 
-:::
+::::
+
+:::::

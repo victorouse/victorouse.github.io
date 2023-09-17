@@ -1,12 +1,23 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+  preview:
+    port: 7777
 
 website:
-  title: "Victor Roussekov"
-  open-graph: true
+  title: Victor Roussekov
+  description: Blog and resume
+
+  google-analytics: G-R2S188R1KW
+
+  open-graph:
+    description: Blog and resume
+
   twitter-card: 
-    site: "@sitehandle"
+    title: Victor Roussekov
+    description: Blog and resume
+    creator: "@victorouse"
+    site: "@victorouse"
 
   page-navigation: true
   back-to-top-navigation: true
@@ -15,44 +26,72 @@ website:
   site-url: https://victorouse.github.io
   repo-url: https://github.com/victorouse/victorouse.github.io
 
-  navbar:
+  bread-crumbs: true
+
+  search:
+    show-item-context: true
+    type: overlay
+
+  page-footer:
     right:
-      - icon: rss
-        href: index.xml
-
-  sidebar:
-    logo: images/me.png
-    align: center
-    style: "floating"
-    search: true
-
-    tools:
-      - icon: github
-        href: https://github.com/victorouse
-        text: "Github"
-
-      - icon: linkedin
-        href: https://linkedin.com/victorouse
-        text: "LinkedIn"
-
       - icon: twitter
         href: https://twitter.com/victorouse
-        text: "Twitter"
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/victorouse
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+        aria-label: RSS
 
-    contents:
-      - text: "Home"
-        file: index.qmd
+  navbar:
+    background: light
+    title: false
+    collapse-below: lg
+    tools:
+      - icon: twitter
+        href: https://twitter.com/victorouse
+        text: Twitter
+      - icon: github
+        href: https://github.com/victorouse
+        text: GitHub
+      - icon: rss
+        href: index.xml
+        text: RSS
 
-      - section: "Posts"
-        contents: posts/*
+  sidebar:
+    - id: posts
+      collapse-level: 1
+      contents:
+        - text: "Home"
+          href: index.qmd
+        - section: "Posts"
+          contents: posts/*
+
+  comments:
+    giscus:
+      repo: victorouse/victorouse.github.io
+      repo-id: R_kgDOKUMOAg
+      category: Announcements
+      category-id: DIC_kwDOICXnAM4CR8YX
+      mapping: title
+      reactions-enabled: true
+      loading: lazy
+      input-position: top
+      theme: light
 
 format:
   html:
-    theme:
-      light: cosmo
-    code-background: true
-    code-copy: true
     toc: true
+    theme:
+      light: [cosmo, styles.scss]
+    # mainfont: Latin Modern
+    code-copy: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
 
 execute:
   freeze: true
