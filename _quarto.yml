@@ -11,6 +11,7 @@ website:
   google-analytics:
     tracking-id: G-R2S188R1KW
     version: 4
+    anonymize-ip: false
 
   open-graph:
     description: Blog and resume
