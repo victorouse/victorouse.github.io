@@ -1,9 +1,12 @@
 ---
 title: Blog
+
 comments: false
+
 listing:
-  contents: ./*
+  contents: ./!(index)
   type: default
+  categories: true
   sort-ui: true
   filter-ui: true
   feed: true

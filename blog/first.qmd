@@ -10,10 +10,6 @@ date: 9/15/2023
 categories: [Python, Test]
 
 jupyter: python3
-
-format:
-  html:
-    code-fold: true
 ---
 
 Just testing.
