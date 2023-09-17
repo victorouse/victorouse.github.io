@@ -9,10 +9,30 @@ $bs-body-font-family: "Latin Modern";
 .breadcrumb,
 .pagination-link,
 .quarto-title-meta-heading,
+#listing-listing-sort,
 .quarto-listing-filter,
 .about-link-text {
   font-family: monospace;
   font-weight: 400;
+}
+
+
+#quarto-back-to-top {
+  font-family: monospace;
+  font-weight: 400;
+  border-radius: 32px;
+}
+
+.about-sep {
+  visibility: hidden;
+}
+
+.quarto-post > .body > p:first-of-type {
+  display: none;
+}
+
+.listing-actions-group {
+  margin-bottom: 2em;
 }
 
 @font-face {

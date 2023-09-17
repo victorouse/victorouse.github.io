@@ -25,15 +25,14 @@ about:
       text: "Twitter"
 
 listing:
-  - id: landing-posts
-    contents: posts
-    type: default
-    sort-ui: false
-    filter-ui: true
-    feed: true
-    sort: 
-      - date desc
-      - title asc
+  contents: blog
+  type: default
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  sort:
+    - date desc
+    - title asc
 
 format:
   html:

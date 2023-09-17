@@ -65,8 +65,8 @@ website:
       contents:
         - text: "Home"
           href: index.qmd
-        - section: "Posts"
-          contents: posts/*
+        - section: "Blog"
+          contents: blog/*
 
   comments:
     giscus:
@@ -85,7 +85,6 @@ format:
     toc: true
     theme:
       light: [cosmo, styles.scss]
-    # mainfont: Latin Modern
     code-copy: true
     code-overflow: wrap
     grid:
