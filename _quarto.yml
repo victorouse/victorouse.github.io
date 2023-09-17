@@ -8,7 +8,9 @@ website:
   title: Victor Roussekov
   description: Blog and resume
 
-  google-analytics: G-R2S188R1KW
+  google-analytics:
+    tracking-id: G-R2S188R1KW
+    version: 4
 
   open-graph:
     description: Blog and resume
