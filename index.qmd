@@ -17,7 +17,7 @@ about:
       text: "Github"
 
     - icon: linkedin
-      href: https://linkedin.com/victorouse
+      href: https://linkedin.com/in/victorouse
       text: "LinkedIn"
 
     - icon: twitter
