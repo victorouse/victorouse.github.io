@@ -38,6 +38,11 @@ summary,
   margin-bottom: 2em;
 }
 
+.quarto-float-fig {
+  display: flex;
+  justify-content: center;
+}
+
 @font-face {
   font-family: 'Latin Modern';
   font-style: normal;

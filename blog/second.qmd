@@ -16,11 +16,11 @@ format:
     code-fold: true
 ---
 
-Just testing again.
+Just testing again, look at @fig-1.
 
 ```{python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis"
+#| label: fig-1
+#| fig-cap: A caption
 
 import numpy as np
 import matplotlib.pyplot as plt
