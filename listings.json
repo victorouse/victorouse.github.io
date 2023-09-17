@@ -1,7 +1,16 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/second.html",
+      "/blog/first.html",
+      "/blog/third.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/blog/index.html",
       "/blog/second.html",
       "/blog/first.html",
       "/blog/third.html"
