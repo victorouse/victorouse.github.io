@@ -1,5 +1,6 @@
 ---
 title: First Post
+author: Victor Roussekov
 description: >
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper
   varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum

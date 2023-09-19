@@ -74,7 +74,8 @@ website:
         - text: Resume
           href: resume.qmd
         - section: Blog
-          contents: blog/*
+          href: blog/index.qmd
+          contents: blog/**/*
 
   comments:
     giscus:

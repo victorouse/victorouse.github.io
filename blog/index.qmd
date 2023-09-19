@@ -4,7 +4,7 @@ title: Blog
 comments: false
 
 listing:
-  contents: ./!(index)
+  contents: ./**/*
   type: default
   categories: true
   sort-ui: true
