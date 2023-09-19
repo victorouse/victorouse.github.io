@@ -191,7 +191,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb1-12">plt.show()</span></code></pre></div>
 <div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://victorouse.github.io/blog/second_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">

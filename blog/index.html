@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -236,7 +236,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -262,22 +262,15 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695116317678" data-listing-date-modified-sort="1695116317000" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
-<div class="thumbnail">
-<p><a href="../blog/first.html"></a></p><a href="../blog/first.html">
-<p class="card-img-top"><img src="first_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../blog/first.html"></a></p>
-</div>
-<div class="body">
-<p><a href="../blog/first.html"></a></p><a href="../blog/first.html">
-<h3 class="no-anchor listing-title">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="Python,Test" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695118318878" data-listing-date-modified-sort="1695118318000" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<a href="../blog/first.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="first_files/figure-html/fig-polar-output-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 First Post
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
@@ -286,38 +279,29 @@ Python
 Test
 </div>
 </div>
-<p><a href="../blog/first.html"></a></p><a href="../blog/first.html">
-<div class="listing-description">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
+<div class="card-text listing-description">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/first.html">
-<div class="listing-date">
-Sep 15, 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Victor Roussekov
 </div>
+<div class="listing-date">
+Sep 15, 2023
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695116317678" data-listing-date-modified-sort="1695116317000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="../blog/third/notebook.html"></a></p><a href="../blog/third/notebook.html">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../blog/third/notebook.html"></a></p>
-</div>
-<div class="body">
-<p><a href="../blog/third/notebook.html"></a></p><a href="../blog/third/notebook.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695118318878" data-listing-date-modified-sort="1695118318000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../blog/third/notebook.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="https://picsum.photos/seed/picsum/1920/1080?grayscale" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Notebook
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
@@ -326,8 +310,7 @@ Python
 Notebook
 </div>
 </div>
-<p><a href="../blog/third/notebook.html"></a></p><a href="../blog/third/notebook.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -335,34 +318,26 @@ Notebook
 </div>
 
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/third/notebook.html">
-<div class="listing-date">
-Sep 15, 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Victor Roussekov
 </div>
+<div class="listing-date">
+Sep 15, 2023
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Python,Test,Misc" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695116317678" data-listing-date-modified-sort="1695116317000" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail">
-<p><a href="../blog/second.html"></a></p><a href="../blog/second.html">
-<p class="card-img-top"><img src="second_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../blog/second.html"></a></p>
-</div>
-<div class="body">
-<p><a href="../blog/second.html"></a></p><a href="../blog/second.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="2" data-categories="Python,Test,Misc" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695118318878" data-listing-date-modified-sort="1695118318000" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
+<a href="../blog/second.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="second_files/figure-html/fig-polar-output-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Second Post
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
@@ -374,38 +349,29 @@ Test
 Misc
 </div>
 </div>
-<p><a href="../blog/second.html"></a></p><a href="../blog/second.html">
-<div class="listing-description">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
+<div class="card-text listing-description">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/second.html">
-<div class="listing-date">
-Sep 15, 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Victor Roussekov
 </div>
+<div class="listing-date">
+Sep 15, 2023
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Python,Notebook" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695116317678" data-listing-date-modified-sort="1695116317000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="../blog/third/index.html"></a></p><a href="../blog/third/index.html">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../blog/third/index.html"></a></p>
-</div>
-<div class="body">
-<p><a href="../blog/third/index.html"></a></p><a href="../blog/third/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="3" data-categories="Python,Notebook" data-listing-date-sort="1694736000000" data-listing-file-modified-sort="1695118318878" data-listing-date-modified-sort="1695118318000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="../blog/third/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="https://picsum.photos/seed/picsum/1920/1080?grayscale" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Third post
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
@@ -414,22 +380,20 @@ Python
 Notebook
 </div>
 </div>
-<p><a href="../blog/third/index.html"></a></p><a href="../blog/third/index.html">
-<div class="listing-description">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
+<div class="card-text listing-description">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/third/index.html">
-<div class="listing-date">
-Sep 15, 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Victor Roussekov
 </div>
-</a>
+<div class="listing-date">
+Sep 15, 2023
 </div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
