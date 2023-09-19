@@ -12,7 +12,8 @@
     "listing": "/index.html",
     "items": [
       "/blog/first.html",
-      "/blog/second.html"
+      "/blog/second.html",
+      "/blog/third/index.html"
     ]
   }
 ]

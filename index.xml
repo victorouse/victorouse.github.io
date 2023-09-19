@@ -83,7 +83,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb1-12">plt.show()</span></code></pre></div>
 <div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://victorouse.github.io/blog/first_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
@@ -234,6 +234,44 @@ Roussekov, Victor. 2023. <span>“Second Post.”</span> September 15, 2023.
   <category>Test</category>
   <category>Misc</category>
   <guid>https://victorouse.github.io/blog/second.html</guid>
+  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Notebook</title>
+  <dc:creator>Victor Roussekov</dc:creator>
+  <link>https://victorouse.github.io/blog/third/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<hr>
+<p>Just testing notebook embedding.</p>
+<div class="quarto-embed-nb-cell">
+<hr>
+<div id="cell-2" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-stdout">
+<pre><code>Hello World!</code></pre>
+</div>
+</div>
+<a class="quarto-notebook-link" id="nblink-1" href="notebook-preview.html#cell-0">Source: Notebook</a></div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
+  author = {Roussekov, Victor},
+  title = {Third Post},
+  pages = {undefined},
+  date = {2023-09-15},
+  url = {https://victorouse.github.io/blog/third},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
+Roussekov, Victor. 2023. <span>“Third Post.”</span> September 15, 2023.
+<a href="https://victorouse.github.io/blog/third">https://victorouse.github.io/blog/third</a>.
+</div></div></section></div> ]]></description>
+  <category>Python</category>
+  <category>Notebook</category>
+  <guid>https://victorouse.github.io/blog/third/index.html</guid>
   <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
