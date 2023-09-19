@@ -6,10 +6,14 @@ description: >
   blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at
   suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus
   nec.
-date: 9/15/2023
+date: 2023-09-15
+date-modified: last-modified
 categories: [Python, Test]
+citation: true
 
 jupyter: python3
+---
+
 ---
 
 Just testing.

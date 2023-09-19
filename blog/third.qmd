@@ -1,7 +1,0 @@
----
-title: Third Post
-date: 9/15/2023
-categories: [Python, Test]
----
-
-Just testing.

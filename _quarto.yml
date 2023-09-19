@@ -52,12 +52,15 @@ website:
     title: false
     collapse-below: lg
     tools:
+      - icon: github
+        href: https://github.com/victorouse
+        text: Github
+      - icon: linkedin
+        href: https://linkedin.com/in/victorouse
+        text: LinkedIn
       - icon: twitter
         href: https://twitter.com/victorouse
         text: Twitter
-      - icon: github
-        href: https://github.com/victorouse
-        text: GitHub
       - icon: rss
         href: index.xml
         text: RSS

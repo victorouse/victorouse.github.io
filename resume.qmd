@@ -1,10 +1,13 @@
 ---
 title: Victor Roussekov
+author: ""
 
 navbar: false
-sidebar: false
+sidebar: true
 comments: false
 back-to-top-navigation: true
+
+page-navigation: false
 
 format-links: [pdf]
 css: resume.css
@@ -15,6 +18,8 @@ execute:
 about:
   id: about-me
   template: jolla
+  image: images/me.png
+  image-shape: round
   links:
     - icon: github
       href: https://github.com/victorouse
@@ -49,14 +54,35 @@ format:
       - "header.tex"
     include-before-body:
       text: |
-        \vspace{-5.5em}
-        \begin{center}
-          \button{https://www.github.com/victorouse}{\raisebox{-0.1\height}{\faIcon{github}} / victorouse} \hspace{0.25em}
-          \button{https://www.linkedin.com/in/victorouse}{\raisebox{-0.1\height}{\faIcon{linkedin}} / victorouse} \hspace{0.25em}
-          \button{https://www.x.com/victorouse}{\raisebox{-0.1\height}{\faIcon{twitter}} / victorouse} \\
-          \vspace{1em}
-          \button{https://victorouse.github.io}{\raisebox{-0.1\height}{\faIcon{home}} / www.victorouse.sh} \hspace{0.25em}
-        \end{center}
+        \vspace{-5em}%
+        \begin{center}%
+          \button{https://www.github.com/victorouse}{%
+            \raisebox{-0.1\height}{\faGithub} %
+            / victorouse
+          }%
+          \hspace{0.25em}%
+          \button{https://www.linkedin.com/in/victorouse}{%
+            \raisebox{-0.1\height}{\faLinkedin} %
+            / victorouse
+          } \hspace{0.25em}%
+          \button{https://www.x.com/victorouse}{%
+            \raisebox{-0.1\height}{\faTwitter} %
+            / victorouse
+          } \\
+          \vspace{0.5em}%
+          \button{https://victorouse.github.io}{%
+            \raisebox{-0.1\height}{\faHome} %
+            / victorouse.github.io
+          } \hspace{0.25em}%
+          \button{mailto:victorouse@gmail.com}{%
+            \raisebox{-0.1\height}{\faAt} %
+             / victorouse@gmail.com
+          } \hspace{0.25em}%
+          \button{https://maps.app.goo.gl/Fs8dKU69NkhaoBTHA}{%
+            \raisebox{-0.1\height}{\faMapMarker*} %
+            / sydney, australia
+          }%
+        \end{center}%
 ---
 
 ::: {#about-me}
@@ -73,12 +99,14 @@ amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien
 et ligula ullamcorper malesuada.
 
 
-## WORK EXPERIENCE
+\cvheading{WORK EXPERIENCE}{(10+ years)}
+::: {.content-visible when-format="html"}
+## WORK EXPERIENCE[(10+ years)]{.cvdate}
+:::
 \cvhr
 
 \cvsubsection{Spaceship Financial Services}{https://www.spaceship.com.au}{(5+ years)}
 \cvsubsubsection{Data Engineer}{Jan 2021 -- Present}
-
 ::: {.content-visible when-format="html"}
 ### [Spaceship Financial Services](https://www.spaceship.com.au)[(5+ years)]{.cvdate}
 ***Data Engineer***[***Jan 2021 -- Present***]{.cvdate}
@@ -102,7 +130,6 @@ pellentesque sit amet porttitor.
 
 
 \cvsubsubsection{Senior Software Engineer}{Jan 2020 -- Jan 2021}
-
 ::: {.content-visible when-format="html"}
 ***Senior Software Engineer***[***Jan 2020 -- Jan 2021***]{.cvdate} 
 :::
@@ -122,7 +149,6 @@ pellentesque sit amet porttitor.
 
 
 \cvsubsubsection{Software Engineer}{Dec 2018 -- Jan 2020}
-
 ::: {.content-visible when-format="html"}
 ***Software Engineer***[***Dec 2018 -- Jan 2020***]{.cvdate} 
 :::
@@ -141,7 +167,6 @@ pellentesque sit amet porttitor.
 
 \cvsubsection{Spitfire Corportation}{https://www.spitfire.io}{(1.5 years)}
 \cvsubsubsection{Software Engineer}{Jun 2017 -- Nov 2018}
-
 ::: {.content-visible when-format="html"}
 ### [Spitfire Corportation](https://www.spitfire.io)[(1.5 years)]{.cvdate}
 ***Software Engineer***[***Jun 2017 -- Nov 2018***]{.cvdate}
@@ -160,23 +185,70 @@ pellentesque sit amet porttitor.
   aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta
   luctus a felis.
 
+\cvsubsection{Cogni}{https://www.getcogni.com}{(3 years)}
+\cvsubsubsection{Software Engineer}{Jun 2014 -- Jan 2017}
+::: {.content-visible when-format="html"}
+### [Cogni](https://www.getcogni.com)[(3 years)]{.cvdate}
+***Software Engineer***[***Jun 2014 -- Jan 2017***]{.cvdate}
+:::
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
+pellentesque sit amet porttitor.
+
+- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
+  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
+  in arcu cursus.
+
+- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
+  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
+  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
+
+- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
+  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
+  posuere finibus.
+
+\cvsubsection{University of Queensland}{https://uq.edu.au/}{(1.5 years)}
+\cvsubsubsection{Junior Software Engineer}{Jun 2012 -- Nov 2013}
+::: {.content-visible when-format="html"}
+### [University of Queensland](https://uq.edu.au/)[(1.5 years)]{.cvdate}
+***Junior Software Engineer***[***Jun 2012 -- Nov 2013***]{.cvdate}
+:::
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
+pellentesque sit amet porttitor.
+
+- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
+  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
+  in arcu cursus.
+
+- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
+  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
+  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
+
+- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
+  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
+  posuere finibus.
+
+
+\pagebreak
+
 
 ## EDUCATION{style="page-break-before: always"}
 \cvhr
 
 \cvsubsubsectionedu{Bachelor of Information Technology (Honours)}{University of Queensland}{2014 -- 2015}
-
 ::: {.content-visible when-format="html"}
 **Bachelor of Information Technology (Honours)** <br> *University of Queensland* [*2014 --- 2015*]{.cvdate}
 :::
 
-- Completed research thesis on [Context Aware Video Retrieval](https://example.com)
+- Completed research thesis on [Context-Aware Mobile Video Retrieval](https://drive.google.com/file/d/0B9BIdud4S8x2eGtHc0RCNkMwRTQ)
 
 - Received Prentice Scholar award for high achievement
 
 
 \cvsubsubsectionedu{Bachelor of Information Technology}{University of Queensland}{2011 -- 2013}
-
 ::: {.content-visible when-format="html"}
 **Bachelor of Information Technology** <br> *University of Queensland* [*2011 --- 2013*]{.cvdate}
 :::

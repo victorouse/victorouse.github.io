@@ -12,7 +12,9 @@
 \definecolor{hrcolor}{HTML}{dee2e6}
 
 \newcommand{\cvhr}{\vspace{-1.1em}\textcolor{hrcolor}{\rule{\linewidth}{0.01em}}}
-\newcommand{\cvsep}{\quad\textbar\quad}
+\newcommand{\cvheading}[2]{
+	\subsection{#1 \hfill \textit{#2}}
+}
 \newcommand{\cvsubsection}[3]{
 	\subsection{\href{#2}{#1} \hfill \textit{#3}}
 }
@@ -25,7 +27,6 @@
 		\normalfont{\textit{#2}} \hfill \normalfont{\textit{#3}}
 	}
 }
-
 \newcommand{\button}[2]{%
 	\begin{tcolorbox}[
 			hbox,
