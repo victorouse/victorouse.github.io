@@ -1,0 +1,57 @@
+---
+title: "Part 1: Introduction to LLMs"
+author: Victor Roussekov
+date: 2023-09-19
+date-modified: last-modified
+categories: [LLMs, Exploring LLMs, Notebook]
+citation: true
+
+share:
+  permalink: https://victorouse.github.io/blog/exploring-llms/part-one
+  description: What he said 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
+  mastodon: true
+
+jupyter: python3
+
+notebook-view:
+  - notebook: notebook.ipynb 
+    title: "Introduction to LLMs"
+    url: https://colab.research.google.com/drive/193qSooh6sV5dPtGAhNwT_K7Q_11iJJvh
+---
+
+---
+
+### What are Large Language Models?
+
+Large Language Models (LLMs) are neural networks that can generate output such
+as text, images, etc. Each model has its own applied methodology, reflected in
+how the neural network is configured.
+
+To use neural networks, they must first be "trained". The training process
+involves passing "training" data through the network and evaluating the output
+against a "validation" or "testing" set.
+
+This process adjusts the model "weights" along the way, and once the training
+process is finished, the resulting weights can be distributed for use.
+
+The resulting weights are generally referred to as "pre-trained" models that
+are distributed in a format that can be "loaded" into a model.
+
+There are many different types of models, from OpenAI's proprietary GPT models
+(GPT3, GTP3.5, GTP4), to open source models like Meta's
+[Llama2](https://ai.meta.com/llama/).
+
+There are many open sources models that can be downloaded from a model artefact
+repository called [HuggingFace](https://huggingface.co/). You can think of
+HuggingFace like the DockerHub for LLMs.
+
+There are also platforms that offer LLM hosting services, such as
+[Replicate](https://replicate.com/), which host these LLM models on the cloud
+for you, meaning you don't have to run them on your own hardware.
+
+It is still possible to run LLMs on consumer hardware, and a MacBook should be
+able to at least run small-to-medium sized models within reasonable timeframes.

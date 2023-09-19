@@ -1,0 +1,35 @@
+---
+title: Exploring LLMs
+author: Victor Roussekov
+date: 2023-09-19
+date-modified: last-modified
+
+listing:
+  contents: ./**/*
+  type: grid
+  grid-columns: 1
+  image-placeholder: https://picsum.photos/seed/picsum/1920/1080?grayscale
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  sort:
+    - title asc
+
+share:
+  permalink: https://victorouse.github.io/blog/exploring-llms
+  description: What he said 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
+  mastodon: true
+---
+
+---
+
+This is a series of posts about Large Language Models (LLMs) with an intended
+audience of a software development team who has little to no experience with
+LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).
+
+---

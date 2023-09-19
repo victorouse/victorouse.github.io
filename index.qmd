@@ -36,6 +36,7 @@ listing:
   contents:
     - blog/**/*.qmd
     - "!blog/index.qmd"
+    - "!blog/exploring_llms/index.qmd"
     - "!blog/**/*.ipynb"
   type: grid
   grid-columns: 1

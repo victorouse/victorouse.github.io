@@ -1,7 +1,7 @@
 /*-- scss:defaults --*/
 $web-font-path: false;  // disable Google Fonts
 $font-family-sans-serif: "Latin Modern";
-$font-family-monospace: "Latin Modern";
+$font-family-monospace: monospace;
 $bs-body-font-family: "Latin Modern";
 $link-color: #2f3f8b;
 
@@ -26,6 +26,10 @@ summary,
 .listing-title {
   font-weight: 600;
   font-size: 1.5em;
+  margin-bottom: 0.5em !important;
+}
+
+.quarto-title > h1 {
   margin-bottom: 0.5em !important;
 }
 
