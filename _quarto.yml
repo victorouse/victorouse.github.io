@@ -66,9 +66,11 @@ website:
     - id: main-nav
       collapse-level: 1
       contents:
-        - text: "Home"
+        - text: Home
           href: index.qmd
-        - section: "Blog"
+        - text: Resume
+          href: resume.qmd
+        - section: Blog
           contents: blog/*
 
   comments:

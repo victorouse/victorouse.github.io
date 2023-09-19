@@ -1,5 +1,5 @@
 ---
-title: "Victor Roussekov"
+title: Victor Roussekov
 
 navbar: false
 sidebar: false
@@ -14,19 +14,19 @@ about:
   links:
     - icon: file-earmark
       href: resume.qmd
-      text: "Resume"
+      text: Resume
 
     - icon: github
       href: https://github.com/victorouse
-      text: "Github"
+      text: Github
 
     - icon: linkedin
       href: https://linkedin.com/in/victorouse
-      text: "LinkedIn"
+      text: LinkedIn
 
     - icon: twitter
       href: https://twitter.com/victorouse
-      text: "Twitter"
+      text: Twitter
 
 listing:
   contents: blog/!(index)
