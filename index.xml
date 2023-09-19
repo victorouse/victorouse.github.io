@@ -28,7 +28,7 @@
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695138586639" data-listing-date-modified-sort="1695138586000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695139485287" data-listing-date-modified-sort="1695139485000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="../../blog/exploring-llms/1-introduction-to-llms.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/1-introduction-to-llms.html -->
@@ -62,7 +62,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695138586639" data-listing-date-modified-sort="1695138586000" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695139485287" data-listing-date-modified-sort="1695139485000" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
 <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/2-open-source-llms/index.html -->
@@ -140,6 +140,126 @@ September 19, 2023. <a href="https://victorouse.github.io/blog/exploring-llms/1-
   <category>Exploring LLMs</category>
   <category>Notebook</category>
   <guid>https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</guid>
+  <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Part 2: Open Source LLMs</title>
+  <dc:creator>Victor Roussekov</dc:creator>
+  <link>https://victorouse.github.io/blog/exploring-llms/2-open-source-llms/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<hr>
+<section id="huggingface" class="level3">
+<h3 class="anchored" data-anchor-id="huggingface">HuggingFace</h3>
+<p>Models created by the Open Source community are generally written in Python using frameworks like <a href="https://pytorch.org/">PyTorch</a> and <a href="https://www.tensorflow.org/">Tensorflow</a>.</p>
+<p>Each model will have its own instructions on how to compile and run them.</p>
+<p>One popular library that abstracts the downloading, loading, and API of [compatible] models is the HuggingFace <a href="https://github.com/huggingface/transformers">transformers</a> library.</p>
+<p>The <code>transformers</code> library is able to download and load any model published on the <a href="https://huggingface.co/docs/hub/index">HuggingFace Hub</a>.</p>
+<p>First, we will need to create a HuggingFace Account and login using the HuggingFace CLI.</p>
+<div id="cell-4" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span>pip install huggingface_hub</span></code></pre></div>
+</div>
+<div id="cell-5" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span>huggingface<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>cli login</span></code></pre></div>
+</div>
+<p>After we’ve logged in, we now have access to all the <code>transformers</code> <a href="https://huggingface.co/models?library=transformers&amp;sort=downloads">models</a> on HuggingFace.</p>
+<p>We can now pick a model, and use the <code>pipeline</code> function from the <code>transformers</code> library to download and load our model.</p>
+<div id="cell-7" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span>pip install transformers</span></code></pre></div>
+</div>
+<div id="cell-8" class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> transformers <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pipeline</span>
+<span id="cb4-2"></span>
+<span id="cb4-3">classifier <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pipeline(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'sentiment-analysis'</span>)</span>
+<span id="cb4-4"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'I love cats'</span>))</span>
+<span id="cb4-5"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'I hate dogs'</span>))</span></code></pre></div>
+</div>
+<p>Note that we passed the string argument <code>sentiment-analysis</code>, which itself is not actually a model, but a <a href="https://huggingface.co/docs/transformers/main/en/task_summary">task</a>.</p>
+<p>Tasks in this context refer to common Natrual Language Processing (NLP) tasks, with <code>sentiment-analysis</code> being one of them.</p>
+<p>Each task has it’s own string identifier, i.e.&nbsp;<code>sentiment-analysis</code> and a default model that is used for the task.</p>
+<p>This is why we observed the following output from the previous step:</p>
+<pre class="shell"><code>No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).</code></pre>
+<p>We can see that the task is using the <a href="https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english">distilbert-base-uncased-finetuned-sst-2-english</a> model downloaded from HuggingFace.</p>
+<p>We can specify an alternative model, such as the <a href="https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis">finiteautomata/bertweet-base-sentiment-analysis</a> model by providing a <code>model</code> argument to the <code>pipeline</code> function:</p>
+<hr>
+<div id="cell-11" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span>pip install emoji</span></code></pre></div>
+</div>
+<div id="cell-12" class="cell">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># This classifier is trained on Tweets!</span></span>
+<span id="cb7-2">classifier <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pipeline(model<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"finiteautomata/bertweet-base-sentiment-analysis"</span>)</span>
+<span id="cb7-3"></span>
+<span id="cb7-4"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'I love Elon Musk'</span>))</span>
+<span id="cb7-5"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'I hate Elon Musk'</span>))</span>
+<span id="cb7-6"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'OpenAI is good'</span>))</span></code></pre></div>
+</div>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
+  author = {Roussekov, Victor},
+  title = {Part 2: {Open} {Source} {LLMs}},
+  pages = {undefined},
+  date = {2023-09-19},
+  url = {https://victorouse.github.io/blog/exploring-llms/2-open-source-llms},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
+Roussekov, Victor. 2023. <span>“Part 2: Open Source LLMs.”</span>
+September 19, 2023. <a href="https://victorouse.github.io/blog/exploring-llms/2-open-source-llms">https://victorouse.github.io/blog/exploring-llms/2-open-source-llms</a>.
+</div></div></section></div> ]]></description>
+  <category>Python</category>
+  <category>Notebook</category>
+  <guid>https://victorouse.github.io/blog/exploring-llms/2-open-source-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
