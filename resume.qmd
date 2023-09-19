@@ -15,6 +15,15 @@ css: resume.css
 execute:
   echo: false
 
+share:
+  permalink: https://victorouse.github.io/resume
+  description: Hire this guy 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
+  mastodon: true
+
 about:
   id: about-me
   template: jolla

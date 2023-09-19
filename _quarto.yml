@@ -101,5 +101,16 @@ format:
       body-width: 900px
       margin-width: 300px
 
+    filters:
+      - social-share
+    share:
+      permalink: "https://victorouse.github.io"
+      description: "I'm with stoopid 👉"
+      twitter: true
+      reddit: true
+      linkedin: true
+      email: true
+      mastodon: true
+
 execute:
   freeze: true
