@@ -9,7 +9,7 @@
 <link>https://victorouse.github.io/index.html</link>
 <atom:link href="https://victorouse.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog and resume</description>
-<generator>quarto-1.4.369</generator>
+<generator>quarto-1.4.373</generator>
 <lastBuildDate>Sat, 16 Sep 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Second Post</title>
@@ -88,7 +88,7 @@ font-style: inherit;">;</span></span>
 <span id="cb1-12">plt.show()</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<div id="fig-1" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
+<div id="fig-1" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://victorouse.github.io/blog/second_files/figure-html/fig-1-output-1.png" width="450" height="439" class="figure-img">
@@ -100,8 +100,20 @@ Figure&nbsp;1: A caption
 </div>
 </div>
 </div>
+<section id="heading-1" class="level1">
+<h1>Heading 1</h1>
+<p>TODO</p>
+<section id="heading-2" class="level2">
+<h2 class="anchored" data-anchor-id="heading-2">Heading 2</h2>
+<p>TODO</p>
+</section>
+</section>
+<section id="something-else" class="level1">
+<h1>Something else</h1>
+<p>TODO</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Python</category>

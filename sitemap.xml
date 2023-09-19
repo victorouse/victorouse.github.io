@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://victorouse.github.io/blog/second.html</loc>
-    <lastmod>2023-09-17T11:39:50.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://victorouse.github.io/blog/index.html</loc>
-    <lastmod>2023-09-17T11:39:50.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://victorouse.github.io/index.html</loc>
-    <lastmod>2023-09-17T11:39:50.521Z</lastmod>
-  </url>
-  <url>
-    <loc>https://victorouse.github.io/blog/third.html</loc>
-    <lastmod>2023-09-17T11:39:50.509Z</lastmod>
+    <loc>https://victorouse.github.io/resume.html</loc>
+    <lastmod>2023-09-19T00:47:35.988Z</lastmod>
   </url>
   <url>
     <loc>https://victorouse.github.io/blog/first.html</loc>
-    <lastmod>2023-09-17T11:39:50.509Z</lastmod>
+    <lastmod>2023-09-19T00:47:35.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://victorouse.github.io/blog/third.html</loc>
+    <lastmod>2023-09-19T00:47:35.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://victorouse.github.io/index.html</loc>
+    <lastmod>2023-09-19T00:47:35.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://victorouse.github.io/blog/index.html</loc>
+    <lastmod>2023-09-19T00:47:35.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://victorouse.github.io/blog/second.html</loc>
+    <lastmod>2023-09-19T00:47:35.976Z</lastmod>
   </url>
 </urlset>
