@@ -61,7 +61,7 @@ Hello 👋
 
 ::::{.g-col-12}
 
-## Posts
+## Posts[[Blog →](/blog)]{.float-right .no-underline .text-black}
 
 :::{#landing-posts}
 :::

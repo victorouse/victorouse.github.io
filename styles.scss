@@ -33,9 +33,19 @@ summary,
   text-align: justify;
 }
 
-/* .quarto-title > h1 { */
-/*   margin-bottom: 0.5em !important; */
-/* } */
+.text-black a {
+  color: black !important;
+}
+
+.float-right {
+  float: right;
+}
+
+.no-underline {
+  a {
+    text-decoration: none !important;
+  }
+}
 
 .animate__duration-100ms {
   --animate-duration: 100ms;
