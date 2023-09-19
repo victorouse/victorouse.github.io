@@ -7,6 +7,7 @@ project:
 website:
   title: Victor Roussekov
   description: Blog and resume
+  favicon: images/favicon.ico
 
   google-analytics:
     tracking-id: G-R2S188R1KW
