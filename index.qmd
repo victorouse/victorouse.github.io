@@ -1,7 +1,5 @@
 ---
 title: '{{< animate fadeInDown "Victor Roussekov" duration="1s" >}}'
-
-
 navbar: false
 sidebar: false
 comments: false
@@ -34,10 +32,8 @@ about:
 
 listing:
   contents:
-    - blog/**/*.qmd
+    - blog/**/*
     - "!blog/index.qmd"
-    - "!blog/exploring_llms/index.qmd"
-    - "!blog/**/*.ipynb"
   type: grid
   grid-columns: 1
   image-height: 200px
@@ -52,6 +48,9 @@ listing:
 format:
   html:
     toc: false
+
+website:
+  title: ""
 ---
 
 ::: {#about-me .text-center .animate__animated .animate__fadeInUp .animate__delay-800ms .animate__duration-800ms}
