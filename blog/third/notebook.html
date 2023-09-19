@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
+<meta name="author" content="Victor Roussekov">
+<meta name="dcterms.date" content="2023-09-15">
 
-<title>Victor Roussekov</title>
+<title>Victor Roussekov - Notebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,24 +22,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../blog/third/index.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,8 +111,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 </script>
 
 
-<link rel="stylesheet" href="resume.css">
-<meta property="og:title" content="Victor Roussekov">
+<meta property="og:title" content="Victor Roussekov - Notebook">
 <meta property="og:description" content="Blog and resume">
 <meta property="og:site_name" content="Victor Roussekov">
 <meta name="twitter:title" content="Victor Roussekov">
@@ -85,72 +121,83 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+        <div class="quarto-navbar-tools tools-wide">
+    <a href="https://github.com/victorouse" title="Github" class="quarto-navigation-tool px-1" aria-label="Github"><i class="bi bi-github"></i></a>
+    <a href="https://linkedin.com/in/victorouse" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/victorouse" title="Twitter" class="quarto-navigation-tool px-1" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+    <a href="../../index.xml" title="RSS" class="quarto-navigation-tool px-1" aria-label="RSS"><i class="bi bi-rss"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./resume.html">Resume</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../blog/index.html">Blog</a></li><li class="breadcrumb-item"><a href="../../blog/third/index.html">Third post</a></li><li class="breadcrumb-item"><a href="../../blog/third/notebook.html">Notebook</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resume.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../resume.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resume</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./blog/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../blog/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog/first.html" class="sidebar-item-text sidebar-link">
+  <a href="../../blog/first.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">First Post</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog/second.html" class="sidebar-item-text sidebar-link">
+  <a href="../../blog/second.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Second Post</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./blog/third/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../blog/third/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Third post</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog/third/notebook.html" class="sidebar-item-text sidebar-link">
+  <a href="../../blog/third/notebook.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Notebook</span></a>
   </div>
 </li>
@@ -164,137 +211,72 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">SUMMARY</a></li>
-  <li><a href="#work-experience10-years" id="toc-work-experience10-years" class="nav-link" data-scroll-target="#work-experience10-years">WORK EXPERIENCE<span class="cvdate">(10+ years)</span></a>
-  <ul class="collapse">
-  <li><a href="#spaceship-financial-services5-years" id="toc-spaceship-financial-services5-years" class="nav-link" data-scroll-target="#spaceship-financial-services5-years">Spaceship Financial Services<span class="cvdate">(5+ years)</span></a></li>
-  <li><a href="#spitfire-corportation1.5-years" id="toc-spitfire-corportation1.5-years" class="nav-link" data-scroll-target="#spitfire-corportation1.5-years">Spitfire Corportation<span class="cvdate">(1.5 years)</span></a></li>
-  <li><a href="#cogni3-years" id="toc-cogni3-years" class="nav-link" data-scroll-target="#cogni3-years">Cogni<span class="cvdate">(3 years)</span></a></li>
-  <li><a href="#university-of-queensland1.5-years" id="toc-university-of-queensland1.5-years" class="nav-link" data-scroll-target="#university-of-queensland1.5-years">University of Queensland<span class="cvdate">(1.5 years)</span></a></li>
-  </ul></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">EDUCATION</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">REFERENCES</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/victorouse/victorouse.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="resume.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<div class="quarto-about-jolla">
-  <img src="images/me.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../blog/index.html">Blog</a></li><li class="breadcrumb-item"><a href="../../blog/third/index.html">Third post</a></li><li class="breadcrumb-item"><a href="../../blog/third/notebook.html">Notebook</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Victor Roussekov</h1>
-</div>
-<div class="quarto-title-meta">
+<h1 class="title">Notebook</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Notebook</div>
   </div>
-</header><div id="about-me">
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/victorouse" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://linkedin.com/in/victorouse" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://twitter.com/victorouse" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Victor Roussekov </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 15, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">September 19, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+<hr>
+<div id="cell-2" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Hello World!</code></pre>
 </div>
 </div>
 
-<section id="summary" class="level2">
-<h2 data-anchor-id="summary">SUMMARY</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien et ligula ullamcorper malesuada.</p>
-</section>
-<section id="work-experience10-years" class="level2">
-<h2 data-anchor-id="work-experience10-years">WORK EXPERIENCE<span class="cvdate">(10+ years)</span></h2>
-<section id="spaceship-financial-services5-years" class="level3">
-<h3 data-anchor-id="spaceship-financial-services5-years"><a href="https://www.spaceship.com.au">Spaceship Financial Services</a><span class="cvdate">(5+ years)</span></h3>
-<p><strong><em>Data Engineer</em></strong><span class="cvdate"><strong><em>Jan 2021 – Present</em></strong></span></p>
-<ul>
-<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.</p></li>
-<li><p>Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.</p></li>
-<li><p>Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.</p></li>
-<li><p>In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus.</p></li>
-</ul>
-<p><strong><em>Senior Software Engineer</em></strong><span class="cvdate"><strong><em>Jan 2020 – Jan 2021</em></strong></span></p>
-<ul>
-<li><p>Nulla nunc mi, condimentum at fermentum a, vestibulum vitae ex. Proin at lorem ut tellus commodo mattis nec et ante. Donec luctus in urna eget fringilla. Aliquam nec dui nibh. Aenean mollis nisl at libero venenatis placerat.</p></li>
-<li><p>Sed tincidunt lacus vel dolor auctor, ut mattis risus mollis. Phasellus malesuada commodo velit in facilisis. In volutpat porttitor lobortis. ex lacinia orci.</p></li>
-<li><p>Morbi in purus in ex congue cursus ut sed elit. In aliquam imperdiet lacus, ac facilisis velit accumsan sit amet. Integer bibendum bibendum turpis, a elementum eros commodo a.</p></li>
-</ul>
-<p><strong><em>Software Engineer</em></strong><span class="cvdate"><strong><em>Dec 2018 – Jan 2020</em></strong></span></p>
-<ul>
-<li><p>Etiam pulvinar mattis pulvinar. Donec id pulvinar metus. Suspendisse facilisis eros eget velit fermentum, eu interdum nisi laoreet. Phasellus in eleifend ex. Vivamus eu tortor mollis, condimentum ex et, posuere risus.</p></li>
-<li><p>Ut sagittis neque id sapien semper auctor. Proin rhoncus massa sed nibh posuere pulvinar. Curabitur vel neque lacinia risus dapibus pharetra lacinia in augue. Sed tortor urna, consequat at porta nec, convallis sit amet ipsum.</p></li>
-</ul>
-</section>
-<section id="spitfire-corportation1.5-years" class="level3">
-<h3 data-anchor-id="spitfire-corportation1.5-years"><a href="https://www.spitfire.io">Spitfire Corportation</a><span class="cvdate">(1.5 years)</span></h3>
-<p><strong><em>Software Engineer</em></strong><span class="cvdate"><strong><em>Jun 2017 – Nov 2018</em></strong></span></p>
-<ul>
-<li><p>Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus.</p></li>
-<li><p>Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat est orci, sit amet eleifend augue pellentesque et.</p></li>
-<li><p>Aenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta luctus a felis.</p></li>
-</ul>
-</section>
-<section id="cogni3-years" class="level3">
-<h3 data-anchor-id="cogni3-years"><a href="https://www.getcogni.com">Cogni</a><span class="cvdate">(3 years)</span></h3>
-<p><strong><em>Software Engineer</em></strong><span class="cvdate"><strong><em>Jun 2014 – Jan 2017</em></strong></span></p>
-<ul>
-<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.</p></li>
-<li><p>Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.</p></li>
-<li><p>Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.</p></li>
-<li><p>In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus.</p></li>
-</ul>
-</section>
-<section id="university-of-queensland1.5-years" class="level3">
-<h3 data-anchor-id="university-of-queensland1.5-years"><a href="https://uq.edu.au/">University of Queensland</a><span class="cvdate">(1.5 years)</span></h3>
-<p><strong><em>Junior Software Engineer</em></strong><span class="cvdate"><strong><em>Jun 2012 – Nov 2013</em></strong></span></p>
-<ul>
-<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.</p></li>
-<li><p>Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.</p></li>
-<li><p>Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.</p></li>
-<li><p>In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus.</p></li>
-</ul>
-</section>
-</section>
-<section id="education" class="level2" style="page-break-before: always">
-<h2 style="page-break-before: always" data-anchor-id="education">EDUCATION</h2>
-<p><strong>Bachelor of Information Technology (Honours)</strong> <br> <em>University of Queensland</em> <span class="cvdate"><em>2014 — 2015</em></span></p>
-<ul>
-<li><p>Completed research thesis on <a href="https://drive.google.com/file/d/0B9BIdud4S8x2eGtHc0RCNkMwRTQ">Context-Aware Mobile Video Retrieval</a></p></li>
-<li><p>Received Prentice Scholar award for high achievement</p></li>
-</ul>
-<p><strong>Bachelor of Information Technology</strong> <br> <em>University of Queensland</em> <span class="cvdate"><em>2011 — 2013</em></span></p>
-<ul>
-<li><p>Graduated with First Class Honours, and inclusion on Dean’s Honours List</p></li>
-<li><p>Grade Point Average: 6.7 / 7.0</p></li>
-</ul>
-</section>
-<section id="references" class="level2">
-<h2 data-anchor-id="references">REFERENCES</h2>
-<div class="text-center">
-<p>Available upon request.</p>
-</div>
 
 
-
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
+  author = {Roussekov, Victor},
+  title = {Notebook},
+  pages = {undefined},
+  date = {2023-09-15},
+  url = {https://victorouse.github.io/blog/third/notebook.html},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Roussekov, Victor. 2023. <span>“Notebook.”</span> September 15, 2023. <a href="https://victorouse.github.io/blog/third/notebook.html">https://victorouse.github.io/blog/third/notebook.html</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -315,6 +297,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -632,6 +621,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="victorouse/victorouse.github.io" data-repo-id="R_kgDOKUMOAg" data-category="Announcements" data-category-id="DIC_kwDOKUMOAs4CZYOO" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../blog/third/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Third post</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -640,7 +642,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/victorouse/victorouse.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -656,7 +658,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml">
+    <a class="nav-link" href="../../index.xml">
       <i class="bi bi-rss" role="img" aria-label="RSS">
 </i> 
     </a>

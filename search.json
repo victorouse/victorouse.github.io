@@ -54,10 +54,22 @@
     "href": "blog/first.html",
     "title": "First Post",
     "section": "",
-    "text": "Just testing.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{2023,\n  author = {},\n  title = {First {Post}},\n  pages = {undefined},\n  date = {2023-09-15},\n  url = {https://victorouse.github.io/blog/first.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“First Post.” 2023. September 15, 2023. https://victorouse.github.io/blog/first.html.",
+    "text": "Just testing.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {First {Post}},\n  pages = {undefined},\n  date = {2023-09-15},\n  url = {https://victorouse.github.io/blog/first.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “First Post.” September 15, 2023.\nhttps://victorouse.github.io/blog/first.html.",
     "crumbs": [
       "Blog",
       "First Post"
+    ]
+  },
+  {
+    "objectID": "blog/third/notebook.html",
+    "href": "blog/third/notebook.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "print(\"Hello World\")\n\nHello World!\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Notebook},\n  pages = {undefined},\n  date = {2023-09-15},\n  url = {https://victorouse.github.io/blog/third/notebook.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Notebook.” September 15, 2023. https://victorouse.github.io/blog/third/notebook.html.",
+    "crumbs": [
+      "Blog",
+      "Third post",
+      "Notebook"
     ]
   },
   {
@@ -65,7 +77,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nFirst Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\nMisc\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 15, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nFirst Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 15, 2023\n\n\nVictor Roussekov\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotebook\n\n\n\n\n\n\n\nPython\n\n\nNotebook\n\n\n\n\n\n\n\n\n\n\n\nSep 15, 2023\n\n\nVictor Roussekov\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\n\n\n\n\n\nPython\n\n\nTest\n\n\nMisc\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 15, 2023\n\n\nVictor Roussekov\n\n\n\n\n\n\n\n\n\n\n\n\n\nThird post\n\n\n\n\n\n\n\nPython\n\n\nNotebook\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit. Fusce cursus dictum tellus, at efficitur velit luctus nec.\n\n\n\n\n\n\nSep 15, 2023\n\n\nVictor Roussekov\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog"
     ]
@@ -88,6 +100,17 @@
     "text": "Posts",
     "crumbs": [
       "Home"
+    ]
+  },
+  {
+    "objectID": "blog/third/index.html",
+    "href": "blog/third/index.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "Just testing notebook embedding.\n\n\n\n\nHello World!\n\n\nSource: Notebook\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Third Post},\n  pages = {undefined},\n  date = {2023-09-15},\n  url = {https://victorouse.github.io/blog/third},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Third Post.” September 15, 2023.\nhttps://victorouse.github.io/blog/third.",
+    "crumbs": [
+      "Blog",
+      "Third post"
     ]
   },
   {

@@ -3,7 +3,9 @@
     "listing": "/blog/index.html",
     "items": [
       "/blog/first.html",
-      "/blog/second.html"
+      "/blog/third/notebook.html",
+      "/blog/second.html",
+      "/blog/third/index.html"
     ]
   },
   {
