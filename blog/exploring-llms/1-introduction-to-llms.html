@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Victor Roussekov">
-<meta name="dcterms.date" content="2023-09-15">
-<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.">
+<meta name="dcterms.date" content="2023-09-19">
 
-<title>Victor Roussekov - Second Post</title>
+<title>Victor Roussekov - Part 1: Introduction to LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,64 +22,30 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../blog/third/index.html" rel="next">
-<link href="../blog/first.html" rel="prev">
-<link href="../images/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/social-share-0.1.0/social-share.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/social-share-0.1.0/all.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../blog/exploring-llms/2-open-source-llms/index.html" rel="next">
+<link href="../../blog/exploring-llms/index.html" rel="prev">
+<link href="../../images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/social-share-0.1.0/social-share.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/social-share-0.1.0/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -116,7 +81,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 </script>
 
 
-<meta property="og:title" content="Victor Roussekov - Second Post">
+<meta property="og:title" content="Victor Roussekov - Part 1: Introduction to LLMs">
 <meta property="og:description" content="Blog and resume">
 <meta property="og:site_name" content="Victor Roussekov">
 <meta name="twitter:title" content="Victor Roussekov">
@@ -136,7 +101,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     <a href="https://github.com/victorouse" title="Github" class="quarto-navigation-tool px-1" aria-label="Github"><i class="bi bi-github"></i></a>
     <a href="https://linkedin.com/in/victorouse" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
     <a href="https://twitter.com/victorouse" title="Twitter" class="quarto-navigation-tool px-1" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
-    <a href="../index.xml" title="RSS" class="quarto-navigation-tool px-1" aria-label="RSS"><i class="bi bi-rss"></i></a>
+    <a href="../../index.xml" title="RSS" class="quarto-navigation-tool px-1" aria-label="RSS"><i class="bi bi-rss"></i></a>
 </div>
           <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
@@ -146,7 +111,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../blog/index.html">Blog</a></li><li class="breadcrumb-item"><a href="../blog/second.html">Second Post</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../blog/index.html">Blog</a></li><li class="breadcrumb-item"><a href="../../blog/exploring-llms/index.html">Exploring LLMs</a></li><li class="breadcrumb-item"><a href="../../blog/exploring-llms/1-introduction-to-llms.html">Part 1: Introduction to LLMs</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -160,50 +125,44 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../resume.html" class="sidebar-item-text sidebar-link">
+  <a href="../../resume.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resume</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../blog/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../blog/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../blog/first.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">First Post</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../blog/second.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Second Post</span></a>
-  </div>
-</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../blog/third/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Third post</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <a href="../../blog/exploring-llms/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exploring LLMs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../blog/third/notebook.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Notebook</span></a>
+  <a href="../../blog/exploring-llms/1-introduction-to-llms.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Part 1: Introduction to LLMs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 2: Open Source LLMs</span></a>
   </div>
 </li>
       </ul>
@@ -220,32 +179,23 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#heading-1" id="toc-heading-1" class="nav-link active" data-scroll-target="#heading-1">Heading 1</a>
-  <ul class="collapse">
-  <li><a href="#heading-2" id="toc-heading-2" class="nav-link" data-scroll-target="#heading-2">Heading 2</a></li>
-  </ul></li>
-  <li><a href="#something-else" id="toc-something-else" class="nav-link" data-scroll-target="#something-else">Something else</a></li>
+  <li><a href="#what-are-large-language-models" id="toc-what-are-large-language-models" class="nav-link active" data-scroll-target="#what-are-large-language-models">What are Large Language Models?</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/victorouse/victorouse.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../blog/index.html">Blog</a></li><li class="breadcrumb-item"><a href="../blog/second.html">Second Post</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../blog/index.html">Blog</a></li><li class="breadcrumb-item"><a href="../../blog/exploring-llms/index.html">Exploring LLMs</a></li><li class="breadcrumb-item"><a href="../../blog/exploring-llms/1-introduction-to-llms.html">Part 1: Introduction to LLMs</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Second Post</h1>
+<h1 class="title">Part 1: Introduction to LLMs</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Python</div>
-    <div class="quarto-category">Test</div>
-    <div class="quarto-category">Misc</div>
+    <div class="quarto-category">LLMs</div>
+    <div class="quarto-category">Exploring LLMs</div>
+    <div class="quarto-category">Notebook</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -260,7 +210,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 15, 2023</p>
+      <p class="date">September 19, 2023</p>
     </div>
   </div>
   
@@ -278,59 +228,31 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 </header>
 
 <hr>
-<p>Just testing again, look at <a href="#fig-polar" class="quarto-xref">Figure&nbsp;1</a>.</p>
-<div id="cell-fig-polar" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">4</span>, <span class="fl">0.01</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>theta <span class="op">=</span> <span class="dv">4</span> <span class="op">*</span> np.pi <span class="op">*</span> r <span class="op">+</span> <span class="dv">10</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  subplot_kw <span class="op">=</span> {<span class="st">'projection'</span>: <span class="st">'polar'</span>} </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ax.plot(theta, r)<span class="op">;</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])<span class="op">;</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>)<span class="op">;</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="second_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
-</div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A line plot on a polar axis
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<section id="heading-1" class="level1">
-<h1>Heading 1</h1>
-<p>TODO</p>
-<section id="heading-2" class="level2">
-<h2 class="anchored" data-anchor-id="heading-2">Heading 2</h2>
-<p>TODO</p>
-</section>
-</section>
-<section id="something-else" class="level1">
-<h1>Something else</h1>
-<p>TODO</p>
+<section id="what-are-large-language-models" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-large-language-models">What are Large Language Models?</h3>
+<p>Large Language Models (LLMs) are neural networks that can generate output such as text, images, etc. Each model has its own applied methodology, reflected in how the neural network is configured.</p>
+<p>To use neural networks, they must first be “trained”. The training process involves passing “training” data through the network and evaluating the output against a “validation” or “testing” set.</p>
+<p>This process adjusts the model “weights” along the way, and once the training process is finished, the resulting weights can be distributed for use.</p>
+<p>The resulting weights are generally referred to as “pre-trained” models that are distributed in a format that can be “loaded” into a model.</p>
+<p>There are many different types of models, from OpenAI’s proprietary GPT models (GPT3, GTP3.5, GTP4), to open source models like Meta’s <a href="https://ai.meta.com/llama/">Llama2</a>.</p>
+<p>There are many open sources models that can be downloaded from a model artefact repository called <a href="https://huggingface.co/">HuggingFace</a>. You can think of HuggingFace like the DockerHub for LLMs.</p>
+<p>There are also platforms that offer LLM hosting services, such as <a href="https://replicate.com/">Replicate</a>, which host these LLM models on the cloud for you, meaning you don’t have to run them on your own hardware.</p>
+<p>It is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.</p>
 
 
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
   author = {Roussekov, Victor},
-  title = {Second {Post}},
+  title = {Part 1: {Introduction} to {LLMs}},
   pages = {undefined},
-  date = {2023-09-15},
-  url = {https://victorouse.github.io/blog/second.html},
+  date = {2023-09-19},
+  url = {https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Roussekov, Victor. 2023. <span>“Second Post.”</span> September 15, 2023.
-<a href="https://victorouse.github.io/blog/second.html">https://victorouse.github.io/blog/second.html</a>.
+Roussekov, Victor. 2023. <span>“Part 1: Introduction to LLMs.”</span>
+September 19, 2023. <a href="https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html">https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -682,13 +604,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <input type="hidden" id="giscus-alt-theme" value="light">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../blog/first.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">First Post</span>
+      <a href="../../blog/exploring-llms/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Exploring LLMs</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../blog/third/index.html" class="pagination-link">
-        <span class="nav-page-text">Third post</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="pagination-link">
+        <span class="nav-page-text">Part 2: Open Source LLMs</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -716,7 +638,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../index.xml">
+    <a class="nav-link" href="../../index.xml">
       <i class="bi bi-rss" role="img" aria-label="RSS">
 </i> 
     </a>
@@ -725,7 +647,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<div class="page-columns page-rows-contents page-layout-article"><div class="social-share"><a href="https://twitter.com/share?url=https://victorouse.github.io/blog/second&amp;text=What he said 👉" target="_blank" class="twitter"><i class="fab fa-twitter fa-fw fa-lg"></i></a><a href="https://www.linkedin.com/shareArticle?url=https://victorouse.github.io/blog/second&amp;title=What he said 👉" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin-in fa-fw fa-lg"></i></a>  <a href="mailto:?subject=What he said 👉&amp;body=Check out this link:https://victorouse.github.io/blog/second" target="_blank" class="email"><i class="fa-solid fa-envelope fa-fw fa-lg"></i></a><a href="https://reddit.com/submit?url=https://victorouse.github.io/blog/second&amp;title=What he said 👉" target="_blank" class="reddit">   <i class="fa-brands fa-reddit-alien fa-fw fa-lg"></i></a><a href="javascript:void(0);" onclick="var mastodon_instance=prompt('Mastodon Instance / Server Name?'); if(typeof mastodon_instance==='string' &amp;&amp; mastodon_instance.length){this.href='https://'+mastodon_instance+'/share?text=What he said 👉 https://victorouse.github.io/blog/second'}else{return false;}" target="_blank" class="mastodon"><i class="fa-brands fa-mastodon fa-fw fa-lg"></i></a></div></div>
+<div class="page-columns page-rows-contents page-layout-article"><div class="social-share"><a href="https://twitter.com/share?url=https://victorouse.github.io/blog/exploring-llms/part-one&amp;text=What he said 👉" target="_blank" class="twitter"><i class="fab fa-twitter fa-fw fa-lg"></i></a><a href="https://www.linkedin.com/shareArticle?url=https://victorouse.github.io/blog/exploring-llms/part-one&amp;title=What he said 👉" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin-in fa-fw fa-lg"></i></a>  <a href="mailto:?subject=What he said 👉&amp;body=Check out this link:https://victorouse.github.io/blog/exploring-llms/part-one" target="_blank" class="email"><i class="fa-solid fa-envelope fa-fw fa-lg"></i></a><a href="https://reddit.com/submit?url=https://victorouse.github.io/blog/exploring-llms/part-one&amp;title=What he said 👉" target="_blank" class="reddit">   <i class="fa-brands fa-reddit-alien fa-fw fa-lg"></i></a><a href="javascript:void(0);" onclick="var mastodon_instance=prompt('Mastodon Instance / Server Name?'); if(typeof mastodon_instance==='string' &amp;&amp; mastodon_instance.length){this.href='https://'+mastodon_instance+'/share?text=What he said 👉 https://victorouse.github.io/blog/exploring-llms/part-one'}else{return false;}" target="_blank" class="mastodon"><i class="fa-brands fa-mastodon fa-fw fa-lg"></i></a></div></div>
 
 
 

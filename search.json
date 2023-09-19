@@ -50,36 +50,26 @@
     ]
   },
   {
-    "objectID": "blog/first.html",
-    "href": "blog/first.html",
-    "title": "First Post",
+    "objectID": "blog/exploring-llms/2-open-source-llms/index.html",
+    "href": "blog/exploring-llms/2-open-source-llms/index.html",
+    "title": "Part 2: Open Source LLMs",
     "section": "",
-    "text": "Just testing.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {First {Post}},\n  pages = {undefined},\n  date = {2023-09-15},\n  url = {https://victorouse.github.io/blog/first.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “First Post.” September 15, 2023.\nhttps://victorouse.github.io/blog/first.html.",
+    "text": "HuggingFace\nModels created by the Open Source community are generally written in Python using frameworks like PyTorch and Tensorflow.\nEach model will have its own instructions on how to compile and run them.\nOne popular library that abstracts the downloading, loading, and API of [compatible] models is the HuggingFace transformers library.\nThe transformers library is able to download and load any model published on the HuggingFace Hub.\nFirst, we will need to create a HuggingFace Account and login using the HuggingFace CLI.\n\n!pip install huggingface_hub\n\n\n!huggingface-cli login\n\nAfter we’ve logged in, we now have access to all the transformers models on HuggingFace.\nWe can now pick a model, and use the pipeline function from the transformers library to download and load our model.\n\n!pip install transformers\n\n\nfrom transformers import pipeline\n\nclassifier = pipeline('sentiment-analysis')\nprint(classifier('I love cats'))\nprint(classifier('I hate dogs'))\n\nNote that we passed the string argument sentiment-analysis, which itself is not actually a model, but a task.\nTasks in this context refer to common Natrual Language Processing (NLP) tasks, with sentiment-analysis being one of them.\nEach task has it’s own string identifier, i.e. sentiment-analysis and a default model that is used for the task.\nThis is why we observed the following output from the previous step:\nNo model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).\nWe can see that the task is using the distilbert-base-uncased-finetuned-sst-2-english model downloaded from HuggingFace.\nWe can specify an alternative model, such as the finiteautomata/bertweet-base-sentiment-analysis model by providing a model argument to the pipeline function:\n\n\n!pip install emoji\n\n\n# This classifier is trained on Tweets!\nclassifier = pipeline(model=\"finiteautomata/bertweet-base-sentiment-analysis\")\n\nprint(classifier('I love Elon Musk'))\nprint(classifier('I hate Elon Musk'))\nprint(classifier('OpenAI is good'))\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 2: {Open} {Source} {LLMs}},\n  pages = {undefined},\n  date = {2023-09-19},\n  url = {https://victorouse.github.io/blog/exploring-llms/2-open-source-llms},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 2: Open Source LLMs.”\nSeptember 19, 2023. https://victorouse.github.io/blog/exploring-llms/2-open-source-llms.",
     "crumbs": [
       "Blog",
-      "First Post"
+      "Exploring LLMs",
+      "Part 2: Open Source LLMs"
     ]
   },
   {
-    "objectID": "blog/third/notebook.html",
-    "href": "blog/third/notebook.html",
-    "title": "Notebook",
+    "objectID": "blog/exploring-llms/index.html",
+    "href": "blog/exploring-llms/index.html",
+    "title": "Exploring LLMs",
     "section": "",
-    "text": "print(\"Hello World\")\n\nHello World!\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Notebook},\n  pages = {undefined},\n  date = {2023-09-15},\n  url = {https://victorouse.github.io/blog/third/notebook.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Notebook.” September 15, 2023. https://victorouse.github.io/blog/third/notebook.html.",
+    "text": "This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of ChatGPT.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog",
-      "Third post",
-      "Notebook"
-    ]
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nFirst Post\n\n\n\nPython\n\n\nTest\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum…\n\n\n\nVictor Roussekov\n\n\nSep 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nNotebook\n\n\n\nPython\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\n\nPython\n\n\nTest\n\n\nMisc\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum…\n\n\n\nVictor Roussekov\n\n\nSep 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nThird post\n\n\n\nPython\n\n\nNotebook\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum…\n\n\n\nVictor Roussekov\n\n\nSep 15, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
-    "crumbs": [
-      "Blog"
+      "Exploring LLMs"
     ]
   },
   {
@@ -103,36 +93,25 @@
     ]
   },
   {
-    "objectID": "blog/third/index.html",
-    "href": "blog/third/index.html",
-    "title": "Notebook",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
     "section": "",
-    "text": "Just testing notebook embedding.\n\n\n\n\nHello World!\n\n\nSource: Notebook\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Third Post},\n  pages = {undefined},\n  date = {2023-09-15},\n  url = {https://victorouse.github.io/blog/third},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Third Post.” September 15, 2023.\nhttps://victorouse.github.io/blog/third.",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nExploring LLMs\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
-      "Blog",
-      "Third post"
+      "Blog"
     ]
   },
   {
-    "objectID": "blog/second.html",
-    "href": "blog/second.html",
-    "title": "Second Post",
+    "objectID": "blog/exploring-llms/1-introduction-to-llms.html",
+    "href": "blog/exploring-llms/1-introduction-to-llms.html",
+    "title": "Part 1: Introduction to LLMs",
     "section": "",
-    "text": "Just testing again, look at Figure 1.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 4 * np.pi * r + 10\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
+    "text": "What are Large Language Models?\nLarge Language Models (LLMs) are neural networks that can generate output such as text, images, etc. Each model has its own applied methodology, reflected in how the neural network is configured.\nTo use neural networks, they must first be “trained”. The training process involves passing “training” data through the network and evaluating the output against a “validation” or “testing” set.\nThis process adjusts the model “weights” along the way, and once the training process is finished, the resulting weights can be distributed for use.\nThe resulting weights are generally referred to as “pre-trained” models that are distributed in a format that can be “loaded” into a model.\nThere are many different types of models, from OpenAI’s proprietary GPT models (GPT3, GTP3.5, GTP4), to open source models like Meta’s Llama2.\nThere are many open sources models that can be downloaded from a model artefact repository called HuggingFace. You can think of HuggingFace like the DockerHub for LLMs.\nThere are also platforms that offer LLM hosting services, such as Replicate, which host these LLM models on the cloud for you, meaning you don’t have to run them on your own hardware.\nIt is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 1: {Introduction} to {LLMs}},\n  pages = {undefined},\n  date = {2023-09-19},\n  url = {https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 1: Introduction to LLMs.”\nSeptember 19, 2023. https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html.",
     "crumbs": [
       "Blog",
-      "Second Post"
-    ]
-  },
-  {
-    "objectID": "blog/second.html#heading-2",
-    "href": "blog/second.html#heading-2",
-    "title": "Second Post",
-    "section": "Heading 2",
-    "text": "Heading 2\nTODO",
-    "crumbs": [
-      "Blog",
-      "Second Post"
+      "Exploring LLMs",
+      "Part 1: Introduction to LLMs"
     ]
   }
 ]

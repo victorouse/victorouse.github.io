@@ -10,269 +10,137 @@
 <atom:link href="https://victorouse.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog and resume</description>
 <generator>quarto-1.4.373</generator>
-<lastBuildDate>Fri, 15 Sep 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 19 Sep 2023 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>First Post</title>
+  <title>Exploring LLMs</title>
   <dc:creator>Victor Roussekov</dc:creator>
-  <link>https://victorouse.github.io/blog/first.html</link>
+  <link>https://victorouse.github.io/blog/exploring-llms/index.html</link>
   <description><![CDATA[ 
 
 
 
 <hr>
-<p>Just testing.</p>
-<div id="cell-fig-polar" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> np</span>
-<span id="cb1-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> plt</span>
-<span id="cb1-3"></span>
-<span id="cb1-4">r <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.01</span>)</span>
-<span id="cb1-5">theta <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> np.pi <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> r</span>
-<span id="cb1-6">fig, ax <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> plt.subplots(</span>
-<span id="cb1-7">  subplot_kw <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'projection'</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'polar'</span>} </span>
-<span id="cb1-8">)</span>
-<span id="cb1-9">ax.plot(theta, r)<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-10">ax.set_rticks([<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.5</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1.5</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>])<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-11">ax.grid(<span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-12">plt.show()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://victorouse.github.io/blog/first_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
-</div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A line plot on a polar axis
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<p>This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of <a href="https://chat.openai.com">ChatGPT</a>.</p>
+<hr>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
-  author = {Roussekov, Victor},
-  title = {First {Post}},
-  pages = {undefined},
-  date = {2023-09-15},
-  url = {https://victorouse.github.io/blog/first.html},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
-Roussekov, Victor. 2023. <span>“First Post.”</span> September 15, 2023.
-<a href="https://victorouse.github.io/blog/first.html">https://victorouse.github.io/blog/first.html</a>.
-</div></div></section></div> ]]></description>
-  <category>Python</category>
-  <category>Test</category>
-  <guid>https://victorouse.github.io/blog/first.html</guid>
-  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695138586639" data-listing-date-modified-sort="1695138586000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<a href="../../blog/exploring-llms/1-introduction-to-llms.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/1-introduction-to-llms.html -->
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Part 1: Introduction to LLMs
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
+LLMs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Exploring LLMs'); return false;">
+Exploring LLMs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Notebook'); return false;">
+Notebook
+</div>
+</div>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/1-introduction-to-llms.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Victor Roussekov
+</div>
+<div class="listing-date">
+Sep 19, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695138586639" data-listing-date-modified-sort="1695138586000" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
+<a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/2-open-source-llms/index.html -->
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Part 2: Open Source LLMs
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Notebook'); return false;">
+Notebook
+</div>
+</div>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/2-open-source-llms/index.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Victor Roussekov
+</div>
+<div class="listing-date">
+Sep 19, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <guid>https://victorouse.github.io/blog/exploring-llms/index.html</guid>
+  <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Second Post</title>
+  <title>Part 1: Introduction to LLMs</title>
   <dc:creator>Victor Roussekov</dc:creator>
-  <link>https://victorouse.github.io/blog/second.html</link>
+  <link>https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</link>
   <description><![CDATA[ 
 
 
 
 <hr>
-<p>Just testing again, look at Figure&nbsp;1.</p>
-<div id="cell-fig-polar" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> np</span>
-<span id="cb1-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> plt</span>
-<span id="cb1-3"></span>
-<span id="cb1-4">r <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.01</span>)</span>
-<span id="cb1-5">theta <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> np.pi <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> r <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">10</span></span>
-<span id="cb1-6">fig, ax <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> plt.subplots(</span>
-<span id="cb1-7">  subplot_kw <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'projection'</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'polar'</span>} </span>
-<span id="cb1-8">)</span>
-<span id="cb1-9">ax.plot(theta, r)<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-10">ax.set_rticks([<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.5</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1.5</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>])<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-11">ax.grid(<span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-12">plt.show()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://victorouse.github.io/blog/second_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
-</div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A line plot on a polar axis
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<section id="heading-1" class="level1">
-<h1>Heading 1</h1>
-<p>TODO</p>
-<section id="heading-2" class="level2">
-<h2 class="anchored" data-anchor-id="heading-2">Heading 2</h2>
-<p>TODO</p>
-</section>
-</section>
-<section id="something-else" class="level1">
-<h1>Something else</h1>
-<p>TODO</p>
+<section id="what-are-large-language-models" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-large-language-models">What are Large Language Models?</h3>
+<p>Large Language Models (LLMs) are neural networks that can generate output such as text, images, etc. Each model has its own applied methodology, reflected in how the neural network is configured.</p>
+<p>To use neural networks, they must first be “trained”. The training process involves passing “training” data through the network and evaluating the output against a “validation” or “testing” set.</p>
+<p>This process adjusts the model “weights” along the way, and once the training process is finished, the resulting weights can be distributed for use.</p>
+<p>The resulting weights are generally referred to as “pre-trained” models that are distributed in a format that can be “loaded” into a model.</p>
+<p>There are many different types of models, from OpenAI’s proprietary GPT models (GPT3, GTP3.5, GTP4), to open source models like Meta’s <a href="https://ai.meta.com/llama/">Llama2</a>.</p>
+<p>There are many open sources models that can be downloaded from a model artefact repository called <a href="https://huggingface.co/">HuggingFace</a>. You can think of HuggingFace like the DockerHub for LLMs.</p>
+<p>There are also platforms that offer LLM hosting services, such as <a href="https://replicate.com/">Replicate</a>, which host these LLM models on the cloud for you, meaning you don’t have to run them on your own hardware.</p>
+<p>It is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.</p>
 
 
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
   author = {Roussekov, Victor},
-  title = {Second {Post}},
+  title = {Part 1: {Introduction} to {LLMs}},
   pages = {undefined},
-  date = {2023-09-15},
-  url = {https://victorouse.github.io/blog/second.html},
+  date = {2023-09-19},
+  url = {https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
-Roussekov, Victor. 2023. <span>“Second Post.”</span> September 15, 2023.
-<a href="https://victorouse.github.io/blog/second.html">https://victorouse.github.io/blog/second.html</a>.
+Roussekov, Victor. 2023. <span>“Part 1: Introduction to LLMs.”</span>
+September 19, 2023. <a href="https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html">https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</a>.
 </div></div></section></div> ]]></description>
-  <category>Python</category>
-  <category>Test</category>
-  <category>Misc</category>
-  <guid>https://victorouse.github.io/blog/second.html</guid>
-  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Notebook</title>
-  <dc:creator>Victor Roussekov</dc:creator>
-  <link>https://victorouse.github.io/blog/third/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<hr>
-<p>Just testing notebook embedding.</p>
-<div class="quarto-embed-nb-cell">
-<hr>
-<div id="cell-2" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-stdout">
-<pre><code>Hello World!</code></pre>
-</div>
-</div>
-<a class="quarto-notebook-link" id="nblink-1" href="notebook-preview.html#cell-0">Source: Notebook</a></div>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
-  author = {Roussekov, Victor},
-  title = {Third Post},
-  pages = {undefined},
-  date = {2023-09-15},
-  url = {https://victorouse.github.io/blog/third},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
-Roussekov, Victor. 2023. <span>“Third Post.”</span> September 15, 2023.
-<a href="https://victorouse.github.io/blog/third">https://victorouse.github.io/blog/third</a>.
-</div></div></section></div> ]]></description>
-  <category>Python</category>
+  <category>LLMs</category>
+  <category>Exploring LLMs</category>
   <category>Notebook</category>
-  <guid>https://victorouse.github.io/blog/third/index.html</guid>
-  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+  <guid>https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</guid>
+  <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
