@@ -12,6 +12,10 @@ about:
   image: images/me.png
   image-shape: round
   links:
+    - icon: file-earmark
+      href: resume.qmd
+      text: "Resume"
+
     - icon: github
       href: https://github.com/victorouse
       text: "Github"
@@ -39,7 +43,7 @@ format:
     toc: false
 ---
 
-::: {#about-me}
+::: {#about-me .text-center}
 Hello 👋
 :::
 

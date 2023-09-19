@@ -1,0 +1,48 @@
+\let\paragraph\oldparagraph
+\let\subparagraph\oldsubparagraph
+
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+
+\definecolor{links}{HTML}{2f3f8b}
+\definecolor{buttoncolor}{HTML}{686d71}
+\definecolor{hrcolor}{HTML}{dee2e6}
+
+\newcommand{\cvhr}{\vspace{-1.1em}\textcolor{hrcolor}{\rule{\linewidth}{0.01em}}}
+\newcommand{\cvsep}{\quad\textbar\quad}
+\newcommand{\cvsubsection}[3]{
+	\subsection{\href{#2}{#1} \hfill \textit{#3}}
+}
+\newcommand{\cvsubsubsection}[2]{
+	\subsubsection{\textit{#1} \hfill \textit{#2}}
+}
+\newcommand{\cvsubsubsectionedu}[3]{
+	\subsubsection{
+		{#1}\vspace{0.4em} \\
+		\normalfont{\textit{#2}} \hfill \normalfont{\textit{#3}}
+	}
+}
+
+\newcommand{\button}[2]{%
+	\begin{tcolorbox}[
+			hbox,
+			colback=white,
+			colframe=buttoncolor,
+			boxrule=0.6pt,
+			arc=2pt,
+			auto outer arc,
+			boxsep=1pt,
+			left=8pt,
+			right=8pt,
+			top=4pt,
+			bottom=4pt,
+			halign=center,
+			valign=center,
+			nobeforeafter
+		]
+		\href{#1}{\color{buttoncolor}\ttfamily\small{#2}}
+	\end{tcolorbox}%
+}

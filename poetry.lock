@@ -1904,6 +1904,18 @@ files = [
 ]
 
 [[package]]
+name = "pytinytex"
+version = "0.3.3"
+description = "Thin wrapper for \"TinyTeX\" (MIT)"
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+files = [
+    {file = "pytinytex-0.3.3-py3-none-any.whl", hash = "sha256:a68015dfa9f53add74b8d7d69c077e220a45c407f67165452b23583824ad37ce"},
+    {file = "pytinytex-0.3.3.tar.gz", hash = "sha256:c962c224e55b70e557a5dccbb7f353d6970d32ab68283b90810c70ec8d7b3eaa"},
+]
+
+[[package]]
 name = "pywin32"
 version = "306"
 description = "Python for Window Extensions"
@@ -2620,4 +2632,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9e9d74fbe3a0246458a40cc9c4690358cc5bb385b5cf868746af93721ee223ec"
+content-hash = "5b433be195592ba345653d0618eea304f8a48e499707602e112615e8e8048c12"

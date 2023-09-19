@@ -1,0 +1,14 @@
+{
+  "hash": "4a280d4ed9b065ba3873b60e4d919355",
+  "result": {
+    "markdown": "---\nauthor: David Schoch\ntitle: R Developer\nformat:\n  classic-cv-pdf: default\ncvfooter:\n  left: \"mr.schochastics.net\"\n  right: \"github.com/schochastics\"\ncvcolor: 58748F #without `#`\ncvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa\ncvmeta:\n  - title: Status\n    left: Team Lead for Transparent Social Analytics, GESIS\n    right: Cologne, Germany\n  - title: Field\n    left: Software Engineering, Data Science\n    right: mr.schochastics.net\n  - title: Techs\n    left: R, bash, Python, javascript, Lua\n    right: david@schochastics.net\nexecute:\n  echo: false\n---\n\n::: {.cell}\n\n:::\n\n\n# Summary\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n# Experience\n\n\n\n\\cvevent{Mar. 2022 - Present}{Team Lead}{GESIS - Leibniz Institute for the Social Sciences}{{Coordination of a project to build an Open Science platform with reusable code and tutorials},{Research on Open Science Practices},{Implementation of tools to enhance reproducibility and facilitate research with digital data in R}}\n\\cvevent{Sep. 2018 - Feb. 2022}{Presidential Fellow}{University of Manchester}{{Research on Disinformation on Social Media},{Analyses of large scale and unstructured data sets with R, Python and Bash}}\n\\cvevent{Nov. 2017 - Aug. 2018}{Post Doctoral Researcher}{ETH Zurich}{{Developing new methods to analyze social networks},{Implementing methods in libraries},{Gathering and analyzing large datsets from Social Media APIs}}\n\\cvevent{Oct. 2015 - Oct. 2017}{Post Doctoral Researcher}{University of Konstanz}{{Developing new methods to analyze social networks},{Implementing methods in libraries},{Webscraping and harmonizing a large corpus of football data}}\n\\cvevent{Nov. 2012 - Sep. 2015}{Ph.D. Candidate}{University of Konstanz}{{Developing new methods to analyze social networks},{Implementing methods in libraries}}\n\n\n# Education\n\n\n\\cvevent{Nov. 2012 - Sep. 2015}{Ph.D. in Computer Science}{Konstanz, Germany}{{Thesis: A Positional Approach for Network Centrality},{Developed and implemented new methods to assess network centrality}}\n\\cvevent{Sep. 2006 - Jul. 2012}{Diploma in Business Mathematics}{Karlsruhe, Germany}{{Thesis: Modularity Maximization},{Implementation and comparison of different clustering algorithms using Matlab}}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

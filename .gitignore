@@ -1,5 +1,9 @@
 /.quarto/
 /_site/
 /docs/
+/renv/library/
 
 .DS_Store
+*.aux
+*.log
+*.out

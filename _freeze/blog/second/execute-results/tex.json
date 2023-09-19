@@ -1,0 +1,10 @@
+{
+  "hash": "925451b8ca6ff771cb8cacddf2316dcd",
+  "result": {
+    "markdown": "---\ntitle: Second Post\ndescription: |\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit congue. Fusce cursus dictum tellus, at efficitur velit luctus nec.\ndate: 9/16/2023\ncategories:\n  - Python\n  - Test\n  - Misc\nformat:\n  html:\n    code-fold: true\n---\n\nJust testing again, look at @fig-1.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 4 * np.pi * r + 10\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![A caption](second_files/figure-pdf/fig-1-output-1.pdf){#fig-1 fig-pos='H'}\n:::\n:::\n\n\n# Heading 1\n\nTODO\n\n\n## Heading 2\n\nTODO\n\n# Something else\n\nTODO\n\n",
+    "supporting": [
+      "second_files/figure-pdf"
+    ],
+    "filters": []
+  }
+}

@@ -3,6 +3,7 @@ $web-font-path: false;  // disable Google Fonts
 $font-family-sans-serif: "Latin Modern";
 $font-family-monospace: "Latin Modern";
 $bs-body-font-family: "Latin Modern";
+$link-color: #2f3f8b;
 
 /*-- scss:rules --*/
 .quarto-category,
@@ -30,7 +31,7 @@ summary,
 }
 
 .about-sep {
-  visibility: hidden;
+  display: none;
 }
 
 .quarto-post > .body > p:first-of-type {

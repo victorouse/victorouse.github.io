@@ -1,0 +1,194 @@
+---
+title: Victor Roussekov
+
+navbar: false
+sidebar: false
+comments: false
+back-to-top-navigation: true
+
+format-links: [pdf]
+css: resume.css
+
+execute:
+  echo: false
+
+about:
+  id: about-me
+  template: jolla
+  links:
+    - icon: github
+      href: https://github.com/victorouse
+      text: "Github"
+
+    - icon: linkedin
+      href: https://linkedin.com/in/victorouse
+      text: "LinkedIn"
+
+    - icon: twitter
+      href: https://twitter.com/victorouse
+      text: "Twitter"
+
+format:
+  html:
+    toc: true
+  pdf:
+    title: \Huge\textbf{Victor Roussekov}
+    toc: false
+    fontsize: '16'
+    fontfamily: lmodern
+    linkcolor: links
+    urlcolor: links
+    documentclass: article
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
+      - heightrounded
+    include-in-header: 
+      - "header.tex"
+    include-before-body:
+      text: |
+        \vspace{-5.5em}
+        \begin{center}
+          \button{https://www.github.com/victorouse}{\raisebox{-0.1\height}{\faIcon{github}} / victorouse} \hspace{0.25em}
+          \button{https://www.linkedin.com/in/victorouse}{\raisebox{-0.1\height}{\faIcon{linkedin}} / victorouse} \hspace{0.25em}
+          \button{https://www.x.com/victorouse}{\raisebox{-0.1\height}{\faIcon{twitter}} / victorouse} \\
+          \vspace{1em}
+          \button{https://victorouse.github.io}{\raisebox{-0.1\height}{\faIcon{home}} / www.victorouse.sh} \hspace{0.25em}
+        \end{center}
+---
+
+::: {#about-me}
+:::
+
+
+## SUMMARY
+\cvhr
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
+pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit
+amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien
+et ligula ullamcorper malesuada.
+
+
+## WORK EXPERIENCE
+\cvhr
+
+\cvsubsection{Spaceship Financial Services}{https://www.spaceship.com.au}{(5+ years)}
+\cvsubsubsection{Data Engineer}{Jan 2021 -- Present}
+
+::: {.content-visible when-format="html"}
+### [Spaceship Financial Services](https://www.spaceship.com.au)[(5+ years)]{.cvdate}
+***Data Engineer***[***Jan 2021 -- Present***]{.cvdate}
+:::
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
+pellentesque sit amet porttitor.
+
+- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
+  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
+  in arcu cursus.
+
+- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
+  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
+  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
+
+- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
+  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
+  posuere finibus.
+
+
+\cvsubsubsection{Senior Software Engineer}{Jan 2020 -- Jan 2021}
+
+::: {.content-visible when-format="html"}
+***Senior Software Engineer***[***Jan 2020 -- Jan 2021***]{.cvdate} 
+:::
+
+- Nulla nunc mi, condimentum at fermentum a, vestibulum vitae ex. Proin at
+  lorem ut tellus commodo mattis nec et ante. Donec luctus in urna eget
+  fringilla. Aliquam nec dui nibh. Aenean mollis nisl at libero venenatis
+  placerat.
+
+- Sed tincidunt lacus vel dolor auctor, ut mattis risus mollis. Phasellus
+  malesuada commodo velit in facilisis. In volutpat porttitor lobortis.
+  ex lacinia orci.
+
+- Morbi in purus in ex congue cursus ut sed elit. In aliquam imperdiet lacus,
+  ac facilisis velit accumsan sit amet. Integer bibendum bibendum turpis, a
+  elementum eros commodo a.
+
+
+\cvsubsubsection{Software Engineer}{Dec 2018 -- Jan 2020}
+
+::: {.content-visible when-format="html"}
+***Software Engineer***[***Dec 2018 -- Jan 2020***]{.cvdate} 
+:::
+
+- Etiam pulvinar mattis pulvinar. Donec id pulvinar metus. Suspendisse
+  facilisis eros eget velit fermentum, eu interdum nisi laoreet. Phasellus in
+  eleifend ex. Vivamus eu tortor mollis, condimentum ex et, posuere risus.
+
+- Ut sagittis neque id sapien semper auctor. Proin rhoncus massa sed nibh
+  posuere pulvinar. Curabitur vel neque lacinia risus dapibus pharetra lacinia
+  in augue. Sed tortor urna, consequat at porta nec, convallis sit amet ipsum. 
+
+
+\pagebreak
+
+
+\cvsubsection{Spitfire Corportation}{https://www.spitfire.io}{(1.5 years)}
+\cvsubsubsection{Software Engineer}{Jun 2017 -- Nov 2018}
+
+::: {.content-visible when-format="html"}
+### [Spitfire Corportation](https://www.spitfire.io)[(1.5 years)]{.cvdate}
+***Software Engineer***[***Jun 2017 -- Nov 2018***]{.cvdate}
+:::
+
+- Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
+  dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
+  odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non
+  pellentesque nulla tortor sit amet metus.
+
+- Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum
+  pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat
+  est orci, sit amet eleifend augue pellentesque et.
+
+- Aenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac
+  aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta
+  luctus a felis.
+
+
+## EDUCATION{style="page-break-before: always"}
+\cvhr
+
+\cvsubsubsectionedu{Bachelor of Information Technology (Honours)}{University of Queensland}{2014 -- 2015}
+
+::: {.content-visible when-format="html"}
+**Bachelor of Information Technology (Honours)** <br> *University of Queensland* [*2014 --- 2015*]{.cvdate}
+:::
+
+- Completed research thesis on [Context Aware Video Retrieval](https://example.com)
+
+- Received Prentice Scholar award for high achievement
+
+
+\cvsubsubsectionedu{Bachelor of Information Technology}{University of Queensland}{2011 -- 2013}
+
+::: {.content-visible when-format="html"}
+**Bachelor of Information Technology** <br> *University of Queensland* [*2011 --- 2013*]{.cvdate}
+:::
+
+- Graduated with First Class Honours, and inclusion on Dean's Honours List
+
+- Grade Point Average: 6.7 / 7.0
+
+
+## REFERENCES
+\cvhr
+
+:::{.text-center}
+Available upon request.
+:::
