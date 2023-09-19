@@ -23,15 +23,23 @@ about:
   links:
     - icon: github
       href: https://github.com/victorouse
+      target: _blank
       text: Github
 
     - icon: linkedin
       href: https://linkedin.com/in/victorouse
+      target: _blank
       text: LinkedIn
 
     - icon: twitter
       href: https://twitter.com/victorouse
+      target: _blank
       text: Twitter
+
+    - icon: file-pdf-fill
+      href: resume.pdf
+      target: _blank
+      text: Download
 
 format:
   html:
