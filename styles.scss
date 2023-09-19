@@ -21,6 +21,50 @@ summary,
   font-weight: 400;
 }
 
+.animate__duration-100ms {
+  --animate-duration: 100ms;
+}
+
+.animate__duration-200ms {
+  --animate-duration: 200ms;
+}
+
+.animate__duration-300ms {
+  --animate-duration: 300ms;
+}
+
+.animate__duration-400ms {
+  --animate-duration: 400ms;
+}
+
+.animate__duration-800ms {
+  --animate-duration: 800ms;
+}
+
+.animate__duration-900ms {
+  --animate-duration: 900ms;
+}
+
+.animate__delay-100ms {
+  --animate-delay: 100ms;
+}
+
+.animate__delay-200ms {
+  --animate-delay: 200ms;
+}
+
+.animate__delay-300ms {
+  --animate-delay: 300ms;
+}
+
+.animate__delay-400ms {
+  --animate-delay: 400ms;
+}
+
+.animate__delay-800ms {
+  --animate-delay: 800ms;
+}
+
 #quarto-margin-sidebar {
   top: 70px !important;
 }

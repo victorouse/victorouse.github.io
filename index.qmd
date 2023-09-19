@@ -1,5 +1,6 @@
 ---
-title: Victor Roussekov
+title: '{{< animate fadeInDown "Victor Roussekov" duration="1s" >}}'
+
 
 navbar: false
 sidebar: false
@@ -29,7 +30,10 @@ about:
       text: Twitter
 
 listing:
-  contents: blog/!(index)
+  contents:
+    - blog/**/*.qmd
+    - "!blog/index.qmd"
+    - "!blog/**/*.ipynb"
   type: default
   sort-ui: true
   filter-ui: true
@@ -43,7 +47,7 @@ format:
     toc: false
 ---
 
-::: {#about-me .text-center}
+::: {#about-me .text-center .animate__animated .animate__fadeInUp .animate__delay-800ms .animate__duration-800ms}
 Hello 👋
 :::
 
@@ -59,3 +63,4 @@ Hello 👋
 ::::
 
 :::::
+
