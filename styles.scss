@@ -14,11 +14,19 @@ $link-color: #2f3f8b;
 .toc-actions,
 .quarto-listing-filter,
 .listing-category,
+.listing-author,
+.listing-date,
 .sourceCode,
 summary,
 .about-link-text {
   font-family: monospace;
   font-weight: 400;
+}
+
+.listing-title {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.5em !important;
 }
 
 .animate__duration-100ms {

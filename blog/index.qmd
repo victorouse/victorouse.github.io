@@ -5,7 +5,9 @@ comments: false
 
 listing:
   contents: ./**/*
-  type: default
+  type: grid
+  grid-columns: 1
+  image-placeholder: https://picsum.photos/seed/picsum/1920/1080?grayscale
   categories: true
   sort-ui: true
   filter-ui: true

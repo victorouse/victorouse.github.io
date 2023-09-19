@@ -37,7 +37,10 @@ listing:
     - blog/**/*.qmd
     - "!blog/index.qmd"
     - "!blog/**/*.ipynb"
-  type: default
+  type: grid
+  grid-columns: 1
+  image-height: 200px
+  image-placeholder: https://picsum.photos/seed/picsum/1920/1080?grayscale
   sort-ui: true
   filter-ui: true
   feed: true
