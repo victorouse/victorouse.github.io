@@ -50,7 +50,7 @@ format:
     toc: false
 
 website:
-  title: ""
+  title: ∞
 ---
 
 ::: {#about-me .text-center .animate__animated .animate__fadeInUp .animate__delay-800ms .animate__duration-800ms}
