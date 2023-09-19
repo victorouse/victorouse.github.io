@@ -1,18 +1,16 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/blog/second.html",
       "/blog/first.html",
-      "/blog/third.html"
+      "/blog/second.html"
     ]
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/index.html",
     "items": [
-      "/blog/second.html",
       "/blog/first.html",
-      "/blog/third.html"
+      "/blog/second.html"
     ]
   }
 ]

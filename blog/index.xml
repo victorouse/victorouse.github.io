@@ -10,7 +10,109 @@
 <atom:link href="https://victorouse.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog and resume</description>
 <generator>quarto-1.4.373</generator>
-<lastBuildDate>Sat, 16 Sep 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 15 Sep 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>First Post</title>
+  <link>https://victorouse.github.io/blog/first.html</link>
+  <description><![CDATA[ 
+
+
+
+<hr>
+<p>Just testing.</p>
+<div id="cell-fig-polar" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-3"></span>
+<span id="cb1-4">r <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.01</span>)</span>
+<span id="cb1-5">theta <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.pi <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> r</span>
+<span id="cb1-6">fig, ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots(</span>
+<span id="cb1-7">  subplot_kw <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'projection'</span>: <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'polar'</span>} </span>
+<span id="cb1-8">)</span>
+<span id="cb1-9">ax.plot(theta, r)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb1-10">ax.set_rticks([<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>])<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb1-11">ax.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb1-12">plt.show()</span></code></pre></div>
+<div class="cell-output cell-output-display">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://victorouse.github.io/blog/first_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
+</div>
+<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A line plot on a polar axis
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{2023,
+  author = {},
+  title = {First {Post}},
+  pages = {undefined},
+  date = {2023-09-15},
+  url = {https://victorouse.github.io/blog/first.html},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas">
+<span>“First Post.”</span> 2023. September 15, 2023. <a href="https://victorouse.github.io/blog/first.html">https://victorouse.github.io/blog/first.html</a>.
+</div></div></section></div> ]]></description>
+  <category>Python</category>
+  <category>Test</category>
+  <guid>https://victorouse.github.io/blog/first.html</guid>
+  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Second Post</title>
   <link>https://victorouse.github.io/blog/second.html</link>
@@ -18,10 +120,9 @@
 
 
 
+<hr>
 <p>Just testing again, look at Figure&nbsp;1.</p>
-<div id="cell-fig-1" class="cell" data-execution_count="1">
-<details>
-<summary>Code</summary>
+<div id="cell-fig-polar" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
@@ -86,15 +187,14 @@ font-style: inherit;">True</span>)<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb1-12">plt.show()</span></code></pre></div>
-</details>
 <div class="cell-output cell-output-display">
-<div id="fig-1" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://victorouse.github.io/blog/second_files/figure-html/fig-1-output-1.png" width="450" height="439" class="figure-img">
+<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://victorouse.github.io/blog/second_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A caption
+<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A line plot on a polar axis
 </figcaption>
 </figure>
 </div>
@@ -115,119 +215,21 @@ Figure&nbsp;1: A caption
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{2023,
+  author = {},
+  title = {Second {Post}},
+  pages = {undefined},
+  date = {2023-09-15},
+  url = {https://victorouse.github.io/blog/second.html},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas">
+<span>“Second Post.”</span> 2023. September 15, 2023. <a href="https://victorouse.github.io/blog/second.html">https://victorouse.github.io/blog/second.html</a>.
+</div></div></section></div> ]]></description>
   <category>Python</category>
   <category>Test</category>
   <category>Misc</category>
   <guid>https://victorouse.github.io/blog/second.html</guid>
-  <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>First Post</title>
-  <link>https://victorouse.github.io/blog/first.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Just testing.</p>
-<div id="cell-fig-polar" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> np</span>
-<span id="cb1-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> plt</span>
-<span id="cb1-3"></span>
-<span id="cb1-4">r <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.01</span>)</span>
-<span id="cb1-5">theta <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> np.pi <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> r</span>
-<span id="cb1-6">fig, ax <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> plt.subplots(</span>
-<span id="cb1-7">  subplot_kw <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'projection'</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'polar'</span>} </span>
-<span id="cb1-8">)</span>
-<span id="cb1-9">ax.plot(theta, r)<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-10">ax.set_rticks([<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.5</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1.5</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>])<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-11">ax.grid(<span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">;</span></span>
-<span id="cb1-12">plt.show()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" width="450" height="439">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://victorouse.github.io/blog/first_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
-</div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A line plot on a polar axis
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Python</category>
-  <category>Test</category>
-  <guid>https://victorouse.github.io/blog/first.html</guid>
-  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Third Post</title>
-  <link>https://victorouse.github.io/blog/third.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Just testing.</p>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Python</category>
-  <category>Test</category>
-  <guid>https://victorouse.github.io/blog/third.html</guid>
   <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
