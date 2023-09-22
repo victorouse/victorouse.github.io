@@ -90,9 +90,9 @@ format:
             \raisebox{-0.1\height}{\faHome} %
             / victorouse.zip
           } \hspace{0.25em}%
-          \button{mailto:victorouse@gmail.com}{%
+          \button{mailto:me@victorouse.zip}{%
             \raisebox{-0.1\height}{\faAt} %
-             / victorouse@gmail.com
+             / me@victorouse.zip
           } \hspace{0.25em}%
           \button{https://maps.app.goo.gl/Fs8dKU69NkhaoBTHA}{%
             \raisebox{-0.1\height}{\faMapMarker*} %
