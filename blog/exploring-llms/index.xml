@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Victor Roussekov</title>
-<link>https://victorouse.github.io/blog/exploring-llms/index.html</link>
-<atom:link href="https://victorouse.github.io/blog/exploring-llms/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://victorouse.zip/blog/exploring-llms/index.html</link>
+<atom:link href="https://victorouse.zip/blog/exploring-llms/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog and resume</description>
-<generator>quarto-1.4.373</generator>
+<generator>quarto-1.4.376</generator>
 <lastBuildDate>Tue, 19 Sep 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Part 1: Introduction to LLMs</title>
   <dc:creator>Victor Roussekov</dc:creator>
-  <link>https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</link>
+  <link>https://victorouse.zip/blog/exploring-llms/introduction-to-llms/index.html</link>
   <description><![CDATA[ 
 
 
@@ -39,23 +39,23 @@
   title = {Part 1: {Introduction} to {LLMs}},
   pages = {undefined},
   date = {2023-09-19},
-  url = {https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html},
+  url = {https://victorouse.zip/blog/exploring-llms/introduction-to-llms},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
 Roussekov, Victor. 2023. <span>“Part 1: Introduction to LLMs.”</span>
-September 19, 2023. <a href="https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html">https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</a>.
+September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/introduction-to-llms">https://victorouse.zip/blog/exploring-llms/introduction-to-llms</a>.
 </div></div></section></div> ]]></description>
   <category>LLMs</category>
   <category>Exploring LLMs</category>
   <category>Notebook</category>
-  <guid>https://victorouse.github.io/blog/exploring-llms/1-introduction-to-llms.html</guid>
+  <guid>https://victorouse.zip/blog/exploring-llms/introduction-to-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Part 2: Open Source LLMs</title>
   <dc:creator>Victor Roussekov</dc:creator>
-  <link>https://victorouse.github.io/blog/exploring-llms/2-open-source-llms/index.html</link>
+  <link>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</link>
   <description><![CDATA[ 
 
 
@@ -160,16 +160,16 @@ font-style: inherit;">'OpenAI is good'</span>))</span></code></pre></div>
   title = {Part 2: {Open} {Source} {LLMs}},
   pages = {undefined},
   date = {2023-09-19},
-  url = {https://victorouse.github.io/blog/exploring-llms/2-open-source-llms},
+  url = {https://victorouse.zip/blog/exploring-llms/2-open-source-llms},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
 Roussekov, Victor. 2023. <span>“Part 2: Open Source LLMs.”</span>
-September 19, 2023. <a href="https://victorouse.github.io/blog/exploring-llms/2-open-source-llms">https://victorouse.github.io/blog/exploring-llms/2-open-source-llms</a>.
+September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-source-llms">https://victorouse.zip/blog/exploring-llms/2-open-source-llms</a>.
 </div></div></section></div> ]]></description>
   <category>Python</category>
   <category>Notebook</category>
-  <guid>https://victorouse.github.io/blog/exploring-llms/2-open-source-llms/index.html</guid>
+  <guid>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
