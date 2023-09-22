@@ -1,7 +1,7 @@
 {
   "hash": "0542ad4209b80699cd4eada50aa1a98e",
   "result": {
-    "markdown": "---\ntitle: Third post\nauthor: Victor Roussekov\ndescription: |\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit. Fusce cursus dictum tellus, at efficitur velit luctus nec.\ndate: '2023-09-15'\ndate-modified: last-modified\ncategories:\n  - Python\n  - Notebook\ncitation: true\nshare:\n  permalink: 'https://victorouse.github.io/blog/third'\n  description: \"What he said \\U0001F449\"\n  twitter: true\n  reddit: true\n  linkedin: true\n  email: true\n  mastodon: true\n---\n\n---\n\nJust testing notebook embedding.\n\n\n{{< embed notebook.ipynb >}}\n\n",
+    "markdown": "---\ntitle: Third post\nauthor: Victor Roussekov\ndescription: |\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper varius condimentum. Nam consequat, justo ac egestas tincidunt, enim ipsum blandit justo, eu interdum tellus justo at metus. Nulla dapibus enim at suscipit. Fusce cursus dictum tellus, at efficitur velit luctus nec.\ndate: '2023-09-15'\ndate-modified: last-modified\ncategories:\n  - Python\n  - Notebook\ncitation: true\nshare:\n  permalink: 'https://victorouse.zip/blog/third'\n  description: \"What he said \\U0001F449\"\n  twitter: true\n  reddit: true\n  linkedin: true\n  email: true\n  mastodon: true\n---\n\n---\n\nJust testing notebook embedding.\n\n\n{{< embed notebook.ipynb >}}\n\n",
     "supporting": [
       "index_files"
     ],

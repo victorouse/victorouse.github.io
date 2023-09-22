@@ -17,7 +17,7 @@ listing:
     - title asc
 
 share:
-  permalink: https://victorouse.github.io/blog/exploring-llms
+  permalink: https://victorouse.zip/blog/exploring-llms
   description: What he said 👉
   twitter: true
   reddit: true

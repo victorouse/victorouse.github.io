@@ -12,7 +12,7 @@ about:
   image-shape: round
   links:
     - icon: file-earmark-text-fill
-      href: resume.qmd
+      href: resume
       text: Resume
 
     - icon: github
@@ -55,14 +55,19 @@ website:
 ---
 
 ::: {#about-me .text-center .animate__animated .animate__fadeInUp .animate__delay-800ms .animate__duration-800ms}
-Hello 👋
+
+👋
+<br>
+Data Engineer at [Spaceship](https://www.spaceship.com.au).
+<br>Currently located in Sydney, Australia.
+
 :::
 
 :::::{.grid}
 
 ::::{.g-col-12}
 
-## Latest Posts[[Blog →](/blog)]{.float-right .no-underline .text-black}
+## Latest Posts[[Blog →](./blog)]{.float-right .no-underline .text-black}
 
 :::{#landing-posts}
 :::

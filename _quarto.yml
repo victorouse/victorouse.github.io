@@ -27,7 +27,7 @@ website:
   back-to-top-navigation: true
   repo-actions: [issue]
 
-  site-url: https://victorouse.github.io
+  site-url: https://victorouse.zip
   repo-url: https://github.com/victorouse/victorouse.github.io
 
   bread-crumbs: true
@@ -56,12 +56,15 @@ website:
       - icon: github
         href: https://github.com/victorouse
         text: Github
+
       - icon: linkedin
         href: https://linkedin.com/in/victorouse
         text: LinkedIn
+
       - icon: twitter
         href: https://twitter.com/victorouse
         text: Twitter
+
       - icon: rss
         href: index.xml
         text: RSS
@@ -72,8 +75,10 @@ website:
       contents:
         - text: Home
           href: index.qmd
+
         - text: Resume
-          href: resume.qmd
+          href: resume
+
         - section: Blog
           href: blog/index.qmd
           contents: blog/**/*
@@ -98,15 +103,11 @@ format:
     code-copy: true
     code-overflow: wrap
     code-block-background: true
-    # grid:
-    #   sidebar-width: 250px
-    #   body-width: 900px
-    #   margin-width: 300px
 
     filters:
       - social-share
     share:
-      permalink: "https://victorouse.github.io"
+      permalink: "https://victorouse.zip"
       description: "I'm with stoopid 👉"
       twitter: true
       reddit: true

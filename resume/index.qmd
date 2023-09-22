@@ -6,17 +6,16 @@ navbar: false
 sidebar: true
 comments: false
 back-to-top-navigation: true
-
 page-navigation: false
 
-format-links: [pdf]
 css: resume.css
+format-links: [pdf]
 
 execute:
   echo: false
 
 share:
-  permalink: https://victorouse.github.io/resume
+  permalink: https://victorouse.zip/resume
   description: Hire this guy 👉
   twitter: true
   reddit: true
@@ -27,7 +26,7 @@ share:
 about:
   id: about-me
   template: jolla
-  image: images/me.png
+  image: ../images/me.png
   image-shape: round
   links:
     - icon: github
@@ -46,7 +45,7 @@ about:
       text: Twitter
 
     - icon: file-pdf-fill
-      href: resume.pdf
+      href: resume/index.pdf
       target: _blank
       text: Download
 
@@ -87,9 +86,9 @@ format:
             / victorouse
           } \\
           \vspace{0.5em}%
-          \button{https://victorouse.github.io}{%
+          \button{https://victorouse.zip}{%
             \raisebox{-0.1\height}{\faHome} %
-            / victorouse.github.io
+            / victorouse.zip
           } \hspace{0.25em}%
           \button{mailto:victorouse@gmail.com}{%
             \raisebox{-0.1\height}{\faAt} %

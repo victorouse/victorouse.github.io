@@ -1,9 +1,9 @@
 {
-  "hash": "90b9882125f35c07016a225ae2fcdf58",
+  "hash": "22c5530a9dc510fa8e39dc0ed6350b63",
   "result": {
     "markdown": "---\ntitle: 'Part 1: Introduction to LLMs'\nauthor: Victor Roussekov\ndate: '2023-09-19'\ndate-modified: last-modified\ncategories:\n  - LLMs\n  - Exploring LLMs\n  - Notebook\ncitation: true\nshare:\n  permalink: 'https://victorouse.zip/blog/exploring-llms/part-one'\n  description: \"What he said \\U0001F449\"\n  twitter: true\n  reddit: true\n  linkedin: true\n  email: true\n  mastodon: true\nnotebook-view:\n  - notebook: notebook.ipynb\n    title: Introduction to LLMs\n    url: 'https://colab.research.google.com/drive/193qSooh6sV5dPtGAhNwT_K7Q_11iJJvh'\n---\n\n---\n\n### What are Large Language Models?\n\nLarge Language Models (LLMs) are neural networks that can generate output such\nas text, images, etc. Each model has its own applied methodology, reflected in\nhow the neural network is configured.\n\nTo use neural networks, they must first be \"trained\". The training process\ninvolves passing \"training\" data through the network and evaluating the output\nagainst a \"validation\" or \"testing\" set.\n\nThis process adjusts the model \"weights\" along the way, and once the training\nprocess is finished, the resulting weights can be distributed for use.\n\nThe resulting weights are generally referred to as \"pre-trained\" models that\nare distributed in a format that can be \"loaded\" into a model.\n\nThere are many different types of models, from OpenAI's proprietary GPT models\n(GPT3, GTP3.5, GTP4), to open source models like Meta's\n[Llama2](https://ai.meta.com/llama/).\n\nThere are many open sources models that can be downloaded from a model artefact\nrepository called [HuggingFace](https://huggingface.co/). You can think of\nHuggingFace like the DockerHub for LLMs.\n\nThere are also platforms that offer LLM hosting services, such as\n[Replicate](https://replicate.com/), which host these LLM models on the cloud\nfor you, meaning you don't have to run them on your own hardware.\n\nIt is still possible to run LLMs on consumer hardware, and a MacBook should be\nable to at least run small-to-medium sized models within reasonable timeframes.\n\n",
     "supporting": [
-      "1-introduction-to-llms_files"
+      "index_files"
     ],
     "filters": [],
     "includes": {}

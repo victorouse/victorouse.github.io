@@ -7,7 +7,7 @@ categories: [LLMs, Exploring LLMs, Notebook]
 citation: true
 
 share:
-  permalink: https://victorouse.github.io/blog/exploring-llms/part-one
+  permalink: https://victorouse.zip/blog/exploring-llms/part-one
   description: What he said 👉
   twitter: true
   reddit: true

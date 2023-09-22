@@ -1,7 +1,7 @@
 {
   "hash": "eec13cd0c034b74c7fd7a7d474d8f63a",
   "result": {
-    "markdown": "---\ntitle: Introduction to LLMs\nauthor: Victor Roussekov\ndescription: |\n  A brief introduction to what Large Language Models concretely are, how they are implemented, and how they (specifically, open source LLMs) are distributed for use.\ndate: '2023-09-19'\ndate-modified: last-modified\ncategories:\n  - LLMs\n  - Exploring LLMs\n  - Notebook\ncitation: true\nshare:\n  permalink: 'https://victorouse.github.io/blog/exploring-llms/part-one'\n  description: \"What he said \\U0001F449\"\n  twitter: true\n  reddit: true\n  linkedin: true\n  email: true\n  mastodon: true\n---\n\n---\n\nJust testing notebook embedding.\n\n\n{{< embed notebook.ipynb >}}\n\n",
+    "markdown": "---\ntitle: Introduction to LLMs\nauthor: Victor Roussekov\ndescription: |\n  A brief introduction to what Large Language Models concretely are, how they are implemented, and how they (specifically, open source LLMs) are distributed for use.\ndate: '2023-09-19'\ndate-modified: last-modified\ncategories:\n  - LLMs\n  - Exploring LLMs\n  - Notebook\ncitation: true\nshare:\n  permalink: 'https://victorouse.zip/blog/exploring-llms/part-one'\n  description: \"What he said \\U0001F449\"\n  twitter: true\n  reddit: true\n  linkedin: true\n  email: true\n  mastodon: true\n---\n\n---\n\nJust testing notebook embedding.\n\n\n{{< embed notebook.ipynb >}}\n\n",
     "supporting": [
       "index_files"
     ],
