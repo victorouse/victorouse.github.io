@@ -14,6 +14,8 @@ $link-color: #2f3f8b;
 .toc-actions,
 .quarto-listing-filter,
 .listing-category,
+.code-tools-button,
+#quarto-embedded-source-code-modal-label,
 .listing-author,
 .listing-date,
 .sourceCode,
@@ -33,6 +35,7 @@ summary,
   background-color: #d5d5d5;
   padding: 1.5em 1.5em 0.1em 1.5em;
   filter: invert(1);
+  margin-bottom: 1.2em;
 }
 
 .content p {
@@ -47,8 +50,8 @@ summary,
   text-align: center !important;
 }
 
-.quarto-title > h1 {
-  margin-bottom: 0.5em !important;
+.quarto-title {
+  margin-bottom: 0.75em !important;
 }
 
 #about-me {

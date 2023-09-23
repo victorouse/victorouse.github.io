@@ -53,6 +53,7 @@ about:
 format:
   html:
     toc: true
+    code-tools: false
   pdf:
     title: \Huge\textbf{Victor Roussekov}
     output-file: victor_roussekov

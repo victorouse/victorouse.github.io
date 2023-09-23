@@ -48,6 +48,7 @@ listing:
 format:
   html:
     toc: false
+    code-tools: false
 ---
 
 ::: {#about-me .text-center}
