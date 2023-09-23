@@ -8,7 +8,8 @@
 <title>Victor Roussekov</title>
 <link>https://victorouse.zip/blog/index.html</link>
 <atom:link href="https://victorouse.zip/blog/index.xml" rel="self" type="application/rss+xml"/>
-<description>Data Engineer at Spaceship. Currently living in Sydney, Australia.</description>
+<description>Writing about data engineering, machine learning, and whatever else comes to mind.
+</description>
 <image>
 <url>https://placehold.co/1600x900/f7f7f7/121212.png?text=Blog&font=playfair-display</url>
 <title>Victor Roussekov</title>
@@ -63,7 +64,7 @@ Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695480075247" data-listing-date-modified-sort="1695480075000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695481959492" data-listing-date-modified-sort="1695481959000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="../../blog/exploring-llms/1-introduction-to-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -85,7 +86,7 @@ Notebook
 </div>
 </div>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/1-introduction-to-llms/index.html -->
+<p>Exploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.</p>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -99,7 +100,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695480075247" data-listing-date-modified-sort="1695480075000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695481959492" data-listing-date-modified-sort="1695481959000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
 <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -118,7 +119,7 @@ Notebook
 </div>
 </div>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/2-open-source-llms/index.html -->
+How to actually download and run open source LLMs.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -132,7 +133,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695480075247" data-listing-date-modified-sort="1695480075000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695481959492" data-listing-date-modified-sort="1695481959000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="../../blog/exploring-llms/3-notebooks/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -151,7 +152,7 @@ Notebook
 </div>
 </div>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/3-notebooks/index.html -->
+How to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU <em>and</em> GPU).
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
