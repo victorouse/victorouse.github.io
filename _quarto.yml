@@ -25,6 +25,7 @@ website:
   twitter-card: 
     title: Victor Roussekov
     description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
+    card-style: summary_large_image
     creator: "@victorouse"
     site: "@victorouse"
 

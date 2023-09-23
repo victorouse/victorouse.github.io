@@ -20,7 +20,7 @@ twitter-card:
     networks to downloading and deploying them.
 
 share:
-  permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms
+  permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms?42069
   description: What he said 👉
   twitter: true
   reddit: true
