@@ -31,7 +31,7 @@
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695471676364" data-listing-date-modified-sort="1695471676000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695472321886" data-listing-date-modified-sort="1695472321000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="../../blog/exploring-llms/1-introduction-to-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -67,7 +67,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1695471676364" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1695472321886" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
 <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/2-open-source-llms/index.html -->
@@ -77,6 +77,26 @@ Part 2: Open Source LLMs
 </h5>
 <div class="card-text listing-description">
 <!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/2-open-source-llms/index.html -->
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1695472321886" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<a href="../../blog/exploring-llms/3-notebooks/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/3-notebooks/index.html -->
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Part 3: Notebooks
+</h5>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/3-notebooks/index.html -->
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -320,7 +340,35 @@ Roussekov, Victor. 2023. <span>“Part 2: Open Source LLMs.”</span>
 September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-source-llms">https://victorouse.zip/blog/exploring-llms/2-open-source-llms</a>.
 </div></div></section></div> ]]></description>
   <guid>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</guid>
-  <pubDate>Sat, 23 Sep 2023 12:23:28 GMT</pubDate>
+  <pubDate>Sat, 23 Sep 2023 12:35:16 GMT</pubDate>
+</item>
+<item>
+  <title>Part 3: Notebooks</title>
+  <link>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/3-notebooks/index.ipynb" target="_parent"><img src="https://victorouse.zip/blog/exploring-llms/3-notebooks/https:/colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+<hr>
+<p>TODO.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
+  author = {Roussekov, Victor},
+  title = {Part 3: {Notebooks}},
+  pages = {undefined},
+  date = {2023-09-23},
+  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
+Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
+2023. <a href="https://victorouse.zip/blog/exploring-llms/3-notebooks">https://victorouse.zip/blog/exploring-llms/3-notebooks</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</guid>
+  <pubDate>Sat, 23 Sep 2023 12:35:16 GMT</pubDate>
 </item>
 </channel>
 </rss>
