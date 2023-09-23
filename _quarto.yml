@@ -5,7 +5,8 @@ project:
     port: 7777
 
 
-pagetitle: victorouse.zip
+pagetitle: "victorouse.zip / {{< zip_title >}}"
+
 
 website:
   title: Victor Roussekov

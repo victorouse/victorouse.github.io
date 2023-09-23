@@ -1,5 +1,6 @@
 ---
-title: '{{< animate fadeInDown "Victor Roussekov" duration="1s" >}}'
+pagetitle: victorouse.zip
+title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
 navbar: false
 sidebar: false
 comments: false
@@ -51,7 +52,7 @@ format:
     toc: false
 ---
 
-::: {#about-me .text-center .animate__animated .animate__fadeInUp .animate__delay-800ms .animate__duration-800ms}
+::: {#about-me .text-center}
 
 👋
 <br>
@@ -72,4 +73,3 @@ Data Engineer at [Spaceship](https://www.spaceship.com.au).
 ::::
 
 :::::
-

@@ -1,5 +1,6 @@
 ---
-title: Victor Roussekov
+pagetitle: victorouse.zip / resume.txt
+title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
 author: ""
 
 navbar: false
@@ -29,6 +30,11 @@ about:
   image: ../images/me.png
   image-shape: round
   links:
+    - icon: file-pdf-fill
+      href: resume/victor_roussekov.pdf
+      target: _blank
+      text: Download
+
     - icon: github
       href: https://github.com/victorouse
       target: _blank
@@ -44,16 +50,13 @@ about:
       target: _blank
       text: Twitter
 
-    - icon: file-pdf-fill
-      href: resume/index.pdf
-      target: _blank
-      text: Download
-
 format:
   html:
     toc: true
   pdf:
     title: \Huge\textbf{Victor Roussekov}
+    output-file: victor_roussekov
+    output-ext: pdf
     toc: false
     fontsize: '16'
     fontfamily: lmodern
@@ -101,9 +104,18 @@ format:
         \end{center}%
 ---
 
-::: {#about-me}
+:::: {.content-visible when-format="html"}
+
+::: {#about-me .text-center}
+
+👋
+<br>
+Data Engineer at [Spaceship](https://www.spaceship.com.au).
+<br>Not actively looking.
+
 :::
 
+::::
 
 ## SUMMARY
 \cvhr
