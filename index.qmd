@@ -1,8 +1,6 @@
 ---
 title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
-
-website:
-  pagetitle: victorouse.zip
+pagetitle: victorouse.zip
 
 navbar: false
 sidebar: false

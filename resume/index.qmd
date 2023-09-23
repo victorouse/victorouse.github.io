@@ -1,10 +1,9 @@
 ---
 title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
+pagetitle: victorouse.zip / resume.txt
 image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Resume&font=playfair-display
 
 website:
-  pagetitle: victorouse.zip / resume.txt
-
   twitter-card:
     title: Victor Roussekov
     creator: "@victorouse"
