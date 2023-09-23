@@ -60,10 +60,12 @@ Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
 
 
 
+<!-- -->
+
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695473534579" data-listing-date-modified-sort="1695473534000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695474445644" data-listing-date-modified-sort="1695474445000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="../../blog/exploring-llms/1-introduction-to-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -99,7 +101,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695473534579" data-listing-date-modified-sort="1695473534000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695474445644" data-listing-date-modified-sort="1695474445000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
 <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -132,7 +134,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695473534579" data-listing-date-modified-sort="1695473534000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695474445644" data-listing-date-modified-sort="1695474445000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="../../blog/exploring-llms/3-notebooks/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -195,6 +197,8 @@ No matching items
 <p>It is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.</p>
 
 
+<!-- -->
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
@@ -234,7 +238,7 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
 <p>The <code>transformers</code> library is able to download and load any model published on the <a href="https://huggingface.co/docs/hub/index">HuggingFace Hub</a>.</p>
 <p>First, we will need to create a HuggingFace Account and login using the HuggingFace CLI.</p>
 <div id="cell-5" class="cell" data-outputid="a8175e8e-dddf-40ca-95fa-2875f67df5fd" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install huggingface_hub</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -253,7 +257,7 @@ Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.1
 </div>
 </div>
 <div id="cell-6" class="cell" data-outputid="2c527e29-9819-45c0-cc3a-518d0417b183" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>huggingface<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -279,7 +283,7 @@ Login successful</code></pre>
 <p>After we’ve logged in, we now have access to all the <code>transformers</code> <a href="https://huggingface.co/models?library=transformers&amp;sort=downloads">models</a> on HuggingFace.</p>
 <p>We can now pick a model, and use the <code>pipeline</code> function from the <code>transformers</code> library to download and load our model.</p>
 <div id="cell-8" class="cell" data-outputid="a7726761-ed0c-4a19-aff4-7684d6bccffb" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install transformers</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -303,7 +307,7 @@ Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.1
 </div>
 </div>
 <div id="cell-9" class="cell" data-outputid="a271bdee-f23a-4b7d-9e5a-aac00192dda7" data-execution_count="11">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="im" style="color: #00769E;
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> transformers <span class="im" style="color: #00769E;
 background-color: null;
@@ -337,12 +341,12 @@ Using a pipeline without specifying a model name and revision in production is n
 <p>Tasks in this context refer to common Natrual Language Processing (NLP) tasks, with <code>sentiment-analysis</code> being one of them.</p>
 <p>Each task has it’s own string identifier, i.e.&nbsp;<code>sentiment-analysis</code> and a default model that is used for the task.</p>
 <p>This is why we observed the following output from the previous step:</p>
-<pre class="shell"><code>No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).</code></pre>
+<div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1">No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).</span></code></pre></div>
 <p>We can see that the task is using the <a href="https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english">distilbert-base-uncased-finetuned-sst-2-english</a> model downloaded from HuggingFace.</p>
 <p>We can specify an alternative model, such as the <a href="https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis">finiteautomata/bertweet-base-sentiment-analysis</a> model by providing a <code>model</code> argument to the <code>pipeline</code> function:</p>
 <hr>
 <div id="cell-12" class="cell" data-outputid="e07955ba-81a0-46ff-8881-dc82f6339531" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install emoji</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -350,7 +354,7 @@ font-style: inherit;">!</span>pip install emoji</span></code></pre></div>
 </div>
 </div>
 <div id="cell-13" class="cell" data-outputid="f0aeb384-936f-48a5-fd88-973d21499fc3" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="co" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># This classifier is trained on Tweets!</span></span>
 <span id="cb13-2">classifier <span class="op" style="color: #5E5E5E;

@@ -283,7 +283,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 <p>The <code>transformers</code> library is able to download and load any model published on the <a href="https://huggingface.co/docs/hub/index">HuggingFace Hub</a>.</p>
 <p>First, we will need to create a HuggingFace Account and login using the HuggingFace CLI.</p>
 <div id="cell-5" class="cell" data-outputid="a8175e8e-dddf-40ca-95fa-2875f67df5fd" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install huggingface_hub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="op">!</span>pip install huggingface_hub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Requirement already satisfied: huggingface_hub in /usr/local/lib/python3.10/dist-packages (0.17.2)
 Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (3.12.2)
@@ -300,7 +300,7 @@ Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.1
 </div>
 </div>
 <div id="cell-6" class="cell" data-outputid="2c527e29-9819-45c0-cc3a-518d0417b183" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>huggingface<span class="op">-</span>cli login</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="op">!</span>huggingface<span class="op">-</span>cli login</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
     _|    _|  _|    _|    _|_|_|    _|_|_|  _|_|_|  _|      _|    _|_|_|      _|_|_|_|    _|_|      _|_|_|  _|_|_|_|
@@ -322,7 +322,7 @@ Login successful</code></pre>
 <p>After we’ve logged in, we now have access to all the <code>transformers</code> <a href="https://huggingface.co/models?library=transformers&amp;sort=downloads">models</a> on HuggingFace.</p>
 <p>We can now pick a model, and use the <code>pipeline</code> function from the <code>transformers</code> library to download and load our model.</p>
 <div id="cell-8" class="cell" data-outputid="a7726761-ed0c-4a19-aff4-7684d6bccffb" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install transformers</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="op">!</span>pip install transformers</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Requirement already satisfied: transformers in /usr/local/lib/python3.10/dist-packages (4.33.2)
 Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from transformers) (3.12.2)
@@ -344,11 +344,11 @@ Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.1
 </div>
 </div>
 <div id="cell-9" class="cell" data-outputid="a271bdee-f23a-4b7d-9e5a-aac00192dda7" data-execution_count="11">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>classifier <span class="op">=</span> pipeline(<span class="st">'sentiment-analysis'</span>)</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classifier(<span class="st">'I love cats'</span>))</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classifier(<span class="st">'I hate dogs'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline</span>
+<span id="cb7-2"><a href="#cb7-2"></a></span>
+<span id="cb7-3"><a href="#cb7-3"></a>classifier <span class="op">=</span> pipeline(<span class="st">'sentiment-analysis'</span>)</span>
+<span id="cb7-4"><a href="#cb7-4"></a><span class="bu">print</span>(classifier(<span class="st">'I love cats'</span>))</span>
+<span id="cb7-5"><a href="#cb7-5"></a><span class="bu">print</span>(classifier(<span class="st">'I hate dogs'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).
 Using a pipeline without specifying a model name and revision in production is not recommended.</code></pre>
@@ -362,23 +362,23 @@ Using a pipeline without specifying a model name and revision in production is n
 <p>Tasks in this context refer to common Natrual Language Processing (NLP) tasks, with <code>sentiment-analysis</code> being one of them.</p>
 <p>Each task has it’s own string identifier, i.e.&nbsp;<code>sentiment-analysis</code> and a default model that is used for the task.</p>
 <p>This is why we observed the following output from the previous step:</p>
-<pre class="shell"><code>No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).</code></pre>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a href="#cb10-1"></a>No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>We can see that the task is using the <a href="https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english">distilbert-base-uncased-finetuned-sst-2-english</a> model downloaded from HuggingFace.</p>
 <p>We can specify an alternative model, such as the <a href="https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis">finiteautomata/bertweet-base-sentiment-analysis</a> model by providing a <code>model</code> argument to the <code>pipeline</code> function:</p>
 <hr>
 <div id="cell-12" class="cell" data-outputid="e07955ba-81a0-46ff-8881-dc82f6339531" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install emoji</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a><span class="op">!</span>pip install emoji</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Requirement already satisfied: emoji in /usr/local/lib/python3.10/dist-packages (2.8.0)</code></pre>
 </div>
 </div>
 <div id="cell-13" class="cell" data-outputid="f0aeb384-936f-48a5-fd88-973d21499fc3" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This classifier is trained on Tweets!</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>classifier <span class="op">=</span> pipeline(model<span class="op">=</span><span class="st">"finiteautomata/bertweet-base-sentiment-analysis"</span>)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classifier(<span class="st">'I love Elon Musk'</span>))</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classifier(<span class="st">'I hate Elon Musk'</span>))</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classifier(<span class="st">'OpenAI is good'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1"></a><span class="co"># This classifier is trained on Tweets!</span></span>
+<span id="cb13-2"><a href="#cb13-2"></a>classifier <span class="op">=</span> pipeline(model<span class="op">=</span><span class="st">"finiteautomata/bertweet-base-sentiment-analysis"</span>)</span>
+<span id="cb13-3"><a href="#cb13-3"></a></span>
+<span id="cb13-4"><a href="#cb13-4"></a><span class="bu">print</span>(classifier(<span class="st">'I love Elon Musk'</span>))</span>
+<span id="cb13-5"><a href="#cb13-5"></a><span class="bu">print</span>(classifier(<span class="st">'I hate Elon Musk'</span>))</span>
+<span id="cb13-6"><a href="#cb13-6"></a><span class="bu">print</span>(classifier(<span class="st">'OpenAI is good'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[{'label': 'POS', 'score': 0.9926522970199585}]
 [{'label': 'NEG', 'score': 0.9819341897964478}]
@@ -480,6 +480,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
