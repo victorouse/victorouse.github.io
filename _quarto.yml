@@ -3,6 +3,8 @@ project:
   output-dir: _site
   preview:
     port: 7777
+  resources:
+    - CNAME
 
 pagetitle: "victorouse.zip / {{< zip_title >}}"
 image: /images/business_card.png
