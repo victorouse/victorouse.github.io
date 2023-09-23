@@ -4,6 +4,9 @@ project:
   preview:
     port: 7777
 
+
+pagetitle: victorouse.zip
+
 website:
   title: Victor Roussekov
   description: Blog and resume
@@ -26,6 +29,7 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   repo-actions: [issue]
+
 
   site-url: https://victorouse.zip
   repo-url: https://github.com/victorouse/victorouse.github.io
@@ -98,11 +102,15 @@ website:
 format:
   html:
     toc: true
-    theme:
-      light: [cosmo, styles.scss]
+    link-external-icon: true
+    link-external-newwindow: true
+
     code-copy: true
     code-overflow: wrap
     code-block-background: true
+
+    theme:
+      light: [cosmo, styles.scss]
 
     filters:
       - social-share
