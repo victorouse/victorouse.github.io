@@ -1,1 +1,4 @@
 Sitemap: https://victorouse.zip/sitemap.xml
+
+User-agent: Twitterbot
+Disallow:
