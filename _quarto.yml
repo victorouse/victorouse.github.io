@@ -108,6 +108,11 @@ format:
     code-overflow: wrap
     code-block-background: true
 
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+
     theme:
       light: [cosmo, styles.scss]
 
