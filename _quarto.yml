@@ -108,8 +108,10 @@ format:
     link-external-newwindow: true
 
     code-copy: true
-    code-overflow: wrap
+    code-overflow: scroll
+    code-line-numbers: true
     code-block-background: true
+    code-tools: true
 
     grid:
       sidebar-width: 250px
