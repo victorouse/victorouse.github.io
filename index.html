@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -180,7 +146,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
   round " style="height: 15em; width: 15em;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="animate__animated animate__fadeInUp" style="display: inline-block;animation-duration:1s">Victor Roussekov</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<h1 class="title"><span class="animate__animated animate__fadeInUp" style="display: inline-block;animation-duration:1s">Victor Roussekov</span></h1>
 </div>
 <div class="quarto-title-meta">
   </div>
@@ -220,8 +186,6 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 
 
 
-<!-- -->
-
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
@@ -250,7 +214,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     </div>
 </div>
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695474445644" data-listing-date-modified-sort="1695474445000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="0" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695475987814" data-listing-date-modified-sort="1695475987000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="./blog/exploring-llms/3-notebooks/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -275,7 +239,7 @@ Sep 23, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695474445644" data-listing-date-modified-sort="1695474445000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695475987814" data-listing-date-modified-sort="1695475987000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./blog/exploring-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -300,7 +264,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695474445644" data-listing-date-modified-sort="1695474445000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="2" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695475987814" data-listing-date-modified-sort="1695475987000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="./blog/exploring-llms/1-introduction-to-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -402,57 +366,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -742,81 +655,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text">Resume</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="an">pagetitle:</span><span class="co"> victorouse.zip</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="an">title:</span><span class="co"> '{{&lt; animate fadeInUp "Victor Roussekov" duration="1s" &gt;}}'</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="an">navbar:</span><span class="co"> false</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="an">sidebar:</span><span class="co"> false</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="an">comments:</span><span class="co"> false</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="an">back-to-top-navigation:</span><span class="co"> false</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="an">about:</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="co">  id: about-me</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="co">  template: jolla</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="co">  image: /images/me.png</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="co">  image-shape: round</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="co">  links:</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="co">    - icon: file-earmark-text-fill</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="co">      href: resume</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="co">      text: Resume</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="co">    - icon: github</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="co">      href: https://github.com/victorouse</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="co">      target: _blank</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="co">      text: Github</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="co">    - icon: linkedin</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a><span class="co">      href: https://linkedin.com/in/victorouse</span></span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="co">      target: _blank</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a><span class="co">      text: LinkedIn</span></span>
-<span id="cb1-28"><a href="#cb1-28"></a></span>
-<span id="cb1-29"><a href="#cb1-29"></a><span class="co">    - icon: twitter</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="co">      href: https://twitter.com/victorouse</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a><span class="co">      target: _blank</span></span>
-<span id="cb1-32"><a href="#cb1-32"></a><span class="co">      text: Twitter</span></span>
-<span id="cb1-33"><a href="#cb1-33"></a></span>
-<span id="cb1-34"><a href="#cb1-34"></a><span class="an">listing:</span></span>
-<span id="cb1-35"><a href="#cb1-35"></a><span class="co">  contents:</span></span>
-<span id="cb1-36"><a href="#cb1-36"></a><span class="co">    - blog/**/*</span></span>
-<span id="cb1-37"><a href="#cb1-37"></a><span class="co">    - "!blog/index.qmd"</span></span>
-<span id="cb1-38"><a href="#cb1-38"></a><span class="co">  type: grid</span></span>
-<span id="cb1-39"><a href="#cb1-39"></a><span class="co">  grid-columns: 1</span></span>
-<span id="cb1-40"><a href="#cb1-40"></a><span class="co">  max-items: 3</span></span>
-<span id="cb1-41"><a href="#cb1-41"></a><span class="co">  sort-ui: true</span></span>
-<span id="cb1-42"><a href="#cb1-42"></a><span class="co">  filter-ui: true</span></span>
-<span id="cb1-43"><a href="#cb1-43"></a><span class="co">  feed: true</span></span>
-<span id="cb1-44"><a href="#cb1-44"></a><span class="co">  sort:</span></span>
-<span id="cb1-45"><a href="#cb1-45"></a><span class="co">    - date desc</span></span>
-<span id="cb1-46"><a href="#cb1-46"></a><span class="co">    - title asc</span></span>
-<span id="cb1-47"><a href="#cb1-47"></a></span>
-<span id="cb1-48"><a href="#cb1-48"></a><span class="an">format:</span></span>
-<span id="cb1-49"><a href="#cb1-49"></a><span class="co">  html:</span></span>
-<span id="cb1-50"><a href="#cb1-50"></a><span class="co">    toc: false</span></span>
-<span id="cb1-51"><a href="#cb1-51"></a><span class="co">---</span></span>
-<span id="cb1-52"><a href="#cb1-52"></a></span>
-<span id="cb1-53"><a href="#cb1-53"></a>::: {#about-me .text-center}</span>
-<span id="cb1-54"><a href="#cb1-54"></a></span>
-<span id="cb1-55"><a href="#cb1-55"></a>👋</span>
-<span id="cb1-56"><a href="#cb1-56"></a>&lt;br&gt;</span>
-<span id="cb1-57"><a href="#cb1-57"></a>Data Engineer at <span class="co">[</span><span class="ot">Spaceship</span><span class="co">](https://www.spaceship.com.au)</span>.</span>
-<span id="cb1-58"><a href="#cb1-58"></a>&lt;br&gt;Currently located in Sydney, Australia.</span>
-<span id="cb1-59"><a href="#cb1-59"></a></span>
-<span id="cb1-60"><a href="#cb1-60"></a>:::</span>
-<span id="cb1-61"><a href="#cb1-61"></a></span>
-<span id="cb1-62"><a href="#cb1-62"></a>:::::{.grid}</span>
-<span id="cb1-63"><a href="#cb1-63"></a></span>
-<span id="cb1-64"><a href="#cb1-64"></a>::::{.g-col-12}</span>
-<span id="cb1-65"><a href="#cb1-65"></a></span>
-<span id="cb1-66"><a href="#cb1-66"></a><span class="fu">## Latest Posts[[Blog →](./blog)]{.float-right .no-underline .text-black}</span></span>
-<span id="cb1-67"><a href="#cb1-67"></a></span>
-<span id="cb1-68"><a href="#cb1-68"></a>:::{#landing-posts}</span>
-<span id="cb1-69"><a href="#cb1-69"></a>:::</span>
-<span id="cb1-70"><a href="#cb1-70"></a></span>
-<span id="cb1-71"><a href="#cb1-71"></a>::::</span>
-<span id="cb1-72"><a href="#cb1-72"></a></span>
-<span id="cb1-73"><a href="#cb1-73"></a>:::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
