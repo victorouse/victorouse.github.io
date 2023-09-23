@@ -1,5 +1,5 @@
 ---
-title: page_not_found.txt
+title: '`page_not_found.txt`'
 comments: false
 ---
 

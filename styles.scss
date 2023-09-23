@@ -90,7 +90,7 @@ summary,
   justify-content: center;
 }
 
-@keyframes fadeInUp {
+@keyframes myFadeInUp {
     0% {
         opacity: 0;
         -webkit-transform: translate3d(0,10%,0);
@@ -104,7 +104,7 @@ summary,
     }
 }
 
-@keyframes fadeInDown {
+@keyframes myFadeInDown {
     0% {
         opacity: 0;
         -webkit-transform: translate3d(0,-10%,0);
@@ -125,17 +125,23 @@ summary,
 
 .animate-in-up {
   @extend .animate-in;
-  animation-name: fadeInUp;
+  animation-name: myFadeInUp;
 }
 
 .animate-in-down {
   @extend .animate-in;
-  animation-name: fadeInDown;
+  animation-name: myFadeInDown;
+}
+
+
+.quarto-about-jolla > img {
+  @extend .animate-in-down;
 }
 
 #about-me,
 .about-links,
 #latest-postsblog,
+#quarto-document-content > *,
 .quarto-listing-container-grid {
   @extend .animate-in-up;
 }

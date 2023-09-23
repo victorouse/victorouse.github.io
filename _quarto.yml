@@ -4,13 +4,11 @@ project:
   preview:
     port: 7777
 
-
 pagetitle: "victorouse.zip / {{< zip_title >}}"
-
 
 website:
   title: Victor Roussekov
-  description: Blog and resume
+  description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
   favicon: images/favicon.ico
 
   google-analytics:
