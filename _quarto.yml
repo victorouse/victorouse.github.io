@@ -5,6 +5,7 @@ project:
     port: 7777
   resources:
     - CNAME
+    - robots.txt
 
 pagetitle: "victorouse.zip / {{< zip_title >}}"
 
@@ -25,14 +26,13 @@ website:
   twitter-card: 
     title: Victor Roussekov
     description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
-    card-style: summary_large_image
+    card-style: summary
     creator: "@victorouse"
     site: "@victorouse"
 
   page-navigation: true
   back-to-top-navigation: true
   repo-actions: [issue]
-
 
   site-url: https://victorouse.zip
   repo-url: https://github.com/victorouse/victorouse.github.io
@@ -48,9 +48,11 @@ website:
       - icon: twitter
         href: https://twitter.com/victorouse
         aria-label: Twitter
+
       - icon: github
         href: https://github.com/victorouse
         aria-label: GitHub
+
       - icon: rss
         href: index.xml
         aria-label: RSS
@@ -124,6 +126,7 @@ format:
 
     filters:
       - social-share
+
     share:
       permalink: "https://victorouse.zip"
       description: "I'm with stoopid 👉"
