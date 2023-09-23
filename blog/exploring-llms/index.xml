@@ -8,9 +8,10 @@
 <title>Victor Roussekov</title>
 <link>https://victorouse.zip/blog/exploring-llms/index.html</link>
 <atom:link href="https://victorouse.zip/blog/exploring-llms/index.xml" rel="self" type="application/rss+xml"/>
-<description>Data Engineer at Spaceship. Currently living in Sydney, Australia.</description>
+<description>This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).
+</description>
 <image>
-<url>https://placehold.co/1600x900/f7f7f7/121212.png?text=Exploring+LLMs.&font=playfair-display</url>
+<url>https://placehold.co/1600x900/f7f7f7/121212.png?text=Exploring+LLMs&font=playfair-display</url>
 <title>Victor Roussekov</title>
 <link>https://victorouse.zip/blog/exploring-llms/index.html</link>
 </image>
@@ -56,7 +57,7 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs.&amp;font=playfair-display" medium="image"/>
+  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs&amp;font=playfair-display" medium="image"/>
 </item>
 <item>
   <title>Part 2: Open Source LLMs</title>
@@ -177,7 +178,7 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-s
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs.&amp;font=playfair-display" medium="image"/>
+  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display" medium="image"/>
 </item>
 </channel>
 </rss>

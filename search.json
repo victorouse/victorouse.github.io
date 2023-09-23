@@ -16,7 +16,7 @@
     "href": "blog/exploring-llms/index.html",
     "title": "Exploring LLMs",
     "section": "",
-    "text": "This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of ChatGPT.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Part 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run LLMs, both on your own hardware and in the cloud.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog",
       "Exploring LLMs"
@@ -47,7 +47,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nExploring LLMs\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\n\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nExploring LLMs\n\n\nThis is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from…\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run LLMs, both on your own hardware and in the cloud.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog"
     ]
