@@ -8,7 +8,6 @@
 
 <meta name="author" content="Victor Roussekov">
 <meta name="dcterms.date" content="2023-09-19">
-<meta name="description" content="This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of ChatGPT.">
 
 <title>victorouse.zip / exploring_llms.txt</title>
 <style>
@@ -22,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -154,7 +119,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 <meta property="og:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Exploring+LLMs&amp;font=playfair-display">
 <meta property="og:site_name" content="Victor Roussekov">
 <meta name="twitter:title" content="Victor Roussekov">
-<meta name="twitter:description" content="Data Engineer at Spaceship. Currently living in Sydney, Australia.">
+<meta name="twitter:description" content="This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of ChatGPT.">
 <meta name="twitter:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Exploring+LLMs&amp;font=playfair-display">
 <meta name="twitter:creator" content="@victorouse">
 <meta name="twitter:site" content="@victorouse">
@@ -258,14 +223,9 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../blog/index.html">Blog</a></li><li class="breadcrumb-item"><a href="../../blog/exploring-llms/index.html">Exploring LLMs</a></li></ol></nav>
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Exploring LLMs</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<h1 class="title">Exploring LLMs</h1>
 </div>
 
-<div>
-  <div class="description">
-    <p>This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of <a href="https://chat.openai.com">ChatGPT</a>.</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -301,17 +261,13 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 
 
 
-<!-- -->
-
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695478043553" data-listing-date-modified-sort="1695478043000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695479376337" data-listing-date-modified-sort="1695479376000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="../../blog/exploring-llms/1-introduction-to-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs&amp;font=playfair-display" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Part 1: Introduction to LLMs
@@ -328,7 +284,7 @@ Notebook
 </div>
 </div>
 <div class="card-text listing-description">
-<p>Exploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.</p>
+Large Language Models (LLMs) are neural networks that can generate output such as text, images, etc. Each model has its own applied methodology, reflected in how the neural…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -342,12 +298,10 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695478043553" data-listing-date-modified-sort="1695478043000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695479376337" data-listing-date-modified-sort="1695479376000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
 <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Part 2: Open Source LLMs
@@ -361,7 +315,7 @@ Notebook
 </div>
 </div>
 <div class="card-text listing-description">
-How to actually download and run open source LLMs.
+Models created by the Open Source community are generally written in Python using frameworks like PyTorch and Tensorflow.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -375,12 +329,10 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695478043553" data-listing-date-modified-sort="1695478043000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695479376337" data-listing-date-modified-sort="1695479376000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="../../blog/exploring-llms/3-notebooks/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Part 3: Notebooks
@@ -394,7 +346,7 @@ Notebook
 </div>
 </div>
 <div class="card-text listing-description">
-How to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU <em>and</em> GPU).
+TODO.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -492,57 +444,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -839,41 +740,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text">Part 1: Introduction to LLMs</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="an">title:</span><span class="co"> Exploring LLMs</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="an">description:</span><span class="co"> &gt;</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="co">  This is a series of posts about Large Language Models (LLMs) with an intended</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="co">  audience of a software development team who has little to no experience with</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co">  LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="an">author:</span><span class="co"> Victor Roussekov</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="an">image:</span><span class="co"> https://placehold.co/1600x900/f7f7f7/121212.png?text=Exploring+LLMs&amp;font=playfair-display</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="an">date:</span><span class="co"> 2023-09-19</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="an">listing:</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="co">  contents: ./**/*</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="co">  type: grid</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="co">  grid-columns: 1</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="co">  categories: true</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="co">  sort-ui: false</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="co">  filter-ui: false</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="co">  feed: true</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="co">  sort:</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="co">    - title asc</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="an">share:</span></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="co">  permalink: https://victorouse.zip/blog/exploring-llms</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a><span class="co">  description: What he said 👉</span></span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="co">  twitter: true</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a><span class="co">  reddit: true</span></span>
-<span id="cb1-28"><a href="#cb1-28"></a><span class="co">  linkedin: true</span></span>
-<span id="cb1-29"><a href="#cb1-29"></a><span class="co">  email: true</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="co">  mastodon: true</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a><span class="co">---</span></span>
-<span id="cb1-32"><a href="#cb1-32"></a></span>
-<span id="cb1-33"><a href="#cb1-33"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -8,8 +8,7 @@
 <title>Victor Roussekov</title>
 <link>https://victorouse.zip/blog/exploring-llms/index.html</link>
 <atom:link href="https://victorouse.zip/blog/exploring-llms/index.xml" rel="self" type="application/rss+xml"/>
-<description>This is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).
-</description>
+<description>Data Engineer at Spaceship. Currently living in Sydney, Australia.</description>
 <image>
 <url>https://placehold.co/1600x900/f7f7f7/121212.png?text=Exploring+LLMs&font=playfair-display</url>
 <title>Victor Roussekov</title>
@@ -47,7 +46,6 @@ Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</guid>
   <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display" medium="image"/>
 </item>
 <item>
   <title>Part 1: Introduction to LLMs</title>
@@ -70,8 +68,6 @@ Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
 <p>It is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.</p>
 
 
-<!-- -->
-
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
@@ -91,7 +87,6 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs&amp;font=playfair-display" medium="image"/>
 </item>
 <item>
   <title>Part 2: Open Source LLMs</title>
@@ -278,7 +273,6 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-s
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display" medium="image"/>
 </item>
 </channel>
 </rss>

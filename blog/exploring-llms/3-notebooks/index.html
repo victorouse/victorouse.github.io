@@ -8,7 +8,6 @@
 
 <meta name="author" content="Victor Roussekov">
 <meta name="dcterms.date" content="2023-09-23">
-<meta name="description" content="How to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU and GPU).">
 
 <title>victorouse.zip / part_3_notebooks.txt</title>
 <style>
@@ -83,14 +82,18 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 
 <meta property="og:title" content="victorouse.zip / part_3_notebooks.txt">
 <meta property="og:description" content="Data Engineer at Spaceship. Currently living in Sydney, Australia.">
-<meta property="og:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display">
+<meta property="og:image" content="https://victorouse.zip/images/poster.png">
 <meta property="og:site_name" content="Victor Roussekov">
+<meta property="og:image:height" content="900">
+<meta property="og:image:width" content="1600">
 <meta name="twitter:title" content="Victor Roussekov">
 <meta name="twitter:description" content="How to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU and GPU).">
-<meta name="twitter:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display">
+<meta name="twitter:image" content="https://victorouse.zip/images/poster.png">
 <meta name="twitter:creator" content="@victorouse">
 <meta name="twitter:site" content="@victorouse">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="900">
+<meta name="twitter:image-width" content="1600">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -197,11 +200,6 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
   </div>
   </div>
 
-<div>
-  <div class="description">
-    How to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU <em>and</em> GPU).
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -330,57 +328,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
