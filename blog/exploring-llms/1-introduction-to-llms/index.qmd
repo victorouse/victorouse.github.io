@@ -4,11 +4,11 @@ image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs
 author: Victor Roussekov
 date: 2023-09-19
 date-modified: last-modified
-categories: [LLMs, Exploring LLMs, Notebook]
+categories: ["LLMs", "Exploring LLMs", "Notebook"]
 citation: true
 
 share:
-  permalink: https://victorouse.zip/blog/exploring-llms/part-one
+  permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms
   description: What he said 👉
   twitter: true
   reddit: true
