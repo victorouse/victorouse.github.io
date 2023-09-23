@@ -1,5 +1,6 @@
 ---
 pagetitle: victorouse.zip / resume.txt
+image: /images/business_card.png
 title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
 author: ""
 

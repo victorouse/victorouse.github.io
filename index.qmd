@@ -1,6 +1,7 @@
 ---
 pagetitle: victorouse.zip
 title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
+image: /images/business_card.png
 navbar: false
 sidebar: false
 comments: false

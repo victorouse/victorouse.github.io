@@ -7,7 +7,6 @@ project:
     - CNAME
 
 pagetitle: "victorouse.zip / {{< zip_title >}}"
-image: /images/business_card.png
 
 website:
   title: Victor Roussekov
