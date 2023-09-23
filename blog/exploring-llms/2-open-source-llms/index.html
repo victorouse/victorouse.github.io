@@ -117,11 +117,11 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 
 <meta property="og:title" content="victorouse.zip / part_2_open_source_llms.txt">
 <meta property="og:description" content="Data Engineer at Spaceship. Currently living in Sydney, Australia.">
-<meta property="og:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display">
+<meta property="og:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display">
 <meta property="og:site_name" content="Victor Roussekov">
 <meta name="twitter:title" content="Victor Roussekov">
 <meta name="twitter:description" content="Data Engineer at Spaceship. Currently living in Sydney, Australia.">
-<meta name="twitter:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display">
+<meta name="twitter:image" content="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display">
 <meta name="twitter:creator" content="@victorouse">
 <meta name="twitter:site" content="@victorouse">
 <meta name="twitter:card" content="summary_large_image">
@@ -256,14 +256,14 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2023-09-19</p>
+      <p class="date">September 19, 2023</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">last-modified</p>
+      <p class="date-modified">September 23, 2023</p>
     </div>
   </div>
     
@@ -274,7 +274,6 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 </header>
 
 <p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/2-open-source-llms/index.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
-<p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/2-open-source-llms/index.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" class="img-fluid" alt="Open In Colab"></a></p>
 <hr>
 <section id="huggingface" class="level3">
 <h3 class="anchored" data-anchor-id="huggingface">HuggingFace</h3>
@@ -283,7 +282,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 <p>One popular library that abstracts the downloading, loading, and API of [compatible] models is the HuggingFace <a href="https://github.com/huggingface/transformers">transformers</a> library.</p>
 <p>The <code>transformers</code> library is able to download and load any model published on the <a href="https://huggingface.co/docs/hub/index">HuggingFace Hub</a>.</p>
 <p>First, we will need to create a HuggingFace Account and login using the HuggingFace CLI.</p>
-<div id="cell-5" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="a8175e8e-dddf-40ca-95fa-2875f67df5fd" data-execution_count="8">
+<div id="cell-5" class="cell" data-outputid="a8175e8e-dddf-40ca-95fa-2875f67df5fd" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install huggingface_hub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Requirement already satisfied: huggingface_hub in /usr/local/lib/python3.10/dist-packages (0.17.2)
@@ -300,7 +299,7 @@ Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python
 Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (2023.7.22)</code></pre>
 </div>
 </div>
-<div id="cell-6" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="2c527e29-9819-45c0-cc3a-518d0417b183" data-execution_count="9">
+<div id="cell-6" class="cell" data-outputid="2c527e29-9819-45c0-cc3a-518d0417b183" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>huggingface<span class="op">-</span>cli login</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
@@ -322,7 +321,7 @@ Login successful</code></pre>
 </div>
 <p>After we’ve logged in, we now have access to all the <code>transformers</code> <a href="https://huggingface.co/models?library=transformers&amp;sort=downloads">models</a> on HuggingFace.</p>
 <p>We can now pick a model, and use the <code>pipeline</code> function from the <code>transformers</code> library to download and load our model.</p>
-<div id="cell-8" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="a7726761-ed0c-4a19-aff4-7684d6bccffb" data-execution_count="10">
+<div id="cell-8" class="cell" data-outputid="a7726761-ed0c-4a19-aff4-7684d6bccffb" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install transformers</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Requirement already satisfied: transformers in /usr/local/lib/python3.10/dist-packages (4.33.2)
@@ -367,7 +366,7 @@ Using a pipeline without specifying a model name and revision in production is n
 <p>We can see that the task is using the <a href="https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english">distilbert-base-uncased-finetuned-sst-2-english</a> model downloaded from HuggingFace.</p>
 <p>We can specify an alternative model, such as the <a href="https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis">finiteautomata/bertweet-base-sentiment-analysis</a> model by providing a <code>model</code> argument to the <code>pipeline</code> function:</p>
 <hr>
-<div id="cell-12" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="e07955ba-81a0-46ff-8881-dc82f6339531" data-execution_count="12">
+<div id="cell-12" class="cell" data-outputid="e07955ba-81a0-46ff-8881-dc82f6339531" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install emoji</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Requirement already satisfied: emoji in /usr/local/lib/python3.10/dist-packages (2.8.0)</code></pre>

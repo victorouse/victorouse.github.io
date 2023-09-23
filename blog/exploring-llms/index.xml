@@ -16,7 +16,39 @@
 <link>https://victorouse.zip/blog/exploring-llms/index.html</link>
 </image>
 <generator>quarto-1.4.376</generator>
-<lastBuildDate>Tue, 19 Sep 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 23 Sep 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Part 3: Notebooks</title>
+  <dc:creator>Victor Roussekov</dc:creator>
+  <link>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/3-notebooks/index.ipynb" target="_parent"><img src="https://victorouse.zip/blog/exploring-llms/3-notebooks/https:/colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+<hr>
+<p>TODO.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
+  author = {Roussekov, Victor},
+  title = {Part 3: {Notebooks}},
+  pages = {undefined},
+  date = {2023-09-23},
+  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
+Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
+2023. <a href="https://victorouse.zip/blog/exploring-llms/3-notebooks">https://victorouse.zip/blog/exploring-llms/3-notebooks</a>.
+</div></div></section></div> ]]></description>
+  <category>Python</category>
+  <category>Notebook</category>
+  <guid>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</guid>
+  <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display" medium="image"/>
+</item>
 <item>
   <title>Part 1: Introduction to LLMs</title>
   <dc:creator>Victor Roussekov</dc:creator>
@@ -61,13 +93,13 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
 </item>
 <item>
   <title>Part 2: Open Source LLMs</title>
+  <dc:creator>Victor Roussekov</dc:creator>
   <link>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</link>
   <description><![CDATA[ 
 
 
 
 <p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/2-open-source-llms/index.ipynb" target="_parent"><img src="https://victorouse.zip/blog/exploring-llms/2-open-source-llms/https:/colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
-<p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/2-open-source-llms/index.ipynb"><img src="https://victorouse.zip/blog/exploring-llms/2-open-source-llms/https:/colab.research.google.com/assets/colab-badge.svg" class="img-fluid" alt="Open In Colab"></a></p>
 <hr>
 <section id="huggingface" class="level3">
 <h3 class="anchored" data-anchor-id="huggingface">HuggingFace</h3>
@@ -76,7 +108,7 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
 <p>One popular library that abstracts the downloading, loading, and API of [compatible] models is the HuggingFace <a href="https://github.com/huggingface/transformers">transformers</a> library.</p>
 <p>The <code>transformers</code> library is able to download and load any model published on the <a href="https://huggingface.co/docs/hub/index">HuggingFace Hub</a>.</p>
 <p>First, we will need to create a HuggingFace Account and login using the HuggingFace CLI.</p>
-<div id="cell-5" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="a8175e8e-dddf-40ca-95fa-2875f67df5fd" data-execution_count="8">
+<div id="cell-5" class="cell" data-outputid="a8175e8e-dddf-40ca-95fa-2875f67df5fd" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install huggingface_hub</span></code></pre></div>
@@ -95,7 +127,7 @@ Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python
 Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (2023.7.22)</code></pre>
 </div>
 </div>
-<div id="cell-6" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="2c527e29-9819-45c0-cc3a-518d0417b183" data-execution_count="9">
+<div id="cell-6" class="cell" data-outputid="2c527e29-9819-45c0-cc3a-518d0417b183" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>huggingface<span class="op" style="color: #5E5E5E;
@@ -121,7 +153,7 @@ Login successful</code></pre>
 </div>
 <p>After we’ve logged in, we now have access to all the <code>transformers</code> <a href="https://huggingface.co/models?library=transformers&amp;sort=downloads">models</a> on HuggingFace.</p>
 <p>We can now pick a model, and use the <code>pipeline</code> function from the <code>transformers</code> library to download and load our model.</p>
-<div id="cell-8" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="a7726761-ed0c-4a19-aff4-7684d6bccffb" data-execution_count="10">
+<div id="cell-8" class="cell" data-outputid="a7726761-ed0c-4a19-aff4-7684d6bccffb" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install transformers</span></code></pre></div>
@@ -184,7 +216,7 @@ Using a pipeline without specifying a model name and revision in production is n
 <p>We can see that the task is using the <a href="https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english">distilbert-base-uncased-finetuned-sst-2-english</a> model downloaded from HuggingFace.</p>
 <p>We can specify an alternative model, such as the <a href="https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis">finiteautomata/bertweet-base-sentiment-analysis</a> model by providing a <code>model</code> argument to the <code>pipeline</code> function:</p>
 <hr>
-<div id="cell-12" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="e07955ba-81a0-46ff-8881-dc82f6339531" data-execution_count="12">
+<div id="cell-12" class="cell" data-outputid="e07955ba-81a0-46ff-8881-dc82f6339531" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install emoji</span></code></pre></div>
@@ -241,36 +273,11 @@ font-style: inherit;">'OpenAI is good'</span>))</span></code></pre></div>
 Roussekov, Victor. 2023. <span>“Part 2: Open Source LLMs.”</span>
 September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-source-llms">https://victorouse.zip/blog/exploring-llms/2-open-source-llms</a>.
 </div></div></section></div> ]]></description>
+  <category>Python</category>
+  <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</guid>
-  <pubDate>Sat, 23 Sep 2023 12:40:27 GMT</pubDate>
-</item>
-<item>
-  <title>Part 3: Notebooks</title>
-  <link>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/3-notebooks/index.ipynb" target="_parent"><img src="https://victorouse.zip/blog/exploring-llms/3-notebooks/https:/colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
-<hr>
-<p>TODO.</p>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
-  author = {Roussekov, Victor},
-  title = {Part 3: {Notebooks}},
-  pages = {undefined},
-  date = {2023-09-23},
-  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
-Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
-2023. <a href="https://victorouse.zip/blog/exploring-llms/3-notebooks">https://victorouse.zip/blog/exploring-llms/3-notebooks</a>.
-</div></div></section></div> ]]></description>
-  <guid>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</guid>
-  <pubDate>Sat, 23 Sep 2023 12:40:27 GMT</pubDate>
+  <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display" medium="image"/>
 </item>
 </channel>
 </rss>
