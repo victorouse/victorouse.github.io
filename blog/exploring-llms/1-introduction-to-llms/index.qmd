@@ -21,10 +21,6 @@ share:
 
 jupyter: python3
 
-notebook-view:
-  - notebook: notebook.ipynb 
-    title: "Introduction to LLMs"
-    url: https://colab.research.google.com/drive/193qSooh6sV5dPtGAhNwT_K7Q_11iJJvh
 ---
 
 ---
