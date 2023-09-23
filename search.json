@@ -53,11 +53,11 @@
     ]
   },
   {
-    "objectID": "blog/exploring-llms/introduction-to-llms/index.html",
-    "href": "blog/exploring-llms/introduction-to-llms/index.html",
+    "objectID": "blog/exploring-llms/1-introduction-to-llms/index.html",
+    "href": "blog/exploring-llms/1-introduction-to-llms/index.html",
     "title": "Part 1: Introduction to LLMs",
     "section": "",
-    "text": "What are Large Language Models?\nLarge Language Models (LLMs) are neural networks that can generate output such as text, images, etc. Each model has its own applied methodology, reflected in how the neural network is configured.\nTo use neural networks, they must first be “trained”. The training process involves passing “training” data through the network and evaluating the output against a “validation” or “testing” set.\nThis process adjusts the model “weights” along the way, and once the training process is finished, the resulting weights can be distributed for use.\nThe resulting weights are generally referred to as “pre-trained” models that are distributed in a format that can be “loaded” into a model.\nThere are many different types of models, from OpenAI’s proprietary GPT models (GPT3, GTP3.5, GTP4), to open source models like Meta’s Llama2.\nThere are many open sources models that can be downloaded from a model artefact repository called HuggingFace. You can think of HuggingFace like the DockerHub for LLMs.\nThere are also platforms that offer LLM hosting services, such as Replicate, which host these LLM models on the cloud for you, meaning you don’t have to run them on your own hardware.\nIt is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 1: {Introduction} to {LLMs}},\n  pages = {undefined},\n  date = {2023-09-19},\n  url = {https://victorouse.zip/blog/exploring-llms/introduction-to-llms},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 1: Introduction to LLMs.”\nSeptember 19, 2023. https://victorouse.zip/blog/exploring-llms/introduction-to-llms.",
+    "text": "What are Large Language Models?\nLarge Language Models (LLMs) are neural networks that can generate output such as text, images, etc. Each model has its own applied methodology, reflected in how the neural network is configured.\nTo use neural networks, they must first be “trained”. The training process involves passing “training” data through the network and evaluating the output against a “validation” or “testing” set.\nThis process adjusts the model “weights” along the way, and once the training process is finished, the resulting weights can be distributed for use.\nThe resulting weights are generally referred to as “pre-trained” models that are distributed in a format that can be “loaded” into a model.\nThere are many different types of models, from OpenAI’s proprietary GPT models (GPT3, GTP3.5, GTP4), to open source models like Meta’s Llama2.\nThere are many open sources models that can be downloaded from a model artefact repository called HuggingFace. You can think of HuggingFace like the DockerHub for LLMs.\nThere are also platforms that offer LLM hosting services, such as Replicate, which host these LLM models on the cloud for you, meaning you don’t have to run them on your own hardware.\nIt is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 1: {Introduction} to {LLMs}},\n  pages = {undefined},\n  date = {2023-09-19},\n  url = {https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 1: Introduction to LLMs.”\nSeptember 19, 2023. https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms.",
     "crumbs": [
       "Blog",
       "Exploring LLMs",
@@ -69,7 +69,7 @@
     "href": "resume/index.html",
     "title": "Victor Roussekov",
     "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Twitter\n  \n  \n    \n     Download"
+    "text": "👋  Data Engineer at Spaceship. Not actively looking.\n \n  \n   \n  \n    \n     Download\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Twitter"
   },
   {
     "objectID": "resume/index.html#summary",

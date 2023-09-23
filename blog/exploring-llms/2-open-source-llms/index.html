@@ -9,7 +9,7 @@
 <meta name="author" content="Victor Roussekov">
 <meta name="dcterms.date" content="2023-09-19">
 
-<title>Victor Roussekov - Part 2: Open Source LLMs</title>
+<title>victorouse.zip / part_2_open_source_llms.txt</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,7 +66,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../blog/exploring-llms/introduction-to-llms/index.html" rel="prev">
+<link href="../../../blog/exploring-llms/1-introduction-to-llms/index.html" rel="prev">
 <link href="../../../images/favicon.ico" rel="icon">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -114,7 +114,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 </script>
 
 
-<meta property="og:title" content="Victor Roussekov - Part 2: Open Source LLMs">
+<meta property="og:title" content="victorouse.zip / part_2_open_source_llms.txt">
 <meta property="og:description" content="Blog and resume">
 <meta property="og:site_name" content="Victor Roussekov">
 <meta name="twitter:title" content="Victor Roussekov">
@@ -188,7 +188,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../blog/exploring-llms/introduction-to-llms/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../blog/exploring-llms/1-introduction-to-llms/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Part 1: Introduction to LLMs</span></a>
   </div>
 </li>
@@ -249,7 +249,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 22, 2023</p>
+      <p class="date-modified">September 23, 2023</p>
     </div>
   </div>
     
@@ -662,6 +662,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/victorouse\.zip");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 <script src="https://giscus.app/client.js" data-repo="victorouse/victorouse.github.io" data-repo-id="R_kgDOKUMOAg" data-category="Announcements" data-category-id="DIC_kwDOKUMOAs4CZYOO" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
@@ -670,7 +686,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <input type="hidden" id="giscus-alt-theme" value="light">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../blog/exploring-llms/introduction-to-llms/index.html" class="pagination-link">
+      <a href="../../../blog/exploring-llms/1-introduction-to-llms/index.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Part 1: Introduction to LLMs</span>
       </a>          
   </div>

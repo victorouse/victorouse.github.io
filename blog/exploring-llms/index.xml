@@ -14,7 +14,7 @@
 <item>
   <title>Part 1: Introduction to LLMs</title>
   <dc:creator>Victor Roussekov</dc:creator>
-  <link>https://victorouse.zip/blog/exploring-llms/introduction-to-llms/index.html</link>
+  <link>https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms/index.html</link>
   <description><![CDATA[ 
 
 
@@ -39,17 +39,17 @@
   title = {Part 1: {Introduction} to {LLMs}},
   pages = {undefined},
   date = {2023-09-19},
-  url = {https://victorouse.zip/blog/exploring-llms/introduction-to-llms},
+  url = {https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
 Roussekov, Victor. 2023. <span>“Part 1: Introduction to LLMs.”</span>
-September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/introduction-to-llms">https://victorouse.zip/blog/exploring-llms/introduction-to-llms</a>.
+September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms">https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms</a>.
 </div></div></section></div> ]]></description>
   <category>LLMs</category>
   <category>Exploring LLMs</category>
   <category>Notebook</category>
-  <guid>https://victorouse.zip/blog/exploring-llms/introduction-to-llms/index.html</guid>
+  <guid>https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>

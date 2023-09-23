@@ -28,10 +28,10 @@
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695397075991" data-listing-date-modified-sort="1695397075000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<a href="../../blog/exploring-llms/introduction-to-llms/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695454047377" data-listing-date-modified-sort="1695454047000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<a href="../../blog/exploring-llms/1-introduction-to-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/introduction-to-llms/index.html -->
+<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/1-introduction-to-llms/index.html -->
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Part 1: Introduction to LLMs
@@ -48,7 +48,7 @@ Notebook
 </div>
 </div>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/introduction-to-llms/index.html -->
+<!-- desc(5A0113B34292)[max=175]:blog/exploring-llms/1-introduction-to-llms/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -62,7 +62,7 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695397075991" data-listing-date-modified-sort="1695397075000" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695454047377" data-listing-date-modified-sort="1695454047000" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
 <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/2-open-source-llms/index.html -->
@@ -104,7 +104,7 @@ No matching items
 <item>
   <title>Part 1: Introduction to LLMs</title>
   <dc:creator>Victor Roussekov</dc:creator>
-  <link>https://victorouse.zip/blog/exploring-llms/introduction-to-llms/index.html</link>
+  <link>https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms/index.html</link>
   <description><![CDATA[ 
 
 
@@ -129,17 +129,17 @@ No matching items
   title = {Part 1: {Introduction} to {LLMs}},
   pages = {undefined},
   date = {2023-09-19},
-  url = {https://victorouse.zip/blog/exploring-llms/introduction-to-llms},
+  url = {https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
 Roussekov, Victor. 2023. <span>“Part 1: Introduction to LLMs.”</span>
-September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/introduction-to-llms">https://victorouse.zip/blog/exploring-llms/introduction-to-llms</a>.
+September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms">https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms</a>.
 </div></div></section></div> ]]></description>
   <category>LLMs</category>
   <category>Exploring LLMs</category>
   <category>Notebook</category>
-  <guid>https://victorouse.zip/blog/exploring-llms/introduction-to-llms/index.html</guid>
+  <guid>https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
