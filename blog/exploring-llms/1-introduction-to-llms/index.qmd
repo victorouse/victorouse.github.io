@@ -26,6 +26,10 @@ website:
 share:
   permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms?1337
   description: What he said 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
 ---
 
 ---

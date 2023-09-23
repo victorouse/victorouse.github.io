@@ -16,6 +16,10 @@ website:
 share:
   permalink: https://victorouse.zip/blog
   description: Hire this guy 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
 
 comments: false
 

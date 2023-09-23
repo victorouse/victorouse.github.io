@@ -17,6 +17,10 @@ website:
 share:
   permalink: https://victorouse.zip/resume
   description: Hire this guy 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
 
 navbar: false
 sidebar: true

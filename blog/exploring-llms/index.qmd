@@ -25,6 +25,10 @@ website:
 share:
   permalink: https://victorouse.zip/blog/exploring-llms
   description: What he said 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
 
 listing:
   contents: ./**/*

@@ -9,6 +9,14 @@ project:
 
 pagetitle: "victorouse.zip / {{< zip_title >}}"
 
+share:
+  permalink: "https://victorouse.zip"
+  description: "I'm with stoopid 👉"
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
+
 website:
   title: Victor Roussekov
   image: /images/poster.png
@@ -29,6 +37,7 @@ website:
     card-style: summary
     creator: "@victorouse"
     site: "@victorouse"
+
 
   page-navigation: true
   back-to-top-navigation: true
@@ -126,15 +135,6 @@ format:
 
     filters:
       - social-share
-
-    share:
-      permalink: "https://victorouse.zip"
-      description: "I'm with stoopid 👉"
-      twitter: true
-      reddit: true
-      linkedin: true
-      email: true
-      mastodon: true
 
 execute:
   freeze: true
