@@ -1,6 +1,16 @@
 ---
-title: Blog
-image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Blog&font=playfair-display
+website:
+  title: Blog
+  description: Blog, ((data)), (man blogging), 4K, HDR, high-res, 30mm grain film.
+  image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Blog&font=playfair-display
+
+  twitter-card:
+    title: Victor Roussekov
+    creator: "@victorouse"
+    site: "@victorouse"
+    description: >
+      Writing about data engineering, machine learning, and whatever else comes to mind.
+
 comments: false
 
 listing:

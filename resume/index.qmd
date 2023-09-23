@@ -1,8 +1,25 @@
 ---
-pagetitle: victorouse.zip / resume.txt
-title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
-author: ""
+website:
+  pagetitle: victorouse.zip / resume.txt
+  title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
 
+  twitter-card:
+    title: Victor Roussekov
+    creator: "@victorouse"
+    site: "@victorouse"
+    description: >
+      Let's chat.
+
+share:
+  permalink: https://victorouse.zip/resume
+  description: Hire this guy 👉
+  twitter: true
+  reddit: true
+  linkedin: true
+  email: true
+  mastodon: true
+
+author: ""
 navbar: false
 sidebar: true
 comments: false
@@ -14,15 +31,6 @@ format-links: [pdf]
 
 execute:
   echo: false
-
-share:
-  permalink: https://victorouse.zip/resume
-  description: Hire this guy 👉
-  twitter: true
-  reddit: true
-  linkedin: true
-  email: true
-  mastodon: true
 
 about:
   id: about-me
@@ -54,6 +62,7 @@ format:
   html:
     toc: true
     code-tools: false
+
   pdf:
     title: \Huge\textbf{Victor Roussekov}
     output-file: victor_roussekov
