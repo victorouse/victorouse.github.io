@@ -1,16 +1,21 @@
 ---
 title: Blog
 image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Blog&font=playfair-display
+description: >
+  Writing about data engineering, machine learning, and whatever else comes to mind.
 
 website:
-  description: Blog, ((data)), (man blogging), 4K, HDR, high-res, 30mm grain film.
-
-  twitter-card:
-    title: Victor Roussekov
-    creator: "@victorouse"
-    site: "@victorouse"
+  open-graph:
     description: >
       Writing about data engineering, machine learning, and whatever else comes to mind.
+
+  twitter-card: 
+    description: >
+      Writing about data engineering, machine learning, and whatever else comes to mind.
+
+share:
+  permalink: https://victorouse.zip/blog
+  description: Hire this guy 👉
 
 comments: false
 

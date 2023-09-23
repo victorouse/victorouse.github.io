@@ -2,25 +2,22 @@
 title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
 pagetitle: victorouse.zip / resume.txt
 image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Resume&font=playfair-display
+author: ""
+description: ""
 
 website:
-  twitter-card:
-    title: Victor Roussekov
-    creator: "@victorouse"
-    site: "@victorouse"
+  open-graph:
+    description: >
+      Let's chat.
+
+  twitter-card: 
     description: >
       Let's chat.
 
 share:
   permalink: https://victorouse.zip/resume
   description: Hire this guy 👉
-  twitter: true
-  reddit: true
-  linkedin: true
-  email: true
-  mastodon: true
 
-author: ""
 navbar: false
 sidebar: true
 comments: false

@@ -1,20 +1,22 @@
 ---
 title: Exploring LLMs
-author: Victor Roussekov
+description: >
+  This is a series of posts about Large Language Models (LLMs) with an intended
+  audience of a software development team who has little to no experience with
+  LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).
 image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Exploring+LLMs&font=playfair-display
+author: Victor Roussekov
 date: 2023-09-19
 date-modified: last-modified
 
 website:
-  description: >
-    This is a series of posts about Large Language Models (LLMs) with an intended
-    audience of a software development team who has little to no experience with
-    LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).
+  open-graph:
+    description: >
+      This is a series of posts about Large Language Models (LLMs) with an intended
+      audience of a software development team who has little to no experience with
+      LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).
 
-  twitter-card:
-    title: Victor Roussekov
-    creator: "@victorouse"
-    site: "@victorouse"
+  twitter-card: 
     description: >
       This is a series of posts about Large Language Models (LLMs) with an intended
       audience of a software development team who has little to no experience with
@@ -23,11 +25,6 @@ website:
 share:
   permalink: https://victorouse.zip/blog/exploring-llms
   description: What he said 👉
-  twitter: true
-  reddit: true
-  linkedin: true
-  email: true
-  mastodon: true
 
 listing:
   contents: ./**/*

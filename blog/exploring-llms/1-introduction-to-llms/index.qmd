@@ -1,6 +1,9 @@
 ---
 order: 1
 title: "Part 1: Introduction to LLMs"
+description: >
+  Exploring what makes up Large Language Models (LLMs), from training neural
+  networks to downloading and deploying them.
 image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs&font=playfair-display
 author: Victor Roussekov
 date: 2023-09-19
@@ -10,26 +13,19 @@ citation: true
 jupyter: python3
 
 website:
-  description: >
-    Exploring what makes up Large Language Models (LLMs), from training neural
-    networks to downloading and deploying them.
+  open-graph:
+    description: >
+      Exploring what makes up Large Language Models (LLMs), from training neural
+      networks to downloading and deploying them.
 
-  twitter-card:
-    title: Victor Roussekov
-    creator: "@victorouse"
-    site: "@victorouse"
+  twitter-card: 
     description: >
       Exploring what makes up Large Language Models (LLMs), from training neural
       networks to downloading and deploying them.
 
 share:
-  permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms?42069
+  permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms?1337
   description: What he said 👉
-  twitter: true
-  reddit: true
-  linkedin: true
-  email: true
-  mastodon: true
 ---
 
 ---
