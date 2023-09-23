@@ -10,6 +10,7 @@ pagetitle: "victorouse.zip / {{< zip_title >}}"
 
 website:
   title: Victor Roussekov
+  image: /images/poster.png
   description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
   favicon: images/favicon.ico
 

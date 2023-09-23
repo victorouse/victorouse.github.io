@@ -1,7 +1,6 @@
 ---
 pagetitle: victorouse.zip
 title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
-image: /images/business_card.png
 navbar: false
 sidebar: false
 comments: false
@@ -10,7 +9,7 @@ back-to-top-navigation: false
 about:
   id: about-me
   template: jolla
-  image: images/me.png
+  image: /images/me.png
   image-shape: round
   links:
     - icon: file-earmark-text-fill

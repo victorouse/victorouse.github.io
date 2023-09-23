@@ -1,6 +1,5 @@
 ---
 pagetitle: victorouse.zip / resume.txt
-image: /images/business_card.png
 title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
 author: ""
 
@@ -28,7 +27,7 @@ share:
 about:
   id: about-me
   template: jolla
-  image: ../images/me.png
+  image: /images/me.png
   image-shape: round
   links:
     - icon: file-pdf-fill
