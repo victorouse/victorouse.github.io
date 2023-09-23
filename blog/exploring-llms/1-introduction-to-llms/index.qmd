@@ -1,5 +1,6 @@
 ---
 order: 1
+title: "Part 1: Introduction to LLMs"
 author: Victor Roussekov
 date: 2023-09-19
 date-modified: last-modified
@@ -8,7 +9,6 @@ citation: true
 jupyter: python3
 
 website:
-  title: "Part 1: Introduction to LLMs"
   description: >
     Exploring what makes up Large Language Models (LLMs), from training neural
     networks to downloading and deploying them.

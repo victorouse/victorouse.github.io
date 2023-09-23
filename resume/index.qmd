@@ -1,7 +1,8 @@
 ---
+title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
+
 website:
   pagetitle: victorouse.zip / resume.txt
-  title: '{{< animate fadeInUp "Victor Roussekov" duration="1s" >}}'
 
   twitter-card:
     title: Victor Roussekov
