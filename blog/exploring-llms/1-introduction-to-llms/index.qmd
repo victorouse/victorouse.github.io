@@ -11,6 +11,14 @@ date-modified: last-modified
 categories: ["LLMs", "Exploring LLMs", "Notebook"]
 citation: true
 
+twitter-card:
+  title: Victor Roussekov
+  creator: "@victorouse"
+  site: "@victorouse"
+  description: >
+    Exploring what makes up Large Language Models (LLMs), from training neural
+    networks to downloading and deploying them.
+
 share:
   permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms
   description: What he said 👉
