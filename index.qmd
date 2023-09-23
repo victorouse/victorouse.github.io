@@ -39,7 +39,7 @@ listing:
   grid-columns: 1
   max-items: 3
   image-height: 200px
-  image-placeholder: https://picsum.photos/seed/picsum/1920/1080?grayscale
+  image-placeholder: https://placehold.co/1600x900/f7f7f7/121212.png?text=Check+it+out.&font=playfair-display
   sort-ui: true
   filter-ui: true
   feed: true

@@ -1,5 +1,6 @@
 ---
 title: "Part 1: Introduction to LLMs"
+image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs.&font=playfair-display
 author: Victor Roussekov
 date: 2023-09-19
 date-modified: last-modified

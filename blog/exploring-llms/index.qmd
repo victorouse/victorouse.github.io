@@ -1,6 +1,7 @@
 ---
 title: Exploring LLMs
 author: Victor Roussekov
+image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Exporing+LLMs.&font=playfair-display
 date: 2023-09-19
 date-modified: last-modified
 
