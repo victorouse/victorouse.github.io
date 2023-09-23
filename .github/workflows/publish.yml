@@ -26,6 +26,8 @@ jobs:
 
       - name: Install R dependencies
         uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: rdeps-${{ hashFiles('**/renv.lock') }}
 
       - name: Setup Python
         uses: actions/setup-python@v2
