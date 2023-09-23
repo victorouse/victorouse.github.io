@@ -10,7 +10,7 @@
 <atom:link href="https://victorouse.zip/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Engineer at Spaceship. Currently living in Sydney, Australia.</description>
 <image>
-<url>https://victorouse.zip/images/poster.png</url>
+<url>https://placehold.co/1600x900/f7f7f7/121212.png?text=Blog&font=playfair-display</url>
 <title>Victor Roussekov</title>
 <link>https://victorouse.zip/blog/index.html</link>
 </image>
@@ -46,6 +46,7 @@ Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/3-notebooks/index.html</guid>
   <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display" medium="image"/>
 </item>
 <item>
   <title>Exploring LLMs</title>
@@ -62,12 +63,16 @@ Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695479376337" data-listing-date-modified-sort="1695479376000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="0" data-categories="LLMs,Exploring LLMs,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695479845744" data-listing-date-modified-sort="1695479845000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="../../blog/exploring-llms/1-introduction-to-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/1-introduction-to-llms/index.html -->
+<p class="card-img-top">
+<img src="https://victorouse.zip/blog/exploring-llms/https:/placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs&amp;font=playfair-display" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
-
+<h5 class="no-anchor card-title listing-title">
+Part 1: Introduction to LLMs
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
 LLMs
@@ -94,12 +99,16 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695479376337" data-listing-date-modified-sort="1695479376000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="g-col-1" data-index="1" data-categories="Python,Notebook" data-listing-date-sort="1695081600000" data-listing-file-modified-sort="1695479845744" data-listing-date-modified-sort="1695479845000" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
 <a href="../../blog/exploring-llms/2-open-source-llms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/2-open-source-llms/index.html -->
+<p class="card-img-top">
+<img src="https://victorouse.zip/blog/exploring-llms/https:/placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
-
+<h5 class="no-anchor card-title listing-title">
+Part 2: Open Source LLMs
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
@@ -123,12 +132,16 @@ Sep 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695479376337" data-listing-date-modified-sort="1695479376000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="2" data-categories="Python,Notebook" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1695479845744" data-listing-date-modified-sort="1695479845000" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="../../blog/exploring-llms/3-notebooks/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:blog/exploring-llms/3-notebooks/index.html -->
+<p class="card-img-top">
+<img src="https://victorouse.zip/blog/exploring-llms/https:/placehold.co/1600x900/f7f7f7/121212.png?text=Notebooks&amp;font=playfair-display" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
-
+<h5 class="no-anchor card-title listing-title">
+Part 3: Notebooks
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
@@ -201,6 +214,7 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Introduction+to+LLMs&amp;font=playfair-display" medium="image"/>
 </item>
 <item>
   <title>Part 2: Open Source LLMs</title>
@@ -387,6 +401,7 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-s
   <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</guid>
   <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display" medium="image"/>
 </item>
 </channel>
 </rss>
