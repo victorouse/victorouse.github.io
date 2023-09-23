@@ -112,7 +112,7 @@ format:
     code-overflow: scroll
     code-line-numbers: true
     code-block-background: true
-    code-tools: true
+    code-tools: false
 
     grid:
       sidebar-width: 250px
