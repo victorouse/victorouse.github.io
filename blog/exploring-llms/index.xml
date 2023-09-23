@@ -9,6 +9,11 @@
 <link>https://victorouse.zip/blog/exploring-llms/index.html</link>
 <atom:link href="https://victorouse.zip/blog/exploring-llms/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Engineer at Spaceship. Currently living in Sydney, Australia.</description>
+<image>
+<url>https://victorouse.zip/images/poster.png</url>
+<title>Victor Roussekov</title>
+<link>https://victorouse.zip/blog/exploring-llms/index.html</link>
+</image>
 <generator>quarto-1.4.376</generator>
 <lastBuildDate>Tue, 19 Sep 2023 00:00:00 GMT</lastBuildDate>
 <item>
