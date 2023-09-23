@@ -17,11 +17,11 @@ website:
     anonymize-ip: false
 
   open-graph:
-    description: Blog and resume
+    description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
 
   twitter-card: 
     title: Victor Roussekov
-    description: Blog and resume
+    description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
     creator: "@victorouse"
     site: "@victorouse"
 
