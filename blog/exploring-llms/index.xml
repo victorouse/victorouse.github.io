@@ -61,12 +61,12 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
 </item>
 <item>
   <title>Part 2: Open Source LLMs</title>
-  <dc:creator>Victor Roussekov</dc:creator>
   <link>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</link>
   <description><![CDATA[ 
 
 
 
+<p><a href="https://colab.research.google.com/github/victorouse/victorouse.github.io/blob/main/blog/exploring-llms/2-open-source-llms/index.ipynb" target="_parent"><img src="https://victorouse.zip/blog/exploring-llms/2-open-source-llms/https:/colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
 <hr>
 <section id="huggingface" class="level3">
 <h3 class="anchored" data-anchor-id="huggingface">HuggingFace</h3>
@@ -75,47 +75,105 @@ September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introd
 <p>One popular library that abstracts the downloading, loading, and API of [compatible] models is the HuggingFace <a href="https://github.com/huggingface/transformers">transformers</a> library.</p>
 <p>The <code>transformers</code> library is able to download and load any model published on the <a href="https://huggingface.co/docs/hub/index">HuggingFace Hub</a>.</p>
 <p>First, we will need to create a HuggingFace Account and login using the HuggingFace CLI.</p>
-<div id="cell-4" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
+<div id="cell-5" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="a8175e8e-dddf-40ca-95fa-2875f67df5fd" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install huggingface_hub</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Requirement already satisfied: huggingface_hub in /usr/local/lib/python3.10/dist-packages (0.17.2)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (3.12.2)
+Requirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (2023.6.0)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (2.31.0)
+Requirement already satisfied: tqdm&gt;=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (4.66.1)
+Requirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (6.0.1)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (4.5.0)
+Requirement already satisfied: packaging&gt;=20.9 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (23.1)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (3.2.0)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (2.0.4)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (2023.7.22)</code></pre>
 </div>
-<div id="cell-5" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="op" style="color: #5E5E5E;
+</div>
+<div id="cell-6" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="2c527e29-9819-45c0-cc3a-518d0417b183" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>huggingface<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span>cli login</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    _|    _|  _|    _|    _|_|_|    _|_|_|  _|_|_|  _|      _|    _|_|_|      _|_|_|_|    _|_|      _|_|_|  _|_|_|_|
+    _|    _|  _|    _|  _|        _|          _|    _|_|    _|  _|            _|        _|    _|  _|        _|
+    _|_|_|_|  _|    _|  _|  _|_|  _|  _|_|    _|    _|  _|  _|  _|  _|_|      _|_|_|    _|_|_|_|  _|        _|_|_|
+    _|    _|  _|    _|  _|    _|  _|    _|    _|    _|    _|_|  _|    _|      _|        _|    _|  _|        _|
+    _|    _|    _|_|      _|_|_|    _|_|_|  _|_|_|  _|      _|    _|_|_|      _|        _|    _|    _|_|_|  _|_|_|_|
+    
+    A token is already saved on your machine. Run `huggingface-cli whoami` to get more information or `huggingface-cli logout` if you want to log out.
+    Setting a new token will erase the existing one.
+    To login, `huggingface_hub` requires a token generated from https://huggingface.co/settings/tokens .
+Token: 
+Add token as git credential? (Y/n) n
+Token is valid (permission: read).
+Your token has been saved to /root/.cache/huggingface/token
+Login successful</code></pre>
+</div>
 </div>
 <p>After we’ve logged in, we now have access to all the <code>transformers</code> <a href="https://huggingface.co/models?library=transformers&amp;sort=downloads">models</a> on HuggingFace.</p>
 <p>We can now pick a model, and use the <code>pipeline</code> function from the <code>transformers</code> library to download and load our model.</p>
-<div id="cell-7" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
+<div id="cell-8" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="a7726761-ed0c-4a19-aff4-7684d6bccffb" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install transformers</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Requirement already satisfied: transformers in /usr/local/lib/python3.10/dist-packages (4.33.2)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from transformers) (3.12.2)
+Requirement already satisfied: huggingface-hub&lt;1.0,&gt;=0.15.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.17.2)
+Requirement already satisfied: numpy&gt;=1.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (1.23.5)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.10/dist-packages (from transformers) (23.1)
+Requirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (6.0.1)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (2023.6.3)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from transformers) (2.31.0)
+Requirement already satisfied: tokenizers!=0.11.3,&lt;0.14,&gt;=0.11.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.13.3)
+Requirement already satisfied: safetensors&gt;=0.3.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.3.3)
+Requirement already satisfied: tqdm&gt;=4.27 in /usr/local/lib/python3.10/dist-packages (from transformers) (4.66.1)
+Requirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from huggingface-hub&lt;1.0,&gt;=0.15.1-&gt;transformers) (2023.6.0)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub&lt;1.0,&gt;=0.15.1-&gt;transformers) (4.5.0)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (3.2.0)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (2.0.4)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (2023.7.22)</code></pre>
 </div>
-<div id="cell-8" class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
+</div>
+<div id="cell-9" class="cell" data-outputid="a271bdee-f23a-4b7d-9e5a-aac00192dda7" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> transformers <span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> pipeline</span>
-<span id="cb4-2"></span>
-<span id="cb4-3">classifier <span class="op" style="color: #5E5E5E;
+<span id="cb7-2"></span>
+<span id="cb7-3">classifier <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> pipeline(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'sentiment-analysis'</span>)</span>
-<span id="cb4-4"><span class="bu" style="color: null;
+<span id="cb7-4"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'I love cats'</span>))</span>
-<span id="cb4-5"><span class="bu" style="color: null;
+<span id="cb7-5"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'I hate dogs'</span>))</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>No model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).
+Using a pipeline without specifying a model name and revision in production is not recommended.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[{'label': 'POSITIVE', 'score': 0.9995536208152771}]
+[{'label': 'NEGATIVE', 'score': 0.9954286813735962}]</code></pre>
+</div>
 </div>
 <p>Note that we passed the string argument <code>sentiment-analysis</code>, which itself is not actually a model, but a <a href="https://huggingface.co/docs/transformers/main/en/task_summary">task</a>.</p>
 <p>Tasks in this context refer to common Natrual Language Processing (NLP) tasks, with <code>sentiment-analysis</code> being one of them.</p>
@@ -125,38 +183,46 @@ font-style: inherit;">'I hate dogs'</span>))</span></code></pre></div>
 <p>We can see that the task is using the <a href="https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english">distilbert-base-uncased-finetuned-sst-2-english</a> model downloaded from HuggingFace.</p>
 <p>We can specify an alternative model, such as the <a href="https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis">finiteautomata/bertweet-base-sentiment-analysis</a> model by providing a <code>model</code> argument to the <code>pipeline</code> function:</p>
 <hr>
-<div id="cell-11" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="op" style="color: #5E5E5E;
+<div id="cell-12" class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-outputid="e07955ba-81a0-46ff-8881-dc82f6339531" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span>pip install emoji</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Requirement already satisfied: emoji in /usr/local/lib/python3.10/dist-packages (2.8.0)</code></pre>
 </div>
-<div id="cell-12" class="cell">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+</div>
+<div id="cell-13" class="cell" data-outputid="f0aeb384-936f-48a5-fd88-973d21499fc3" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># This classifier is trained on Tweets!</span></span>
-<span id="cb7-2">classifier <span class="op" style="color: #5E5E5E;
+<span id="cb13-2">classifier <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> pipeline(model<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"finiteautomata/bertweet-base-sentiment-analysis"</span>)</span>
-<span id="cb7-3"></span>
-<span id="cb7-4"><span class="bu" style="color: null;
+<span id="cb13-3"></span>
+<span id="cb13-4"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'I love Elon Musk'</span>))</span>
-<span id="cb7-5"><span class="bu" style="color: null;
+<span id="cb13-5"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'I hate Elon Musk'</span>))</span>
-<span id="cb7-6"><span class="bu" style="color: null;
+<span id="cb13-6"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(classifier(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'OpenAI is good'</span>))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[{'label': 'POS', 'score': 0.9926522970199585}]
+[{'label': 'NEG', 'score': 0.9819341897964478}]
+[{'label': 'POS', 'score': 0.9817819595336914}]</code></pre>
+</div>
 </div>
 
 
@@ -174,11 +240,8 @@ font-style: inherit;">'OpenAI is good'</span>))</span></code></pre></div>
 Roussekov, Victor. 2023. <span>“Part 2: Open Source LLMs.”</span>
 September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-source-llms">https://victorouse.zip/blog/exploring-llms/2-open-source-llms</a>.
 </div></div></section></div> ]]></description>
-  <category>Python</category>
-  <category>Notebook</category>
   <guid>https://victorouse.zip/blog/exploring-llms/2-open-source-llms/index.html</guid>
-  <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://placehold.co/1600x900/f7f7f7/121212.png?text=Open+Source+LLMs&amp;font=playfair-display" medium="image"/>
+  <pubDate>Sat, 23 Sep 2023 12:23:29 GMT</pubDate>
 </item>
 </channel>
 </rss>
