@@ -24,7 +24,7 @@ website:
       networks to downloading and deploying them.
 
 share:
-  permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms?1337
+  permalink: https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms
   description: What he said 👉
   twitter: true
   reddit: true
