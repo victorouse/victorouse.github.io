@@ -14,11 +14,13 @@ jupyter: python3
 
 website:
   open-graph:
+    title: "Part 1: Introduction to LLMs"
     description: >
       Exploring what makes up Large Language Models (LLMs), from training neural
       networks to downloading and deploying them.
 
   twitter-card: 
+    title: "Part 1: Introduction to LLMs"
     description: >
       Exploring what makes up Large Language Models (LLMs), from training neural
       networks to downloading and deploying them.

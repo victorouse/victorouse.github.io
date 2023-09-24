@@ -1,5 +1,5 @@
 ---
-title: Exploring LLMs
+title: "Exploring LLMs"
 description: >
   This is a series of posts about Large Language Models (LLMs) with an intended
   audience of a software development team who has little to no experience with
@@ -11,12 +11,14 @@ date-modified: last-modified
 
 website:
   open-graph:
+    title: "Exploring LLMs"
     description: >
       This is a series of posts about Large Language Models (LLMs) with an intended
       audience of a software development team who has little to no experience with
       LLMs apart from the casual use of [ChatGPT](https://chat.openai.com).
 
   twitter-card: 
+    title: "Exploring LLMs"
     description: >
       This is a series of posts about Large Language Models (LLMs) with an intended
       audience of a software development team who has little to no experience with

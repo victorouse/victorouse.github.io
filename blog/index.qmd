@@ -1,15 +1,17 @@
 ---
-title: Blog
-image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Blog&font=playfair-display
+title: "Blog"
 description: >
   Writing about data engineering, machine learning, and whatever else comes to mind.
+image: https://placehold.co/1600x900/f7f7f7/121212.png?text=Blog&font=playfair-display
 
 website:
   open-graph:
+    title: "Blog"
     description: >
       Writing about data engineering, machine learning, and whatever else comes to mind.
 
   twitter-card: 
+    title: "Blog"
     description: >
       Writing about data engineering, machine learning, and whatever else comes to mind.
 
