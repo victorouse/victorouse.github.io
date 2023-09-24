@@ -16,7 +16,7 @@
     "href": "blog/exploring-llms/3-notebooks/index.html",
     "title": "Part 3: Notebooks",
     "section": "",
-    "text": "print(\"Hello world!\")\n\nHello world!\n\n\nTODO.\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 3: {Notebooks}},\n  pages = {undefined},\n  date = {2023-09-23},\n  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 3: Notebooks.” September 23,\n2023. https://victorouse.zip/blog/exploring-llms/3-notebooks.",
+    "text": "TODO.\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 3: {Notebooks}},\n  pages = {undefined},\n  date = {2023-09-23},\n  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 3: Notebooks.” September 23,\n2023. https://victorouse.zip/blog/exploring-llms/3-notebooks.",
     "crumbs": [
       "Blog",
       "Exploring LLMs",
@@ -28,7 +28,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nPart 3: Notebooks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring LLMs\n\n\nThis is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from…\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run open source LLMs.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPart 3: Notebooks\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU and GPU).\n\n\n\nVictor Roussekov\n\n\nSep 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring LLMs\n\n\nThis is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from…\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run open source LLMs.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog"
     ]
@@ -58,7 +58,7 @@
     "href": "blog/exploring-llms/index.html",
     "title": "Exploring LLMs",
     "section": "",
-    "text": "Part 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run open source LLMs.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPart 3: Notebooks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Part 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run open source LLMs.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 3: Notebooks\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU and GPU).\n\n\n\nVictor Roussekov\n\n\nSep 23, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Blog",
       "Exploring LLMs"
