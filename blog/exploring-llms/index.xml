@@ -43,15 +43,15 @@ font-style: inherit;">"Hello World!"</span>)</span></code></pre></div>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
   author = {Roussekov, Victor},
-  title = {Part 3: {Notebooks}},
+  title = {Exploring {LLMs,} {Part} 3: {Notebooks}},
   pages = {undefined},
   date = {2023-09-23},
   url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
-Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
-2023. <a href="https://victorouse.zip/blog/exploring-llms/3-notebooks">https://victorouse.zip/blog/exploring-llms/3-notebooks</a>.
+Roussekov, Victor. 2023. <span>“Exploring LLMs, Part 3:
+Notebooks.”</span> September 23, 2023. <a href="https://victorouse.zip/blog/exploring-llms/3-notebooks">https://victorouse.zip/blog/exploring-llms/3-notebooks</a>.
 </div></div></section></div> ]]></description>
   <category>Python</category>
   <category>Notebook</category>
@@ -84,15 +84,15 @@ Roussekov, Victor. 2023. <span>“Part 3: Notebooks.”</span> September 23,
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
   author = {Roussekov, Victor},
-  title = {Part 1: {Introduction} to {LLMs}},
+  title = {Exploring {LLMs,} {Part} 1: {Introduction} to {LLMs}},
   pages = {undefined},
   date = {2023-09-19},
   url = {https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
-Roussekov, Victor. 2023. <span>“Part 1: Introduction to LLMs.”</span>
-September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms">https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms</a>.
+Roussekov, Victor. 2023. <span>“Exploring LLMs, Part 1: Introduction to
+LLMs.”</span> September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms">https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms</a>.
 </div></div></section></div> ]]></description>
   <category>LLMs</category>
   <category>Exploring LLMs</category>
@@ -272,15 +272,15 @@ font-style: inherit;">'OpenAI is good'</span>))</span></code></pre></div>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{roussekov2023,
   author = {Roussekov, Victor},
-  title = {Part 2: {Open} {Source} {LLMs}},
+  title = {Exploring {LLMs,} {Part} 2: {Open} {Source} {LLMs}},
   pages = {undefined},
   date = {2023-09-19},
   url = {https://victorouse.zip/blog/exploring-llms/2-open-source-llms},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-roussekov2023" class="csl-entry quarto-appendix-citeas">
-Roussekov, Victor. 2023. <span>“Part 2: Open Source LLMs.”</span>
-September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-source-llms">https://victorouse.zip/blog/exploring-llms/2-open-source-llms</a>.
+Roussekov, Victor. 2023. <span>“Exploring LLMs, Part 2: Open Source
+LLMs.”</span> September 19, 2023. <a href="https://victorouse.zip/blog/exploring-llms/2-open-source-llms">https://victorouse.zip/blog/exploring-llms/2-open-source-llms</a>.
 </div></div></section></div> ]]></description>
   <category>Python</category>
   <category>Notebook</category>
