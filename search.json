@@ -16,7 +16,7 @@
     "href": "blog/exploring-llms/3-notebooks/index.html",
     "title": "Part 3: Notebooks",
     "section": "",
-    "text": "TODO.\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 3: {Notebooks}},\n  pages = {undefined},\n  date = {2023-09-23},\n  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 3: Notebooks.” September 23,\n2023. https://victorouse.zip/blog/exploring-llms/3-notebooks.",
+    "text": "print(\"Hello World!\")\n\nHello World!\n\n\nTODO.\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Part 3: {Notebooks}},\n  pages = {undefined},\n  date = {2023-09-23},\n  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Part 3: Notebooks.” September 23,\n2023. https://victorouse.zip/blog/exploring-llms/3-notebooks.",
     "crumbs": [
       "Blog",
       "Exploring LLMs",
