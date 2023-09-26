@@ -139,9 +139,9 @@ amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien
 et ligula ullamcorper malesuada.
 
 
-\cvheading{WORK EXPERIENCE}{(10+ years)}
+\cvheading{EXPERIENCE}{(10+ years)}
 ::: {.content-visible when-format="html"}
-## WORK EXPERIENCE[(10+ years)]{.cvdate}
+## EXPERIENCE[(10+ years)]{.cvdate}
 :::
 \cvhr
 
