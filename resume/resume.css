@@ -1,4 +1,17 @@
 .cvdate {
-  float: right;
-  font-style: italic;
+  display: flex;
+  justify-content: space-between;
 }
+
+.cvsubdate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 991.98px) {
+  .content p {
+    text-align: left;
+  }
+}
+
