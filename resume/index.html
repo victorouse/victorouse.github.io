@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.376">
+<meta name="generator" content="quarto-1.4.383">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -176,7 +176,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">SUMMARY</a></li>
-  <li><a href="#work-experience10-years" id="toc-work-experience10-years" class="nav-link" data-scroll-target="#work-experience10-years">WORK EXPERIENCE<span class="cvdate">(10+ years)</span></a>
+  <li><a href="#experience10-years" id="toc-experience10-years" class="nav-link" data-scroll-target="#experience10-years">EXPERIENCE<span class="cvdate">(10+ years)</span></a>
   <ul class="collapse">
   <li><a href="#spaceship-financial-services5-years" id="toc-spaceship-financial-services5-years" class="nav-link" data-scroll-target="#spaceship-financial-services5-years">Spaceship Financial Services<span class="cvdate">(5+ years)</span></a></li>
   <li><a href="#spitfire-corportation1.5-years" id="toc-spitfire-corportation1.5-years" class="nav-link" data-scroll-target="#spitfire-corportation1.5-years">Spitfire Corportation<span class="cvdate">(1.5 years)</span></a></li>
@@ -190,6 +190,7 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 
 
@@ -230,8 +231,8 @@ gtag('config', 'G-R2S188R1KW', { 'anonymize_ip': false});
 <h2 data-anchor-id="summary">SUMMARY</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien et ligula ullamcorper malesuada.</p>
 </section>
-<section id="work-experience10-years" class="level2">
-<h2 data-anchor-id="work-experience10-years">WORK EXPERIENCE<span class="cvdate">(10+ years)</span></h2>
+<section id="experience10-years" class="level2">
+<h2 data-anchor-id="experience10-years">EXPERIENCE<span class="cvdate">(10+ years)</span></h2>
 <section id="spaceship-financial-services5-years" class="level3">
 <h3 data-anchor-id="spaceship-financial-services5-years"><a href="https://www.spaceship.com.au">Spaceship Financial Services</a><span class="cvdate">(5+ years)</span></h3>
 <p><strong><em>Data Engineer</em></strong><span class="cvdate"><strong><em>Jan 2021 – Present</em></strong></span></p>
@@ -428,15 +429,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
         for (let i = 0; i < 2; i++) {
           container.appendChild(note.children[i].cloneNode(true));
         }
+        typesetMath(container);
         return container.innerHTML
       } else {
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -445,6 +469,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
+      typesetMath(note);
       return note.innerHTML;
     }
   }
@@ -487,6 +512,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -562,7 +610,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);
@@ -648,7 +695,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
