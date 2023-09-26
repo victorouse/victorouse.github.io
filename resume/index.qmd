@@ -138,19 +138,20 @@ pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit
 amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien
 et ligula ullamcorper malesuada.
 
+::: {.content-visible when-format="html"}
+## [[EXPERIENCE]{} (10+ years)]{.cvdate}
+:::
 
 \cvheading{EXPERIENCE}{(10+ years)}
-::: {.content-visible when-format="html"}
-## EXPERIENCE[(10+ years)]{.cvdate}
-:::
 \cvhr
 
-\cvsubsection{Spaceship Financial Services}{https://www.spaceship.com.au}{(5+ years)}
-\cvsubsubsection{Data Engineer}{Jan 2021 -- Present}
 ::: {.content-visible when-format="html"}
-### [Spaceship Financial Services](https://www.spaceship.com.au)[(5+ years)]{.cvdate}
-***Data Engineer***[***Jan 2021 -- Present***]{.cvdate}
+### [[Spaceship](https://www.spaceship.com.au) (5+ years)]{.cvdate}
+[**Data Engineer** ***Jan 2021 -- Present***]{.cvsubdate}
 :::
+
+\cvsubsection{Spaceship}{https://www.spaceship.com.au}{(5+ years)}
+\cvsubsubsection{Data Engineer}{Jan 2021 -- Present}
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
@@ -171,7 +172,7 @@ pellentesque sit amet porttitor.
 
 \cvsubsubsection{Senior Software Engineer}{Jan 2020 -- Jan 2021}
 ::: {.content-visible when-format="html"}
-***Senior Software Engineer***[***Jan 2020 -- Jan 2021***]{.cvdate} 
+[**Senior Software Engineer** ***Jan 2020 -- Jan 2021***]{.cvsubdate} 
 :::
 
 - Nulla nunc mi, condimentum at fermentum a, vestibulum vitae ex. Proin at
@@ -188,10 +189,11 @@ pellentesque sit amet porttitor.
   elementum eros commodo a.
 
 
+:::: {.content-visible when-format="html"}
+[**Software Engineer**&nbsp; ***Dec 2018 -- Jan 2020***]{.cvsubdate} 
+::::
+
 \cvsubsubsection{Software Engineer}{Dec 2018 -- Jan 2020}
-::: {.content-visible when-format="html"}
-***Software Engineer***[***Dec 2018 -- Jan 2020***]{.cvdate} 
-:::
 
 - Etiam pulvinar mattis pulvinar. Donec id pulvinar metus. Suspendisse
   facilisis eros eget velit fermentum, eu interdum nisi laoreet. Phasellus in
@@ -205,12 +207,13 @@ pellentesque sit amet porttitor.
 \pagebreak
 
 
-\cvsubsection{Spitfire Corportation}{https://www.spitfire.io}{(1.5 years)}
+:::: {.content-visible when-format="html"}
+### [[Spitfire](https://web.archive.org/web/20201101073734/https://www.spitfire.io/) (1.5 years)]{.cvdate}
+[**Software Engineer** ***Jun 2017 -- Nov 2018***]{.cvsubdate}
+::::
+
+\cvsubsection{Spitfire}{https://www.spitfire.io}{(1.5 years)}
 \cvsubsubsection{Software Engineer}{Jun 2017 -- Nov 2018}
-::: {.content-visible when-format="html"}
-### [Spitfire Corportation](https://www.spitfire.io)[(1.5 years)]{.cvdate}
-***Software Engineer***[***Jun 2017 -- Nov 2018***]{.cvdate}
-:::
 
 - Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
   dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
@@ -225,12 +228,13 @@ pellentesque sit amet porttitor.
   aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta
   luctus a felis.
 
+:::: {.content-visible when-format="html"}
+### [[Cogni](https://www.getcogni.com) (3 years)]{.cvdate}
+[**Software Engineer&nbsp;** ***Jun 2014 -- Jan 2017***]{.cvsubdate}
+::::
+
 \cvsubsection{Cogni}{https://www.getcogni.com}{(3 years)}
 \cvsubsubsection{Software Engineer}{Jun 2014 -- Jan 2017}
-::: {.content-visible when-format="html"}
-### [Cogni](https://www.getcogni.com)[(3 years)]{.cvdate}
-***Software Engineer***[***Jun 2014 -- Jan 2017***]{.cvdate}
-:::
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
@@ -248,12 +252,13 @@ pellentesque sit amet porttitor.
   nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
   posuere finibus.
 
+::: {.content-visible when-format="html"}
+### [[University of Queensland](https://uq.edu.au/) (1.5 years)]{.cvdate}
+[**Junior Software Engineer** ***Jun 2012 -- Nov 2013***]{.cvsubdate}
+:::
+
 \cvsubsection{University of Queensland}{https://uq.edu.au/}{(1.5 years)}
 \cvsubsubsection{Junior Software Engineer}{Jun 2012 -- Nov 2013}
-::: {.content-visible when-format="html"}
-### [University of Queensland](https://uq.edu.au/)[(1.5 years)]{.cvdate}
-***Junior Software Engineer***[***Jun 2012 -- Nov 2013***]{.cvdate}
-:::
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
@@ -278,22 +283,24 @@ pellentesque sit amet porttitor.
 ## EDUCATION{style="page-break-before: always"}
 \cvhr
 
-\cvsubsubsectionedu{Bachelor of Information Technology (Honours)}{University of Queensland}{2014 -- 2015}
 ::: {.content-visible when-format="html"}
-**Bachelor of Information Technology (Honours)** <br> *University of Queensland* [*2014 --- 2015*]{.cvdate}
+**Bachelor of Information Technology (Honours)** <br> *University of Queensland* [*2014 --- 2015*]{.float-end}
 :::
+
+\cvsubsubsectionedu{Bachelor of Information Technology (Honours)}{University of Queensland}{2014 -- 2015}
 
 - Completed research thesis on [Context-Aware Mobile Video Retrieval](https://drive.google.com/file/d/0B9BIdud4S8x2eGtHc0RCNkMwRTQ)
 
 - Received Prentice Scholar award for high achievement
 
 
-\cvsubsubsectionedu{Bachelor of Information Technology}{University of Queensland}{2011 -- 2013}
 ::: {.content-visible when-format="html"}
-**Bachelor of Information Technology** <br> *University of Queensland* [*2011 --- 2013*]{.cvdate}
+**Bachelor of Information Technology** <br> *University of Queensland* [*2011 --- 2013*]{.float-end}
 :::
 
-- Graduated with First Class Honours, and inclusion on Dean's Honours List
+\cvsubsubsectionedu{Bachelor of Information Technology}{University of Queensland}{2011 -- 2013}
+
+- Graduated with First Class Honours, included on Dean's Honours List
 
 - Grade Point Average: 6.7 / 7.0
 
@@ -301,6 +308,4 @@ pellentesque sit amet porttitor.
 ## REFERENCES
 \cvhr
 
-:::{.text-center}
 Available upon request.
-:::
