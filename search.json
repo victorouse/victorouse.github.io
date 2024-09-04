@@ -1,79 +1,12 @@
 [
   {
-    "objectID": "blog/exploring-llms/2-open-source-llms/index.html",
-    "href": "blog/exploring-llms/2-open-source-llms/index.html",
-    "title": "Part 2: Open Source LLMs",
-    "section": "",
-    "text": "HuggingFace\nModels created by the Open Source community are generally written in Python using frameworks like PyTorch and Tensorflow.\nEach model will have its own instructions on how to compile and run them.\nOne popular library that abstracts the downloading, loading, and API of [compatible] models is the HuggingFace transformers library.\nThe transformers library is able to download and load any model published on the HuggingFace Hub.\nFirst, we will need to create a HuggingFace Account and login using the HuggingFace CLI.\n\n!pip install huggingface_hub\n\nRequirement already satisfied: huggingface_hub in /usr/local/lib/python3.10/dist-packages (0.17.2)\nRequirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (3.12.2)\nRequirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (2023.6.0)\nRequirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (2.31.0)\nRequirement already satisfied: tqdm&gt;=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (4.66.1)\nRequirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (6.0.1)\nRequirement already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (4.5.0)\nRequirement already satisfied: packaging&gt;=20.9 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub) (23.1)\nRequirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (3.2.0)\nRequirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (3.4)\nRequirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (2.0.4)\nRequirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;huggingface_hub) (2023.7.22)\n\n\n\n!huggingface-cli login\n\n\n    _|    _|  _|    _|    _|_|_|    _|_|_|  _|_|_|  _|      _|    _|_|_|      _|_|_|_|    _|_|      _|_|_|  _|_|_|_|\n    _|    _|  _|    _|  _|        _|          _|    _|_|    _|  _|            _|        _|    _|  _|        _|\n    _|_|_|_|  _|    _|  _|  _|_|  _|  _|_|    _|    _|  _|  _|  _|  _|_|      _|_|_|    _|_|_|_|  _|        _|_|_|\n    _|    _|  _|    _|  _|    _|  _|    _|    _|    _|    _|_|  _|    _|      _|        _|    _|  _|        _|\n    _|    _|    _|_|      _|_|_|    _|_|_|  _|_|_|  _|      _|    _|_|_|      _|        _|    _|    _|_|_|  _|_|_|_|\n    \n    A token is already saved on your machine. Run `huggingface-cli whoami` to get more information or `huggingface-cli logout` if you want to log out.\n    Setting a new token will erase the existing one.\n    To login, `huggingface_hub` requires a token generated from https://huggingface.co/settings/tokens .\nToken: \nAdd token as git credential? (Y/n) n\nToken is valid (permission: read).\nYour token has been saved to /root/.cache/huggingface/token\nLogin successful\n\n\nAfter we’ve logged in, we now have access to all the transformers models on HuggingFace.\nWe can now pick a model, and use the pipeline function from the transformers library to download and load our model.\n\n!pip install transformers\n\nRequirement already satisfied: transformers in /usr/local/lib/python3.10/dist-packages (4.33.2)\nRequirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from transformers) (3.12.2)\nRequirement already satisfied: huggingface-hub&lt;1.0,&gt;=0.15.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.17.2)\nRequirement already satisfied: numpy&gt;=1.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (1.23.5)\nRequirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.10/dist-packages (from transformers) (23.1)\nRequirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (6.0.1)\nRequirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (2023.6.3)\nRequirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from transformers) (2.31.0)\nRequirement already satisfied: tokenizers!=0.11.3,&lt;0.14,&gt;=0.11.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.13.3)\nRequirement already satisfied: safetensors&gt;=0.3.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.3.3)\nRequirement already satisfied: tqdm&gt;=4.27 in /usr/local/lib/python3.10/dist-packages (from transformers) (4.66.1)\nRequirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from huggingface-hub&lt;1.0,&gt;=0.15.1-&gt;transformers) (2023.6.0)\nRequirement already satisfied: typing-extensions&gt;=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub&lt;1.0,&gt;=0.15.1-&gt;transformers) (4.5.0)\nRequirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (3.2.0)\nRequirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (3.4)\nRequirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (2.0.4)\nRequirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers) (2023.7.22)\n\n\n\nfrom transformers import pipeline\n\nclassifier = pipeline('sentiment-analysis')\nprint(classifier('I love cats'))\nprint(classifier('I hate dogs'))\n\nNo model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).\nUsing a pipeline without specifying a model name and revision in production is not recommended.\n\n\n[{'label': 'POSITIVE', 'score': 0.9995536208152771}]\n[{'label': 'NEGATIVE', 'score': 0.9954286813735962}]\n\n\nNote that we passed the string argument sentiment-analysis, which itself is not actually a model, but a task.\nTasks in this context refer to common Natrual Language Processing (NLP) tasks, with sentiment-analysis being one of them.\nEach task has it’s own string identifier, i.e. sentiment-analysis and a default model that is used for the task.\nThis is why we observed the following output from the previous step:\nNo model was supplied, defaulted to distilbert-base-uncased-finetuned-sst-2-english and revision af0f99b (https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).\nWe can see that the task is using the distilbert-base-uncased-finetuned-sst-2-english model downloaded from HuggingFace.\nWe can specify an alternative model, such as the finiteautomata/bertweet-base-sentiment-analysis model by providing a model argument to the pipeline function:\n\n!pip install emoji\n\nRequirement already satisfied: emoji in /usr/local/lib/python3.10/dist-packages (2.8.0)\n\n\n\n# This classifier is trained on Tweets!\nclassifier = pipeline(model=\"finiteautomata/bertweet-base-sentiment-analysis\")\n\nprint(classifier('I love Elon Musk'))\nprint(classifier('I hate Elon Musk'))\nprint(classifier('OpenAI is good'))\n\n[{'label': 'POS', 'score': 0.9926522970199585}]\n[{'label': 'NEG', 'score': 0.9819341897964478}]\n[{'label': 'POS', 'score': 0.9817819595336914}]\n\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Exploring {LLMs,} {Part} 2: {Open} {Source} {LLMs}},\n  pages = {undefined},\n  date = {2023-09-19},\n  url = {https://victorouse.zip/blog/exploring-llms/2-open-source-llms},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Exploring LLMs, Part 2: Open Source\nLLMs.” September 19, 2023. https://victorouse.zip/blog/exploring-llms/2-open-source-llms.",
-    "crumbs": [
-      "Blog",
-      "Exploring LLMs",
-      "Part 2: Open Source LLMs"
-    ]
-  },
-  {
-    "objectID": "blog/exploring-llms/3-notebooks/index.html",
-    "href": "blog/exploring-llms/3-notebooks/index.html",
-    "title": "Part 3: Notebooks",
-    "section": "",
-    "text": "print(\"Hello World!\")\n\nHello World!\n\n\nTODO.\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Exploring {LLMs,} {Part} 3: {Notebooks}},\n  pages = {undefined},\n  date = {2023-09-23},\n  url = {https://victorouse.zip/blog/exploring-llms/3-notebooks},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Exploring LLMs, Part 3:\nNotebooks.” September 23, 2023. https://victorouse.zip/blog/exploring-llms/3-notebooks.",
-    "crumbs": [
-      "Blog",
-      "Exploring LLMs",
-      "Part 3: Notebooks"
-    ]
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPart 3: Notebooks\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU and GPU).\n\n\n\nVictor Roussekov\n\n\nSep 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring LLMs\n\n\nThis is a series of posts about Large Language Models (LLMs) with an intended audience of a software development team who has little to no experience with LLMs apart from…\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run open source LLMs.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
-    "crumbs": [
-      "Blog"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Victor Roussekov",
     "section": "",
-    "text": "👋  Data Engineer at Spaceship. Currently located in Sydney, Australia.\n \n  \n   \n  \n    \n     Resume\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Twitter",
+    "text": "👋  Data Engineer at Revolut. Currently located in Sydney, Australia.\n\n\n \n  \n   \n  \n    \n     Resume\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Twitter",
     "crumbs": [
       "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#latest-postsblog",
-    "href": "index.html#latest-postsblog",
-    "title": "Victor Roussekov",
-    "section": "Latest PostsBlog →",
-    "text": "Latest PostsBlog →",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "blog/exploring-llms/index.html",
-    "href": "blog/exploring-llms/index.html",
-    "title": "Exploring LLMs",
-    "section": "",
-    "text": "Part 1: Introduction to LLMs\n\n\n\nLLMs\n\n\nExploring LLMs\n\n\nNotebook\n\n\n\nExploring what makes up Large Language Models (LLMs), from training neural networks to downloading and deploying them.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 2: Open Source LLMs\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to actually download and run open source LLMs.\n\n\n\nVictor Roussekov\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 3: Notebooks\n\n\n\nPython\n\n\nNotebook\n\n\n\nHow to run open source LLMs and run experiments in Jupyter Notebooks, both on the cloud and on your own hardware (CPU and GPU).\n\n\n\nVictor Roussekov\n\n\nSep 23, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
-    "crumbs": [
-      "Blog",
-      "Exploring LLMs"
-    ]
-  },
-  {
-    "objectID": "blog/exploring-llms/1-introduction-to-llms/index.html",
-    "href": "blog/exploring-llms/1-introduction-to-llms/index.html",
-    "title": "Part 1: Introduction to LLMs",
-    "section": "",
-    "text": "What are Large Language Models?\nLarge Language Models (LLMs) are neural networks that can generate output such as text, images, etc. Each model has its own applied methodology, reflected in how the neural network is configured.\nTo use neural networks, they must first be “trained”. The training process involves passing “training” data through the network and evaluating the output against a “validation” or “testing” set.\nThis process adjusts the model “weights” along the way, and once the training process is finished, the resulting weights can be distributed for use.\nThe resulting weights are generally referred to as “pre-trained” models that are distributed in a format that can be “loaded” into a model.\nThere are many different types of models, from OpenAI’s proprietary GPT models (GPT3, GTP3.5, GTP4), to open source models like Meta’s Llama2.\nThere are many open sources models that can be downloaded from a model artefact repository called HuggingFace. You can think of HuggingFace like the DockerHub for LLMs.\nThere are also platforms that offer LLM hosting services, such as Replicate, which host these LLM models on the cloud for you, meaning you don’t have to run them on your own hardware.\nIt is still possible to run LLMs on consumer hardware, and a MacBook should be able to at least run small-to-medium sized models within reasonable timeframes.\n\n\n\n\n Back to topCitationBibTeX citation:@online{roussekov2023,\n  author = {Roussekov, Victor},\n  title = {Exploring {LLMs,} {Part} 1: {Introduction} to {LLMs}},\n  pages = {undefined},\n  date = {2023-09-19},\n  url = {https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRoussekov, Victor. 2023. “Exploring LLMs, Part 1: Introduction to\nLLMs.” September 19, 2023. https://victorouse.zip/blog/exploring-llms/1-introduction-to-llms.",
-    "crumbs": [
-      "Blog",
-      "Exploring LLMs",
-      "Part 1: Introduction to LLMs"
     ]
   },
   {
@@ -81,21 +14,14 @@
     "href": "resume/index.html",
     "title": "Victor Roussekov",
     "section": "",
-    "text": "👋  Data Engineer at Spaceship. Not actively looking.\n \n  \n   \n  \n    \n     Download\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Twitter"
-  },
-  {
-    "objectID": "resume/index.html#summary",
-    "href": "resume/index.html#summary",
-    "title": "Victor Roussekov",
-    "section": "SUMMARY",
-    "text": "SUMMARY\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien et ligula ullamcorper malesuada."
+    "text": "👋  Data Engineer at Revolut.\n \n  \n   \n  \n    \n     Download\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Twitter"
   },
   {
     "objectID": "resume/index.html#experience-10-years",
     "href": "resume/index.html#experience-10-years",
     "title": "Victor Roussekov",
     "section": "EXPERIENCE (10+ years)",
-    "text": "EXPERIENCE (10+ years)\n\nSpaceship (5+ years)\nData Engineer Jan 2021 – Present\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.\nVarius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.\nNulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.\nIn non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus.\n\nSenior Software Engineer Jan 2020 – Jan 2021\n\nNulla nunc mi, condimentum at fermentum a, vestibulum vitae ex. Proin at lorem ut tellus commodo mattis nec et ante. Donec luctus in urna eget fringilla. Aliquam nec dui nibh. Aenean mollis nisl at libero venenatis placerat.\nSed tincidunt lacus vel dolor auctor, ut mattis risus mollis. Phasellus malesuada commodo velit in facilisis. In volutpat porttitor lobortis. ex lacinia orci.\nMorbi in purus in ex congue cursus ut sed elit. In aliquam imperdiet lacus, ac facilisis velit accumsan sit amet. Integer bibendum bibendum turpis, a elementum eros commodo a.\n\nSoftware Engineer  Dec 2018 – Jan 2020\n\nEtiam pulvinar mattis pulvinar. Donec id pulvinar metus. Suspendisse facilisis eros eget velit fermentum, eu interdum nisi laoreet. Phasellus in eleifend ex. Vivamus eu tortor mollis, condimentum ex et, posuere risus.\nUt sagittis neque id sapien semper auctor. Proin rhoncus massa sed nibh posuere pulvinar. Curabitur vel neque lacinia risus dapibus pharetra lacinia in augue. Sed tortor urna, consequat at porta nec, convallis sit amet ipsum.\n\n\n\nSpitfire (1.5 years)\nSoftware Engineer Jun 2017 – Nov 2018\n\nDonec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus.\nUt mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat est orci, sit amet eleifend augue pellentesque et.\nAenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta luctus a felis.\n\n\n\nCogni (3 years)\nSoftware Engineer  Jun 2014 – Jan 2017\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.\nVarius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.\nNulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.\nIn non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus.\n\n\n\nUniversity of Queensland (1.5 years)\nJunior Software Engineer Jun 2012 – Nov 2013\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.\nVarius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.\nNulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.\nIn non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus."
+    "text": "EXPERIENCE (10+ years)\n\nRevolut (6+ months)\nSoftware Engineer (Data) April 2024 – Present\n\nDeveloped an end-to-end, PCI DSS-compliant regulatory reporting solution to generate and deliver reports to Australian regulators (AUSTRAC and APRA).\nProvisioned Google Cloud Platform infrastructure, including GKE clusters, load balancers, IAM roles and permissions, secrets management, monitoring frameworks, database virtual machines, and networking rules.\nDeployed and managed Airflow on Kubernetes, responsible for creating and maintaining mission-critical ETL and regulatory reporting workloads.\nMapped regulatory reporting requirements for the Financial Claims Scheme (APS 910) to internal source tables and wrote Airflow jobs to extract data from source PostgreSQL databases to Parquet files stored in Google Cloud Storage.\nImplemented data quality checks, monitoring rules, and alerting frameworks to ensure end-to-end correctness and observability of critical services and reporting pipelines.\n\n\n\nSpaceship (5+ years)\nSenior Data Engineer Jan 2021 – March 2024\n\nArchitected a data warehouse using dbt and BigQuery, modeling raw data into a medallion architecture using Kimball data modeling principles. Modeled a variety of use cases, including CAC/LTV, A/B testing, performance marketing, risk and compliance, and finance reporting.\nProvisioned Airflow via GCP Cloud Composer using Terraform and Google Cloud Storage, creating CI pipelines to build and test DAGs in development, and CD pipelines to deploy DAGs to production.\nOwned the creation and maintenance of mission-critical ETL and data warehouse workloads, overseeing the entire process from extracting source data from operational databases to building and maintaining dbt data models used in downstream reporting.\nDeployed and managed Metabase on Kubernetes, adopted by the entire business for day-to-day decision-making. Educated non-technical stakeholders and provided tailored data models and reports for their use cases.\n\nSenior Software Engineer Jan 2020 – Jan 2021\n\nPromoted to Senior Software Engineer for exceeding performance expectations and consistently delivering features end-to-end, from scoping requirements and planning tasks to implementing both frontend and backend components.\n\nSoftware Engineer  Dec 2018 – Jan 2020\n\nLed the build, maintenance, deployment, and release of all frontend products, including a marketing website (Next.js/Prismic), a web app (React/Apollo), a mobile app (React Native/Apollo), and an admin panel (React/MobX).\nImplemented features across the entire stack, including database schema design, developing microservices (Go/gRPC/Protobuf/SQL), creating APIs (REST/GraphQL), and consuming them (Apollo/React/React Native)."
   },
   {
     "objectID": "resume/index.html#education",
@@ -110,5 +36,15 @@
     "title": "Victor Roussekov",
     "section": "REFERENCES",
     "text": "REFERENCES\nAvailable upon request."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items\n\n Back to top",
+    "crumbs": [
+      "Blog"
+    ]
   }
 ]
