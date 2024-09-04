@@ -10,6 +10,16 @@
     ]
   },
   {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items\n\n Back to top",
+    "crumbs": [
+      "Blog"
+    ]
+  },
+  {
     "objectID": "resume/index.html",
     "href": "resume/index.html",
     "title": "Victor Roussekov",
@@ -21,7 +31,7 @@
     "href": "resume/index.html#experience-10-years",
     "title": "Victor Roussekov",
     "section": "EXPERIENCE (10+ years)",
-    "text": "EXPERIENCE (10+ years)\n\nRevolut (6+ months)\nSoftware Engineer (Data) April 2024 – Present\n\nDeveloped an end-to-end, PCI DSS-compliant regulatory reporting solution to generate and deliver reports to Australian regulators (AUSTRAC and APRA).\nProvisioned Google Cloud Platform infrastructure, including GKE clusters, load balancers, IAM roles and permissions, secrets management, monitoring frameworks, database virtual machines, and networking rules.\nDeployed and managed Airflow on Kubernetes, responsible for creating and maintaining mission-critical ETL and regulatory reporting workloads.\nMapped regulatory reporting requirements for the Financial Claims Scheme (APS 910) to internal source tables and wrote Airflow jobs to extract data from source PostgreSQL databases to Parquet files stored in Google Cloud Storage.\nImplemented data quality checks, monitoring rules, and alerting frameworks to ensure end-to-end correctness and observability of critical services and reporting pipelines.\n\n\n\nSpaceship (5+ years)\nSenior Data Engineer Jan 2021 – March 2024\n\nArchitected a data warehouse using dbt and BigQuery, modeling raw data into a medallion architecture using Kimball data modeling principles. Modeled a variety of use cases, including CAC/LTV, A/B testing, performance marketing, risk and compliance, and finance reporting.\nProvisioned Airflow via GCP Cloud Composer using Terraform and Google Cloud Storage, creating CI pipelines to build and test DAGs in development, and CD pipelines to deploy DAGs to production.\nOwned the creation and maintenance of mission-critical ETL and data warehouse workloads, overseeing the entire process from extracting source data from operational databases to building and maintaining dbt data models used in downstream reporting.\nDeployed and managed Metabase on Kubernetes, adopted by the entire business for day-to-day decision-making. Educated non-technical stakeholders and provided tailored data models and reports for their use cases.\n\nSenior Software Engineer Jan 2020 – Jan 2021\n\nPromoted to Senior Software Engineer for exceeding performance expectations and consistently delivering features end-to-end, from scoping requirements and planning tasks to implementing both frontend and backend components.\n\nSoftware Engineer  Dec 2018 – Jan 2020\n\nLed the build, maintenance, deployment, and release of all frontend products, including a marketing website (Next.js/Prismic), a web app (React/Apollo), a mobile app (React Native/Apollo), and an admin panel (React/MobX).\nImplemented features across the entire stack, including database schema design, developing microservices (Go/gRPC/Protobuf/SQL), creating APIs (REST/GraphQL), and consuming them (Apollo/React/React Native)."
+    "text": "EXPERIENCE (10+ years)\n\nRevolut (6+ months)\nSoftware Engineer (Data) April 2024 – Present\n\nDonec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus.\nUt mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat est orci, sit amet eleifend augue pellentesque et.\nAenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta luctus a felis.\n\n\n\nSpaceship (5+ years)\nSenior Data Engineer Jan 2021 – March 2024\n\nDonec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus.\nUt mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat est orci, sit amet eleifend augue pellentesque et.\nAenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta luctus a felis.\n\nSenior Software Engineer Jan 2020 – Jan 2021\n\nDonec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus.\n\nSoftware Engineer  Dec 2018 – Jan 2020\n\nDonec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus.\nUt mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat est orci, sit amet eleifend augue pellentesque et.\n\n\n\nSpitfire (1.5 years)\nSoftware Engineer Jun 2017 – Nov 2018\n\nDonec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non pellentesque nulla tortor sit amet metus.\nUt mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat est orci, sit amet eleifend augue pellentesque et.\nAenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta luctus a felis.\n\n\n\nCogni (3 years)\nSoftware Engineer  Jun 2014 – Jan 2017\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.\nVarius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.\nNulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.\nIn non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus.\n\n\n\nUniversity of Queensland (1.5 years)\nJunior Software Engineer Jun 2012 – Nov 2013\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor.\nVarius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam in arcu cursus.\nNulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.\nIn non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere posuere finibus."
   },
   {
     "objectID": "resume/index.html#education",
@@ -36,15 +46,5 @@
     "title": "Victor Roussekov",
     "section": "REFERENCES",
     "text": "REFERENCES\nAvailable upon request."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "No matching items\n\n Back to top",
-    "crumbs": [
-      "Blog"
-    ]
   }
 ]
