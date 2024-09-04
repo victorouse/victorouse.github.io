@@ -20,7 +20,7 @@ share:
 website:
   title: Victor Roussekov
   image: /images/poster.png
-  description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
+  description: Data Engineer at Revolut. Currently living in Sydney, Australia.
   favicon: images/favicon.ico
 
   google-analytics:
@@ -29,11 +29,11 @@ website:
     anonymize-ip: false
 
   open-graph:
-    description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
+    description: Data Engineer at Revolut. Currently living in Sydney, Australia.
 
   twitter-card: 
     title: Victor Roussekov
-    description: Data Engineer at Spaceship. Currently living in Sydney, Australia.
+    description: Data Engineer at Revolut. Currently living in Sydney, Australia.
     card-style: summary_large_image
     creator: "@victorouse"
     site: "@victorouse"

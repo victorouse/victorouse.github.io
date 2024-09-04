@@ -122,21 +122,20 @@ format:
 
 👋
 <br>
-Data Engineer at [Spaceship](https://www.spaceship.com.au).
-<br>Not actively looking.
+Data Engineer at [Revolut](https://www.revolut.com).
 
 :::
 
 ::::
 
-## SUMMARY
-\cvhr
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
-pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit
-amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien
-et ligula ullamcorper malesuada.
+<!-- ## SUMMARY -->
+<!-- \cvhr -->
+<!---->
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+<!-- incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a -->
+<!-- pellentesque sit amet porttitor. Cursus sit amet dictum sit. Aliquam purus sit -->
+<!-- amet luctus. Congue quisque egestas diam in arcu cursus. Nunc pulvinar sapien -->
+<!-- et ligula ullamcorper malesuada. -->
 
 ::: {.content-visible when-format="html"}
 ## [[EXPERIENCE]{} (10+ years)]{.cvdate}
@@ -146,48 +145,68 @@ et ligula ullamcorper malesuada.
 \cvhr
 
 ::: {.content-visible when-format="html"}
+### [[Revolut](https://www.revolut.com) (6+ months)]{.cvdate}
+[**Software Engineer (Data)** ***April 2024 -- Present***]{.cvsubdate}
+:::
+
+\cvsubsection{Revolut}{https://www.revolut.com}{(6+ months)}
+\cvsubsubsection{Software Engineer (Data)}{April 2024 -- Present}
+
+- Developed an end-to-end, PCI DSS-compliant regulatory reporting solution to
+generate and deliver reports to Australian regulators (AUSTRAC and APRA).
+
+- Provisioned Google Cloud Platform infrastructure, including GKE clusters,
+load balancers, IAM roles and permissions, secrets management, monitoring
+frameworks, database virtual machines, and networking rules.
+
+- Deployed and managed Airflow on Kubernetes, responsible for creating and
+maintaining mission-critical ETL and regulatory reporting workloads.
+
+- Mapped regulatory reporting requirements for the Financial Claims Scheme (APS 910)
+to internal source tables and wrote Airflow jobs to extract data from source
+PostgreSQL databases to Parquet files stored in Google Cloud Storage.
+
+- Implemented data quality checks, monitoring rules, and alerting frameworks to
+ensure end-to-end correctness and observability of critical services and
+reporting pipelines.
+
+
+::: {.content-visible when-format="html"}
 ### [[Spaceship](https://www.spaceship.com.au) (5+ years)]{.cvdate}
-[**Data Engineer** ***Jan 2021 -- Present***]{.cvsubdate}
+[**Senior Data Engineer** ***Jan 2021 -- March 2024***]{.cvsubdate}
 :::
 
 \cvsubsection{Spaceship}{https://www.spaceship.com.au}{(5+ years)}
-\cvsubsubsection{Data Engineer}{Jan 2021 -- Present}
+\cvsubsubsection{Senior Data Engineer}{Jan 2021 -- March 2024}
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
-pellentesque sit amet porttitor.
+- Architected a data warehouse using dbt and BigQuery, modeling raw data into a
+medallion architecture using Kimball data modeling principles. Modeled a
+variety of use cases, including CAC/LTV, A/B testing, performance marketing,
+risk and compliance, and finance reporting.
 
-- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
-  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
-  in arcu cursus.
+- Provisioned Airflow via GCP Cloud Composer using Terraform and Google Cloud
+Storage, creating CI pipelines to build and test DAGs in development, and CD
+pipelines to deploy DAGs to production.
 
-- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
-  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
-  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
+- Owned the creation and maintenance of mission-critical ETL and data warehouse
+workloads, overseeing the entire process from extracting source data from
+operational databases to building and maintaining dbt data models used in
+downstream reporting.
 
-- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
-  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
-  posuere finibus.
+- Deployed and managed Metabase on Kubernetes, adopted by the entire business
+for day-to-day decision-making. Educated non-technical stakeholders and
+provided tailored data models and reports for their use cases.
 
+\pagebreak
 
 \cvsubsubsection{Senior Software Engineer}{Jan 2020 -- Jan 2021}
 ::: {.content-visible when-format="html"}
 [**Senior Software Engineer** ***Jan 2020 -- Jan 2021***]{.cvsubdate} 
 :::
 
-- Nulla nunc mi, condimentum at fermentum a, vestibulum vitae ex. Proin at
-  lorem ut tellus commodo mattis nec et ante. Donec luctus in urna eget
-  fringilla. Aliquam nec dui nibh. Aenean mollis nisl at libero venenatis
-  placerat.
-
-- Sed tincidunt lacus vel dolor auctor, ut mattis risus mollis. Phasellus
-  malesuada commodo velit in facilisis. In volutpat porttitor lobortis.
-  ex lacinia orci.
-
-- Morbi in purus in ex congue cursus ut sed elit. In aliquam imperdiet lacus,
-  ac facilisis velit accumsan sit amet. Integer bibendum bibendum turpis, a
-  elementum eros commodo a.
-
+- Promoted to Senior Software Engineer for exceeding performance expectations
+and consistently delivering features end-to-end, from scoping requirements and
+planning tasks to implementing both frontend and backend components.
 
 :::: {.content-visible when-format="html"}
 [**Software Engineer**&nbsp; ***Dec 2018 -- Jan 2020***]{.cvsubdate} 
@@ -195,89 +214,87 @@ pellentesque sit amet porttitor.
 
 \cvsubsubsection{Software Engineer}{Dec 2018 -- Jan 2020}
 
-- Etiam pulvinar mattis pulvinar. Donec id pulvinar metus. Suspendisse
-  facilisis eros eget velit fermentum, eu interdum nisi laoreet. Phasellus in
-  eleifend ex. Vivamus eu tortor mollis, condimentum ex et, posuere risus.
+- Led the build, maintenance, deployment, and release of all frontend products,
+including a marketing website (Next.js/Prismic), a web app (React/Apollo), a
+mobile app (React Native/Apollo), and an admin panel (React/MobX).
 
-- Ut sagittis neque id sapien semper auctor. Proin rhoncus massa sed nibh
-  posuere pulvinar. Curabitur vel neque lacinia risus dapibus pharetra lacinia
-  in augue. Sed tortor urna, consequat at porta nec, convallis sit amet ipsum. 
+- Implemented features across the entire stack, including database schema
+design, developing microservices (Go/gRPC/Protobuf/SQL), creating APIs
+(REST/GraphQL), and consuming them (Apollo/React/React Native).
 
+<!-- :::: {.content-visible when-format="html"} -->
+<!-- ### [[Spitfire](https://web.archive.org/web/20201101073734/https://www.spitfire.io/) (1.5 years)]{.cvdate} -->
+<!-- [**Software Engineer** ***Jun 2017 -- Nov 2018***]{.cvsubdate} -->
+<!-- :::: -->
+<!---->
+<!-- \cvsubsection{Spitfire}{https://www.spitfire.io}{(1.5 years)} -->
+<!-- \cvsubsubsection{Software Engineer}{Jun 2017 -- Nov 2018} -->
+<!---->
+<!-- - Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi -->
+<!--   dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien -->
+<!--   odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non -->
+<!--   pellentesque nulla tortor sit amet metus. -->
+<!---->
+<!-- - Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum -->
+<!--   pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat -->
+<!--   est orci, sit amet eleifend augue pellentesque et. -->
+<!---->
+<!-- - Aenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac -->
+<!--   aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta -->
+<!--   luctus a felis. -->
+<!---->
+<!-- :::: {.content-visible when-format="html"} -->
+<!-- ### [[Cogni](https://www.getcogni.com) (3 years)]{.cvdate} -->
+<!-- [**Software Engineer&nbsp;** ***Jun 2014 -- Jan 2017***]{.cvsubdate} -->
+<!-- :::: -->
+<!---->
+<!-- \cvsubsection{Cogni}{https://www.getcogni.com}{(3 years)} -->
+<!-- \cvsubsubsection{Software Engineer}{Jun 2014 -- Jan 2017} -->
+<!---->
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+<!-- incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a -->
+<!-- pellentesque sit amet porttitor. -->
+<!---->
+<!-- - Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit -->
+<!--   amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam -->
+<!--   in arcu cursus. -->
+<!---->
+<!-- - Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam -->
+<!--   elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed -->
+<!--   dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam. -->
+<!---->
+<!-- - In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus -->
+<!--   nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere -->
+<!--   posuere finibus. -->
+<!---->
+<!-- \pagebreak -->
 
-\pagebreak
-
-
-:::: {.content-visible when-format="html"}
-### [[Spitfire](https://web.archive.org/web/20201101073734/https://www.spitfire.io/) (1.5 years)]{.cvdate}
-[**Software Engineer** ***Jun 2017 -- Nov 2018***]{.cvsubdate}
-::::
-
-\cvsubsection{Spitfire}{https://www.spitfire.io}{(1.5 years)}
-\cvsubsubsection{Software Engineer}{Jun 2017 -- Nov 2018}
-
-- Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
-  dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
-  odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non
-  pellentesque nulla tortor sit amet metus.
-
-- Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum
-  pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat
-  est orci, sit amet eleifend augue pellentesque et.
-
-- Aenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac
-  aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta
-  luctus a felis.
-
-:::: {.content-visible when-format="html"}
-### [[Cogni](https://www.getcogni.com) (3 years)]{.cvdate}
-[**Software Engineer&nbsp;** ***Jun 2014 -- Jan 2017***]{.cvsubdate}
-::::
-
-\cvsubsection{Cogni}{https://www.getcogni.com}{(3 years)}
-\cvsubsubsection{Software Engineer}{Jun 2014 -- Jan 2017}
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
-pellentesque sit amet porttitor.
-
-- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
-  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
-  in arcu cursus.
-
-- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
-  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
-  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
-
-- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
-  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
-  posuere finibus.
-
-::: {.content-visible when-format="html"}
-### [[University of Queensland](https://uq.edu.au/) (1.5 years)]{.cvdate}
-[**Junior Software Engineer** ***Jun 2012 -- Nov 2013***]{.cvsubdate}
-:::
-
-\cvsubsection{University of Queensland}{https://uq.edu.au/}{(1.5 years)}
-\cvsubsubsection{Junior Software Engineer}{Jun 2012 -- Nov 2013}
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
-pellentesque sit amet porttitor.
-
-- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
-  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
-  in arcu cursus.
-
-- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
-  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
-  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
-
-- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
-  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
-  posuere finibus.
-
-
-\pagebreak
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### [[University of Queensland](https://uq.edu.au/) (1.5 years)]{.cvdate} -->
+<!-- [**Junior Software Engineer** ***Jun 2012 -- Nov 2013***]{.cvsubdate} -->
+<!-- ::: -->
+<!---->
+<!-- \cvsubsection{University of Queensland}{https://uq.edu.au/}{(1.5 years)} -->
+<!-- \cvsubsubsection{Junior Software Engineer}{Jun 2012 -- Nov 2013} -->
+<!---->
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor -->
+<!-- incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a -->
+<!-- pellentesque sit amet porttitor. -->
+<!---->
+<!-- - Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit -->
+<!--   amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam -->
+<!--   in arcu cursus. -->
+<!---->
+<!-- - Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam -->
+<!--   elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed -->
+<!--   dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam. -->
+<!---->
+<!-- - In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus -->
+<!--   nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere -->
+<!--   posuere finibus. -->
+<!---->
+<!---->
+<!-- \pagebreak -->
 
 
 ## EDUCATION{style="page-break-before: always"}

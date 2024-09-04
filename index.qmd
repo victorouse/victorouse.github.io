@@ -31,45 +31,11 @@ about:
       href: https://twitter.com/victorouse
       target: _blank
       text: Twitter
-
-listing:
-  contents:
-    - blog/**/*
-    - "!blog/index.qmd"
-  type: grid
-  grid-columns: 1
-  max-items: 3
-  sort-ui: true
-  filter-ui: true
-  feed: true
-  sort:
-    - date desc
-    - title asc
-
-format:
-  html:
-    toc: false
-    code-tools: false
 ---
 
 ::: {#about-me .text-center}
 
 👋
 <br>
-Data Engineer at [Spaceship](https://www.spaceship.com.au).
+Data Engineer at [Revolut](https://www.revolut.com).
 <br>Currently located in Sydney, Australia.
-
-:::
-
-:::::{.grid}
-
-::::{.g-col-12}
-
-## Latest Posts[[Blog →](./blog)]{.float-right .no-underline .text-black}
-
-:::{#landing-posts}
-:::
-
-::::
-
-:::::
