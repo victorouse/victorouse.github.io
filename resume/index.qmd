@@ -145,25 +145,51 @@ Data Engineer at [Revolut](https://www.revolut.com).
 \cvhr
 
 ::: {.content-visible when-format="html"}
-### [[Revolut](https://www.revolut.com) (6+ months)]{.cvdate}
-[**Software Engineer (Data)** ***April 2024 -- Present***]{.cvsubdate}
+### [[Revolut](https://www.revolut.com) (2+ years)]{.cvdate}
+[**Software Engineer (Data), Data Platform · Data Warehouse** ***Oct 2025 -- Present***]{.cvsubdate}
 :::
 
-\cvsubsection{Revolut}{https://www.revolut.com}{(6+ months)}
-\cvsubsubsection{Software Engineer (Data)}{April 2024 -- Present}
+\cvsubsection{Revolut}{https://www.revolut.com}{(2+ years)}
+\cvsubsubsection{Software Engineer (Data), Data Platform · Data Warehouse}{Oct 2025 -- Present}
 
-- Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
-  dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
-  odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non
-  pellentesque nulla tortor sit amet metus.
+- Designed and built schema synchronisation services in Python and Java to
+  improve data warehouse consistency, streamlining end-to-end schema management
+  processes across Revolut's global data platform.
 
-- Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum
-  pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat
-  est orci, sit amet eleifend augue pellentesque et.
+- Provisioned multi-region infrastructure and managed end-to-end DevOps
+  workflows to deploy data platform services across all global regions Revolut
+  operates in, using Terraform, Kubernetes, and CI/CD pipelines.
 
-- Aenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac
-  aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta
-  luctus a felis.
+- Participated in on-call rotations (watchmen), triaging and resolving
+  production incidents to ensure reliability and uptime of shared data platform
+  services.
+
+:::: {.content-visible when-format="html"}
+[**Software Engineer (Data), Australia · Technology**&nbsp; ***April 2024 -- Oct 2025***]{.cvsubdate}
+::::
+
+\cvsubsubsection{Software Engineer (Data), Australia · Technology}{April 2024 -- Oct 2025}
+
+- Developed an end-to-end, PCI DSS-compliant regulatory reporting solution to
+  generate and deliver reports to Australian regulators (AUSTRAC and APRA).
+
+- Provisioned Google Cloud Platform infrastructure, including GKE clusters, load
+  balancers, IAM roles and permissions, secrets management, monitoring
+  frameworks, database virtual machines, and networking rules.
+
+- Deployed and managed Airflow on Kubernetes, responsible for creating and
+  maintaining mission-critical ETL and regulatory reporting workloads.
+
+- Mapped regulatory reporting requirements for the Financial Claims Scheme
+  (APS 910) to internal source tables and wrote Airflow jobs to extract data
+  from source PostgreSQL databases to Parquet files stored in Google Cloud
+  Storage.
+
+- Implemented data quality checks, monitoring rules, and alerting frameworks to
+  ensure end-to-end correctness and observability of critical services and
+  reporting pipelines.
+
+\pagebreak
 
 ::: {.content-visible when-format="html"}
 ### [[Spaceship](https://www.spaceship.com.au) (5+ years)]{.cvdate}
@@ -173,66 +199,84 @@ Data Engineer at [Revolut](https://www.revolut.com).
 \cvsubsection{Spaceship}{https://www.spaceship.com.au}{(5+ years)}
 \cvsubsubsection{Senior Data Engineer}{Jan 2021 -- March 2024}
 
-- Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
-  dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
-  odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non
-  pellentesque nulla tortor sit amet metus.
+- Architected a data warehouse using dbt and BigQuery, modeling raw data into a
+  medallion architecture using Kimball data modeling principles. Modeled a
+  variety of use cases, including CAC/LTV, A/B testing, performance marketing,
+  risk and compliance, and finance reporting.
 
-- Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum
-  pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat
-  est orci, sit amet eleifend augue pellentesque et.
+- Provisioned Airflow via GCP Cloud Composer using Terraform and Google Cloud
+  Storage, creating CI pipelines to build and test DAGs in development, and CD
+  pipelines to deploy DAGs to production.
 
-- Aenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac
-  aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta
-  luctus a felis.
+- Owned the creation and maintenance of mission-critical ETL and data warehouse
+  workloads, overseeing the entire process from extracting source data from
+  operational databases to building and maintaining dbt data models used in
+  downstream reporting.
 
-\pagebreak
+- Deployed and managed Metabase on Kubernetes, adopted by the entire business
+  for day-to-day decision-making. Educated non-technical stakeholders and
+  provided tailored data models and reports for their use cases.
 
 \cvsubsubsection{Senior Software Engineer}{Jan 2020 -- Jan 2021}
 ::: {.content-visible when-format="html"}
 [**Senior Software Engineer** ***Jan 2020 -- Jan 2021***]{.cvsubdate} 
 :::
 
-- Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
-  dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
-  odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non
-  pellentesque nulla tortor sit amet metus.
+- Promoted to Senior Software Engineer for exceeding performance expectations
+  and consistently delivering features end-to-end, from scoping requirements and
+  planning tasks to implementing both frontend and backend components.
 
 :::: {.content-visible when-format="html"}
-[**Software Engineer**&nbsp; ***Dec 2018 -- Jan 2020***]{.cvsubdate} 
+[**Software Engineer**&nbsp; ***Dec 2018 -- Jan 2020***]{.cvsubdate}
 ::::
 
 \cvsubsubsection{Software Engineer}{Dec 2018 -- Jan 2020}
 
-- Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
-  dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
-  odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non
-  pellentesque nulla tortor sit amet metus.
+- Led the build, maintenance, deployment, and release of all frontend products,
+  including a marketing website (Next.js/Prismic), a web app (React/Apollo), a
+  mobile app (React Native/Apollo), and an admin panel (React/MobX).
 
-- Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum
-  pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat
-  est orci, sit amet eleifend augue pellentesque et.
+- Implemented features across the entire stack, including database schema
+  design, developing microservices (Go/gRPC/Protobuf/SQL), creating APIs
+  (REST/GraphQL), and consuming them (Apollo/React/React Native).
 
 :::: {.content-visible when-format="html"}
 ### [[Spitfire](https://web.archive.org/web/20201101073734/https://www.spitfire.io/) (1.5 years)]{.cvdate}
-[**Software Engineer** ***Jun 2017 -- Nov 2018***]{.cvsubdate}
+[**Senior Software Engineer** ***Sep 2017 -- Nov 2018***]{.cvsubdate}
 ::::
 
 \cvsubsection{Spitfire}{https://www.spitfire.io}{(1.5 years)}
-\cvsubsubsection{Software Engineer}{Jun 2017 -- Nov 2018}
+\cvsubsubsection{Senior Software Engineer}{Sep 2017 -- Nov 2018}
 
-- Donec eget sapien odio. Sed viverra, velit eu ullamcorper faucibus, libero mi
-  dapibus odio, non pellentesque nulla tortor sit amet metus. Donec eget sapien
-  odio. Sed viverra, velit eu ullamcorper faucibus, libero mi dapibus odio, non
-  pellentesque nulla tortor sit amet metus.
+- Architected and built React/Redux frontend from scratch of new wealth
+  management product, successfully launching and on-boarding first client with
+  over \$500M of Funds Under Advice.
 
-- Ut mattis finibus felis eget rhoncus. Aliquam volutpat felis non interdum
-  pretium. Nam porta mauris felis, ac ultricies augue accumsan at. Nam feugiat
-  est orci, sit amet eleifend augue pellentesque et.
+- Created gamified referral system using Ambassador and AWS Lambda, providing
+  financial advisors with a portal to track their rewards for on-boarding their
+  clients.
 
-- Aenean cursus, urna et vehicula aliquet, tortor magna vulputate lectus, ac
-  aliquet mauris enim id magna. Nunc eu velit cursus mauris tincidunt porta
-  luctus a felis.
+- Responsible for screening and interviewing frontend developers, as well as
+  mentoring and teaching junior frontend developers, facilitating them through
+  an internship program.
+
+:::: {.content-visible when-format="html"}
+[**Software Engineer**&nbsp; ***Jun 2017 -- Sep 2017***]{.cvsubdate}
+::::
+
+\cvsubsubsection{Software Engineer}{Jun 2017 -- Sep 2017}
+
+- Responsible for the delivery of all frontend products, leading and managing a
+  team of three frontend developers and a designer.
+
+- Architected and built React/Redux frontend from scratch of new superannuation
+  (retirement fund) product, successfully launching and on-boarding over
+  \$200,000 of Funds Under Management.
+
+- Designed and implemented several REST APIs using AWS Lambda, Serverless, and
+  API Gateway.
+
+\pagebreak
 
 :::: {.content-visible when-format="html"}
 ### [[Cogni](https://www.getcogni.com) (3 years)]{.cvdate}
@@ -242,23 +286,16 @@ Data Engineer at [Revolut](https://www.revolut.com).
 \cvsubsection{Cogni}{https://www.getcogni.com}{(3 years)}
 \cvsubsubsection{Software Engineer}{Jun 2014 -- Jan 2017}
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
-pellentesque sit amet porttitor.
+- Produced technical architecture for backend services, designing RESTful APIs,
+  database schemas, and implemented a proof-of-concept using Go, Protobuf, and
+  gRPC for microservices.
 
-- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
-  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
-  in arcu cursus.
+- Created low and high-fidelity designs for mobile application using Sketch and
+  InVision, then ran weekly sprints with an external development team to produce
+  a demo iOS application.
 
-- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
-  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
-  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
-
-- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
-  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
-  posuere finibus.
-
-\pagebreak
+- Participated in the Next Step Challenge, one of Europe's largest accelerator
+  programs, awarded with the Investor's Choice Award.
 
 ::: {.content-visible when-format="html"}
 ### [[University of Queensland](https://uq.edu.au/) (1.5 years)]{.cvdate}
@@ -268,21 +305,17 @@ pellentesque sit amet porttitor.
 \cvsubsection{University of Queensland}{https://uq.edu.au/}{(1.5 years)}
 \cvsubsubsection{Junior Software Engineer}{Jun 2012 -- Nov 2013}
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a
-pellentesque sit amet porttitor.
+- Implemented system for creating and monitoring frontend unit tests written in
+  PhantomJS/CasperJS, delivering a full-stack PHP application to visualise unit
+  tests and notify teams of failing test cases.
 
-- Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Cursus sit
-  amet dictum sit. Aliquam purus sit amet luctus. Congue quisque egestas diam
-  in arcu cursus.
+- Created a custom-made knowledge-base in PHP with CMS capabilities, as well as
+  a commenting and voting system for issues, integrated as part of an in-house
+  product ServiceView.
 
-- Nulla sed sem eget lacus vulputate efficitur rutrum eget felis. Aliquam
-  elementum dictum orci ut sollicitudin. Vestibulum sollicitudin vel diam sed
-  dapibus. Integer facilisis, leo a volutpat dapibus, ex diam pharetra diam.
-
-- In non commodo urna, eget blandit lectus. Maecenas elementum commodo lectus
-  nec semper. Ut volutpat scelerisque urna sit amet venenatis. Mauris posuere
-  posuere finibus.
+- Produced extensive documentation on a variety of products and topics, including
+  MySQL performance tuning, headless navigation scripting, and instructional
+  guides for internal products.
 
 
 \pagebreak
